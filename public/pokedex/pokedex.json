@@ -1,0 +1,8565 @@
+{
+  "1": {
+    "nome": "Bulbasaur",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "10": {
+    "nome": "Caterpie",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "100": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0100-hisui.png",
+        "nome": "Voltorb de Hisui"
+      }
+    ],
+    "nome": "Voltorb",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "1000": {
+    "nome": "Gholdengo",
+    "tipos": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "1001": {
+    "nome": "Wo Chien",
+    "tipos": [
+      "dark",
+      "grass"
+    ]
+  },
+  "1002": {
+    "nome": "Chien Pao",
+    "tipos": [
+      "dark",
+      "ice"
+    ]
+  },
+  "1003": {
+    "nome": "Ting Lu",
+    "tipos": [
+      "dark",
+      "earth"
+    ]
+  },
+  "1004": {
+    "nome": "Chi Yu",
+    "tipos": [
+      "dark",
+      "fire"
+    ]
+  },
+  "1005": {
+    "nome": "Roaring Moon",
+    "tipos": [
+      "dragon",
+      "dark"
+    ]
+  },
+  "1006": {
+    "nome": "Iron Valiant",
+    "tipos": [
+      "fairy",
+      "fight"
+    ]
+  },
+  "1007": {
+    "nome": "Koraidon",
+    "tipos": [
+      "fight",
+      "dragon"
+    ]
+  },
+  "1008": {
+    "nome": "Miraidon",
+    "tipos": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "1009": {
+    "nome": "Walking Wake",
+    "tipos": [
+      "water",
+      "dragon"
+    ]
+  },
+  "101": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0101-hisui.png",
+        "nome": "Electrode de Hisui"
+      }
+    ],
+    "nome": "Electrode",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "1010": {
+    "nome": "Iron Leaves",
+    "tipos": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "1011": {
+    "nome": "Dipplin",
+    "tipos": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "1012": {
+    "nome": "Poltchageist",
+    "tipos": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "1013": {
+    "nome": "Sinistcha",
+    "tipos": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "1014": {
+    "nome": "Okidogi",
+    "tipos": [
+      "poison",
+      "fight"
+    ]
+  },
+  "1015": {
+    "nome": "Munkidori",
+    "tipos": [
+      "poison",
+      "psychic"
+    ]
+  },
+  "1016": {
+    "nome": "Fezandipiti",
+    "tipos": [
+      "poison",
+      "fairy"
+    ]
+  },
+  "1017": {
+    "formas": [
+      {
+        "id": "c",
+        "imagem": "1017-c.png",
+        "nome": "Ogerpon (c)"
+      },
+      {
+        "id": "h",
+        "imagem": "1017-h.png",
+        "nome": "Ogerpon (h)"
+      },
+      {
+        "id": "w",
+        "imagem": "1017-w.png",
+        "nome": "Ogerpon (w)"
+      }
+    ],
+    "nome": "Ogerpon",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "1018": {
+    "nome": "Archaludon",
+    "tipos": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "1019": {
+    "nome": "Hydrapple",
+    "tipos": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "102": {
+    "nome": "Exeggcute",
+    "tipos": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "1020": {
+    "nome": "Gouging Fire",
+    "tipos": [
+      "fire",
+      "dragon"
+    ]
+  },
+  "1021": {
+    "nome": "Raging Bolt",
+    "tipos": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "1022": {
+    "nome": "Iron Boulder",
+    "tipos": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "1023": {
+    "nome": "Iron Crown",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "1024": {
+    "formas": [
+      {
+        "id": "stellar",
+        "imagem": "1024-stellar.png",
+        "nome": "Terapagos Estelar"
+      },
+      {
+        "id": "tera",
+        "imagem": "1024-tera.png",
+        "nome": "Terapagos Tera"
+      }
+    ],
+    "nome": "Terapagos",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "1025": {
+    "nome": "Pecharunt",
+    "tipos": [
+      "poison",
+      "ghost"
+    ]
+  },
+  "103": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0103-mega.png",
+        "nome": "Mega Exeggutor"
+      }
+    ],
+    "nome": "Exeggutor",
+    "tipos": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "104": {
+    "nome": "Cubone",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "105": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0105-alola.png",
+        "nome": "Marowak de Alola"
+      }
+    ],
+    "nome": "Marowak",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "106": {
+    "nome": "Hitmonlee",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "107": {
+    "nome": "Hitmonchan",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "108": {
+    "nome": "Lickitung",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "109": {
+    "nome": "Koffing",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "11": {
+    "nome": "Metapod",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "110": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0110-galar.png",
+        "nome": "Weezing de Galar"
+      }
+    ],
+    "nome": "Weezing",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "111": {
+    "nome": "Rhyhorn",
+    "tipos": [
+      "earth",
+      "rock"
+    ]
+  },
+  "112": {
+    "nome": "Rhydon",
+    "tipos": [
+      "earth",
+      "rock"
+    ]
+  },
+  "113": {
+    "nome": "Chansey",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "114": {
+    "nome": "Tangela",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "115": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0115-mega.png",
+        "nome": "Mega Kangaskhan"
+      }
+    ],
+    "nome": "Kangaskhan",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "116": {
+    "nome": "Horsea",
+    "tipos": [
+      "water"
+    ]
+  },
+  "117": {
+    "nome": "Seadra",
+    "tipos": [
+      "water"
+    ]
+  },
+  "118": {
+    "nome": "Goldeen",
+    "tipos": [
+      "water"
+    ]
+  },
+  "119": {
+    "nome": "Seaking",
+    "tipos": [
+      "water"
+    ]
+  },
+  "12": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0012-giga.png",
+        "nome": "Butterfree Gigantamax"
+      }
+    ],
+    "nome": "Butterfree",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "120": {
+    "nome": "Staryu",
+    "tipos": [
+      "water"
+    ]
+  },
+  "121": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0121-mega.png",
+        "nome": "Mega Starmie"
+      }
+    ],
+    "nome": "Starmie",
+    "tipos": [
+      "water",
+      "psychic"
+    ]
+  },
+  "122": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0122-galar.png",
+        "nome": "Mr.Mime de Galar"
+      }
+    ],
+    "nome": "Mr.Mime",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "123": {
+    "nome": "Scyther",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "124": {
+    "nome": "Jynx",
+    "tipos": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "125": {
+    "nome": "Electabuzz",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "126": {
+    "nome": "Magmar",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "127": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0127-mega.png",
+        "nome": "Mega Pinsir"
+      }
+    ],
+    "nome": "Pinsir",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "128": {
+    "formas": [
+      {
+        "id": "paldea-aqua",
+        "imagem": "0128-paldea-aqua.png",
+        "nome": "Tauros de Paldea (Água)"
+      },
+      {
+        "id": "paldea-blaze",
+        "imagem": "0128-paldea-blaze.png",
+        "nome": "Tauros de Paldea (Chama)"
+      },
+      {
+        "id": "paldea-combat",
+        "imagem": "0128-paldea-combat.png",
+        "nome": "Tauros de Paldea (Combate)"
+      }
+    ],
+    "nome": "Tauros",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "129": {
+    "nome": "Magikarp",
+    "tipos": [
+      "water"
+    ]
+  },
+  "13": {
+    "nome": "Weedle",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "130": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0130-mega.png",
+        "nome": "Mega Gyarados"
+      }
+    ],
+    "nome": "Gyarados",
+    "tipos": [
+      "water"
+    ]
+  },
+  "131": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0131-giga.png",
+        "nome": "Lapras Gigantamax"
+      }
+    ],
+    "nome": "Lapras",
+    "tipos": [
+      "water",
+      "ice"
+    ]
+  },
+  "132": {
+    "nome": "Ditto",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "133": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0133-giga.png",
+        "nome": "Eevee Gigantamax"
+      }
+    ],
+    "nome": "Eevee",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "134": {
+    "nome": "Vaporeon",
+    "tipos": [
+      "water"
+    ]
+  },
+  "135": {
+    "nome": "Jolteon",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "136": {
+    "nome": "Flareon",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "137": {
+    "nome": "Porygon",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "138": {
+    "nome": "Omanyte",
+    "tipos": [
+      "rock",
+      "water"
+    ]
+  },
+  "139": {
+    "nome": "Omastar",
+    "tipos": [
+      "rock",
+      "water"
+    ]
+  },
+  "14": {
+    "nome": "Kakuna",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "140": {
+    "nome": "Kabuto",
+    "tipos": [
+      "rock",
+      "water"
+    ]
+  },
+  "141": {
+    "nome": "Kabutops",
+    "tipos": [
+      "rock",
+      "water"
+    ]
+  },
+  "142": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0142-mega.png",
+        "nome": "Mega Aerodactyl"
+      }
+    ],
+    "nome": "Aerodactyl",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "143": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0143-giga.png",
+        "nome": "Snorlax Gigantamax"
+      }
+    ],
+    "nome": "Snorlax",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "144": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0144-galar.png",
+        "nome": "Articuno de Galar"
+      }
+    ],
+    "nome": "Articuno",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "145": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0145-galar.png",
+        "nome": "Zapdos de Galar"
+      }
+    ],
+    "nome": "Zapdos",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "146": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0146-galar.png",
+        "nome": "Moltres de Galar"
+      }
+    ],
+    "nome": "Moltres",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "147": {
+    "nome": "Dratini",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "148": {
+    "nome": "Dragonair",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "149": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0149-mega.png",
+        "nome": "Mega Dragonite"
+      }
+    ],
+    "nome": "Dragonite",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "15": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0015-mega.png",
+        "nome": "Mega Beedrill"
+      }
+    ],
+    "nome": "Beedrill",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "150": {
+    "formas": [
+      {
+        "id": "megax",
+        "imagem": "0150-megax.png",
+        "nome": "Mega Mewtwo X"
+      },
+      {
+        "id": "megay",
+        "imagem": "0150-megay.png",
+        "nome": "Mega Mewtwo Y"
+      }
+    ],
+    "nome": "Mewtwo",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "151": {
+    "nome": "Mew",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "152": {
+    "nome": "Chikorita",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "153": {
+    "nome": "Bayleef",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "154": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0154-mega.png",
+        "nome": "Mega Meganium"
+      }
+    ],
+    "nome": "Meganium",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "155": {
+    "nome": "Cyndaquil",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "156": {
+    "nome": "Quilava",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "157": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0157-hisui.png",
+        "nome": "Typhlosion de Hisui"
+      }
+    ],
+    "nome": "Typhlosion",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "158": {
+    "nome": "Totodile",
+    "tipos": [
+      "water"
+    ]
+  },
+  "159": {
+    "nome": "Croconaw",
+    "tipos": [
+      "water"
+    ]
+  },
+  "16": {
+    "nome": "Pidgey",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "160": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0160-mega.png",
+        "nome": "Mega Feraligatr"
+      }
+    ],
+    "nome": "Feraligatr",
+    "tipos": [
+      "water"
+    ]
+  },
+  "161": {
+    "nome": "Sentret",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "162": {
+    "nome": "Furret",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "163": {
+    "nome": "Hoothoot",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "164": {
+    "nome": "Noctowl",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "165": {
+    "nome": "Ledyba",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "166": {
+    "nome": "Ledian",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "167": {
+    "nome": "Spinarak",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "168": {
+    "nome": "Ariados",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "169": {
+    "nome": "Crobat",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "17": {
+    "nome": "Pidgeotto",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "170": {
+    "nome": "Chinchou",
+    "tipos": [
+      "water",
+      "electric"
+    ]
+  },
+  "171": {
+    "nome": "Lanturn",
+    "tipos": [
+      "water",
+      "electric"
+    ]
+  },
+  "172": {
+    "nome": "Pichu",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "173": {
+    "nome": "Cleffa",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "174": {
+    "nome": "Igglybuff",
+    "tipos": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "175": {
+    "nome": "Togepi",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "176": {
+    "nome": "Togetic",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "177": {
+    "nome": "Natu",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "178": {
+    "nome": "Xatu",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "179": {
+    "nome": "Mareep",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "18": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0018-mega.png",
+        "nome": "Mega Pidgeot"
+      }
+    ],
+    "nome": "Pidgeot",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "180": {
+    "nome": "Flaaffy",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "181": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0181-mega.png",
+        "nome": "Mega Ampharos"
+      }
+    ],
+    "nome": "Ampharos",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "182": {
+    "nome": "Bellossom",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "183": {
+    "nome": "Marill",
+    "tipos": [
+      "water",
+      "fairy"
+    ]
+  },
+  "184": {
+    "nome": "Azumarill",
+    "tipos": [
+      "water",
+      "fairy"
+    ]
+  },
+  "185": {
+    "nome": "Sudowoodo",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "186": {
+    "nome": "Politoed",
+    "tipos": [
+      "water"
+    ]
+  },
+  "187": {
+    "nome": "Hoppip",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "188": {
+    "nome": "Skiploom",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "189": {
+    "nome": "Jumpluff",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "19": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0019-alola.png",
+        "nome": "Rattata de Alola"
+      }
+    ],
+    "nome": "Rattata",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "190": {
+    "nome": "Aipom",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "191": {
+    "nome": "Sunkern",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "192": {
+    "nome": "Sunflora",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "193": {
+    "nome": "Yanma",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "194": {
+    "formas": [
+      {
+        "id": "paldea",
+        "imagem": "0194-paldea.png",
+        "nome": "Wooper de Paldea"
+      }
+    ],
+    "nome": "Wooper",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "195": {
+    "nome": "Quagsire",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "196": {
+    "nome": "Espeon",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "197": {
+    "nome": "Umbreon",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "198": {
+    "nome": "Murkrow",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "199": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0199-galar.png",
+        "nome": "Slowking de Galar"
+      }
+    ],
+    "nome": "Slowking",
+    "tipos": [
+      "water",
+      "psychic"
+    ]
+  },
+  "2": {
+    "nome": "Ivysaur",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "20": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0020-alola.png",
+        "nome": "Raticate de Alola"
+      }
+    ],
+    "nome": "Raticate",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "200": {
+    "nome": "Misdreavus",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "201": {
+    "formas": [
+      {
+        "id": "!!",
+        "imagem": "0201-!!.png",
+        "nome": "Unown (!!)"
+      },
+      {
+        "id": "!",
+        "imagem": "0201-!.png",
+        "nome": "Unown (!)"
+      },
+      {
+        "id": "a",
+        "imagem": "0201-a.png",
+        "nome": "Unown (a)"
+      },
+      {
+        "id": "b",
+        "imagem": "0201-b.png",
+        "nome": "Unown (b)"
+      },
+      {
+        "id": "c",
+        "imagem": "0201-c.png",
+        "nome": "Unown (c)"
+      },
+      {
+        "id": "d",
+        "imagem": "0201-d.png",
+        "nome": "Unown (d)"
+      },
+      {
+        "id": "e",
+        "imagem": "0201-e.png",
+        "nome": "Unown (e)"
+      },
+      {
+        "id": "f",
+        "imagem": "0201-f.png",
+        "nome": "Unown (f)"
+      },
+      {
+        "id": "g",
+        "imagem": "0201-g.png",
+        "nome": "Unown (g)"
+      },
+      {
+        "id": "h",
+        "imagem": "0201-h.png",
+        "nome": "Unown (h)"
+      },
+      {
+        "id": "i",
+        "imagem": "0201-i.png",
+        "nome": "Unown (i)"
+      },
+      {
+        "id": "j",
+        "imagem": "0201-j.png",
+        "nome": "Unown (j)"
+      },
+      {
+        "id": "k",
+        "imagem": "0201-k.png",
+        "nome": "Unown (k)"
+      },
+      {
+        "id": "l",
+        "imagem": "0201-l.png",
+        "nome": "Unown (l)"
+      },
+      {
+        "id": "m",
+        "imagem": "0201-m.png",
+        "nome": "Unown (m)"
+      },
+      {
+        "id": "n",
+        "imagem": "0201-n.png",
+        "nome": "Unown (n)"
+      },
+      {
+        "id": "o",
+        "imagem": "0201-o.png",
+        "nome": "Unown (o)"
+      },
+      {
+        "id": "p",
+        "imagem": "0201-p.png",
+        "nome": "Unown (p)"
+      },
+      {
+        "id": "q",
+        "imagem": "0201-q.png",
+        "nome": "Unown (q)"
+      },
+      {
+        "id": "r",
+        "imagem": "0201-r.png",
+        "nome": "Unown (r)"
+      },
+      {
+        "id": "s",
+        "imagem": "0201-s.png",
+        "nome": "Unown (s)"
+      },
+      {
+        "id": "t",
+        "imagem": "0201-t.png",
+        "nome": "Unown (t)"
+      },
+      {
+        "id": "u",
+        "imagem": "0201-u.png",
+        "nome": "Unown (u)"
+      },
+      {
+        "id": "v",
+        "imagem": "0201-v.png",
+        "nome": "Unown (v)"
+      },
+      {
+        "id": "w",
+        "imagem": "0201-w.png",
+        "nome": "Unown (w)"
+      },
+      {
+        "id": "x",
+        "imagem": "0201-x.png",
+        "nome": "Unown (x)"
+      },
+      {
+        "id": "y",
+        "imagem": "0201-y.png",
+        "nome": "Unown (y)"
+      },
+      {
+        "id": "z",
+        "imagem": "0201-z.png",
+        "nome": "Unown (z)"
+      }
+    ],
+    "nome": "Unown",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "202": {
+    "nome": "Wobbuffet",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "203": {
+    "nome": "Girafarig",
+    "tipos": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "204": {
+    "nome": "Pineco",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "205": {
+    "nome": "Forretress",
+    "tipos": [
+      "bug",
+      "steel"
+    ]
+  },
+  "206": {
+    "nome": "Dunsparce",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "207": {
+    "nome": "Gligar",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "208": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0208-mega.png",
+        "nome": "Mega Steelix"
+      }
+    ],
+    "nome": "Steelix",
+    "tipos": [
+      "steel",
+      "earth"
+    ]
+  },
+  "209": {
+    "nome": "Snubbull",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "21": {
+    "nome": "Spearow",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "210": {
+    "nome": "Granbull",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "211": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0211-hisui.png",
+        "nome": "Qwilfish de Hisui"
+      }
+    ],
+    "nome": "Qwilfish",
+    "tipos": [
+      "water",
+      "poison"
+    ]
+  },
+  "212": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0212-mega.png",
+        "nome": "Mega Scizor"
+      }
+    ],
+    "nome": "Scizor",
+    "tipos": [
+      "bug",
+      "steel"
+    ]
+  },
+  "213": {
+    "nome": "Shuckle",
+    "tipos": [
+      "bug",
+      "rock"
+    ]
+  },
+  "214": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0214-mega.png",
+        "nome": "Mega Heracross"
+      }
+    ],
+    "nome": "Heracross",
+    "tipos": [
+      "bug",
+      "fight"
+    ]
+  },
+  "215": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0215-hisui.png",
+        "nome": "Sneasel de Hisui"
+      }
+    ],
+    "nome": "Sneasel",
+    "tipos": [
+      "dark",
+      "ice"
+    ]
+  },
+  "216": {
+    "nome": "Teddiursa",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "217": {
+    "nome": "Ursaring",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "218": {
+    "nome": "Slugma",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "219": {
+    "nome": "Magcargo",
+    "tipos": [
+      "fire",
+      "rock"
+    ]
+  },
+  "22": {
+    "nome": "Fearow",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "220": {
+    "nome": "Swinub",
+    "tipos": [
+      "ice",
+      "earth"
+    ]
+  },
+  "221": {
+    "nome": "Piloswine",
+    "tipos": [
+      "ice",
+      "earth"
+    ]
+  },
+  "222": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0222-galar.png",
+        "nome": "Corsola de Galar"
+      }
+    ],
+    "nome": "Corsola",
+    "tipos": [
+      "water",
+      "rock"
+    ]
+  },
+  "223": {
+    "nome": "Remoraid",
+    "tipos": [
+      "water"
+    ]
+  },
+  "224": {
+    "nome": "Octillery",
+    "tipos": [
+      "water"
+    ]
+  },
+  "225": {
+    "nome": "Delibird",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "226": {
+    "nome": "Mantine",
+    "tipos": [
+      "water"
+    ]
+  },
+  "227": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0227-mega.png",
+        "nome": "Mega Skarmory"
+      }
+    ],
+    "nome": "Skarmory",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "228": {
+    "nome": "Houndour",
+    "tipos": [
+      "dark",
+      "fire"
+    ]
+  },
+  "229": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0229-mega.png",
+        "nome": "Mega Houndoom"
+      }
+    ],
+    "nome": "Houndoom",
+    "tipos": [
+      "dark",
+      "fire"
+    ]
+  },
+  "23": {
+    "nome": "Ekans",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "230": {
+    "nome": "Kingdra",
+    "tipos": [
+      "water",
+      "dragon"
+    ]
+  },
+  "231": {
+    "nome": "Phanpy",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "232": {
+    "nome": "Donphan",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "233": {
+    "nome": "Porygon2",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "234": {
+    "nome": "Stantler",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "235": {
+    "nome": "Smeargle",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "236": {
+    "nome": "Tyrogue",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "237": {
+    "nome": "Hitmontop",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "238": {
+    "nome": "Smoochum",
+    "tipos": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "239": {
+    "nome": "Elekid",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "24": {
+    "nome": "Arbok",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "240": {
+    "nome": "Magby",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "241": {
+    "nome": "Miltank",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "242": {
+    "nome": "Blissey",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "243": {
+    "nome": "Raikou",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "244": {
+    "nome": "Entei",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "245": {
+    "nome": "Suicune",
+    "tipos": [
+      "water"
+    ]
+  },
+  "246": {
+    "nome": "Larvitar",
+    "tipos": [
+      "rock",
+      "earth"
+    ]
+  },
+  "247": {
+    "nome": "Pupitar",
+    "tipos": [
+      "rock",
+      "earth"
+    ]
+  },
+  "248": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0248-mega.png",
+        "nome": "Mega Tyranitar"
+      }
+    ],
+    "nome": "Tyranitar",
+    "tipos": [
+      "rock",
+      "dark"
+    ]
+  },
+  "249": {
+    "nome": "Lugia",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "25": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0025-giga.png",
+        "nome": "Pikachu Gigantamax"
+      }
+    ],
+    "nome": "Pikachu",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "250": {
+    "nome": "Ho-oh",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "251": {
+    "nome": "Celebi",
+    "tipos": [
+      "psychic",
+      "grass"
+    ]
+  },
+  "252": {
+    "nome": "Treecko",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "253": {
+    "nome": "Grovyle",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "254": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0254-mega.png",
+        "nome": "Mega Sceptile"
+      }
+    ],
+    "nome": "Sceptile",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "255": {
+    "nome": "Torchic",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "256": {
+    "nome": "Combusken",
+    "tipos": [
+      "fire",
+      "fight"
+    ]
+  },
+  "257": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0257-mega.png",
+        "nome": "Mega Blaziken"
+      }
+    ],
+    "nome": "Blaziken",
+    "tipos": [
+      "fire",
+      "fight"
+    ]
+  },
+  "258": {
+    "nome": "Mudkip",
+    "tipos": [
+      "water"
+    ]
+  },
+  "259": {
+    "nome": "Marshtomp",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "26": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0026-alola.png",
+        "nome": "Raichu de Alola"
+      },
+      {
+        "id": "megax",
+        "imagem": "0026-megax.png",
+        "nome": "Mega Raichu X"
+      },
+      {
+        "id": "megay",
+        "imagem": "0026-megay.png",
+        "nome": "Mega Raichu Y"
+      }
+    ],
+    "nome": "Raichu",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "260": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0260-mega.png",
+        "nome": "Mega Swampert"
+      }
+    ],
+    "nome": "Swampert",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "261": {
+    "nome": "Poochyena",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "262": {
+    "nome": "Mightyena",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "263": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0263-galar.png",
+        "nome": "Zigzagoon de Galar"
+      }
+    ],
+    "nome": "Zigzagoon",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "264": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0264-galar.png",
+        "nome": "Linoone de Galar"
+      }
+    ],
+    "nome": "Linoone",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "265": {
+    "nome": "Wurmple",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "266": {
+    "nome": "Silcoon",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "267": {
+    "nome": "Beautifly",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "268": {
+    "nome": "Cascoon",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "269": {
+    "nome": "Dustox",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "27": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0027-alola.png",
+        "nome": "Sandshrew de Alola"
+      }
+    ],
+    "nome": "Sandshrew",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "270": {
+    "nome": "Lotad",
+    "tipos": [
+      "water",
+      "grass"
+    ]
+  },
+  "271": {
+    "nome": "Lombre",
+    "tipos": [
+      "water",
+      "grass"
+    ]
+  },
+  "272": {
+    "nome": "Ludicolo",
+    "tipos": [
+      "water",
+      "grass"
+    ]
+  },
+  "273": {
+    "nome": "Seedot",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "274": {
+    "nome": "Nuzleaf",
+    "tipos": [
+      "grass",
+      "dark"
+    ]
+  },
+  "275": {
+    "nome": "Shiftry",
+    "tipos": [
+      "grass",
+      "dark"
+    ]
+  },
+  "276": {
+    "nome": "Taillow",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "277": {
+    "nome": "Swellow",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "278": {
+    "nome": "Wingull",
+    "tipos": [
+      "water"
+    ]
+  },
+  "279": {
+    "nome": "Pelipper",
+    "tipos": [
+      "water"
+    ]
+  },
+  "28": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0028-alola.png",
+        "nome": "Sandslash de Alola"
+      }
+    ],
+    "nome": "Sandslash",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "280": {
+    "nome": "Ralts",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "281": {
+    "nome": "Kirlia",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "282": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0282-mega.png",
+        "nome": "Mega Gardevoir"
+      }
+    ],
+    "nome": "Gardevoir",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "283": {
+    "nome": "Surskit",
+    "tipos": [
+      "bug",
+      "water"
+    ]
+  },
+  "284": {
+    "nome": "Masquerain",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "285": {
+    "nome": "Shroomish",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "286": {
+    "nome": "Breloom",
+    "tipos": [
+      "grass",
+      "fight"
+    ]
+  },
+  "287": {
+    "nome": "Slakoth",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "288": {
+    "nome": "Vigoroth",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "289": {
+    "nome": "Slaking",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "29": {
+    "nome": "Nidoran F",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "290": {
+    "nome": "Nincada",
+    "tipos": [
+      "bug",
+      "earth"
+    ]
+  },
+  "291": {
+    "nome": "Ninjask",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "292": {
+    "nome": "Shedinja",
+    "tipos": [
+      "bug",
+      "ghost"
+    ]
+  },
+  "293": {
+    "nome": "Whismur",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "294": {
+    "nome": "Loudred",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "295": {
+    "nome": "Exploud",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "296": {
+    "nome": "Makuhita",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "297": {
+    "nome": "Hariyama",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "298": {
+    "nome": "Azurill",
+    "tipos": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "299": {
+    "nome": "Nosepass",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "3": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0003-giga.png",
+        "nome": "Venusaur Gigantamax"
+      },
+      {
+        "id": "mega",
+        "imagem": "0003-mega.png",
+        "nome": "Mega Venusaur"
+      }
+    ],
+    "nome": "Venusaur",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "30": {
+    "nome": "Nidorina",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "300": {
+    "nome": "Skitty",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "301": {
+    "nome": "Delcatty",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "302": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0302-mega.png",
+        "nome": "Mega Sableye"
+      }
+    ],
+    "nome": "Sableye",
+    "tipos": [
+      "dark",
+      "ghost"
+    ]
+  },
+  "303": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0303-mega.png",
+        "nome": "Mega Mawile"
+      }
+    ],
+    "nome": "Mawile",
+    "tipos": [
+      "steel",
+      "fairy"
+    ]
+  },
+  "304": {
+    "nome": "Aron",
+    "tipos": [
+      "steel",
+      "rock"
+    ]
+  },
+  "305": {
+    "nome": "Lairon",
+    "tipos": [
+      "steel",
+      "rock"
+    ]
+  },
+  "306": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0306-mega.png",
+        "nome": "Mega Aggron"
+      }
+    ],
+    "nome": "Aggron",
+    "tipos": [
+      "steel",
+      "rock"
+    ]
+  },
+  "307": {
+    "nome": "Meditite",
+    "tipos": [
+      "fight",
+      "psychic"
+    ]
+  },
+  "308": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0308-mega.png",
+        "nome": "Mega Medicham"
+      }
+    ],
+    "nome": "Medicham",
+    "tipos": [
+      "fight",
+      "psychic"
+    ]
+  },
+  "309": {
+    "nome": "Electrike",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "31": {
+    "nome": "Nidoqueen",
+    "tipos": [
+      "poison",
+      "earth"
+    ]
+  },
+  "310": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0310-mega.png",
+        "nome": "Mega Manectric"
+      }
+    ],
+    "nome": "Manectric",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "311": {
+    "nome": "Plusle",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "312": {
+    "nome": "Minun",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "313": {
+    "nome": "Volbeat",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "314": {
+    "nome": "Illumise",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "315": {
+    "nome": "Roselia",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "316": {
+    "nome": "Gulpin",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "317": {
+    "nome": "Swalot",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "318": {
+    "nome": "Carvanha",
+    "tipos": [
+      "water",
+      "dark"
+    ]
+  },
+  "319": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0319-mega.png",
+        "nome": "Mega Sharpedo"
+      }
+    ],
+    "nome": "Sharpedo",
+    "tipos": [
+      "water",
+      "dark"
+    ]
+  },
+  "32": {
+    "nome": "Nidoran M",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "320": {
+    "nome": "Wailmer",
+    "tipos": [
+      "water"
+    ]
+  },
+  "321": {
+    "nome": "Wailord",
+    "tipos": [
+      "water"
+    ]
+  },
+  "322": {
+    "nome": "Numel",
+    "tipos": [
+      "fire",
+      "earth"
+    ]
+  },
+  "323": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0323-mega.png",
+        "nome": "Mega Camerupt"
+      }
+    ],
+    "nome": "Camerupt",
+    "tipos": [
+      "fire",
+      "earth"
+    ]
+  },
+  "324": {
+    "nome": "Torkoal",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "325": {
+    "nome": "Spoink",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "326": {
+    "nome": "Grumpig",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "327": {
+    "nome": "Spinda",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "328": {
+    "nome": "Trapinch",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "329": {
+    "nome": "Vibrava",
+    "tipos": [
+      "earth",
+      "dragon"
+    ]
+  },
+  "33": {
+    "nome": "Nidorino",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "330": {
+    "nome": "Flygon",
+    "tipos": [
+      "earth",
+      "dragon"
+    ]
+  },
+  "331": {
+    "nome": "Cacnea",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "332": {
+    "nome": "Cacturne",
+    "tipos": [
+      "grass",
+      "dark"
+    ]
+  },
+  "333": {
+    "nome": "Swablu",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "334": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0334-mega.png",
+        "nome": "Mega Altaria"
+      }
+    ],
+    "nome": "Altaria",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "335": {
+    "nome": "Zangoose",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "336": {
+    "nome": "Seviper",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "337": {
+    "nome": "Lunatone",
+    "tipos": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "338": {
+    "nome": "Solrock",
+    "tipos": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "339": {
+    "nome": "Barboach",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "34": {
+    "nome": "Nidoking",
+    "tipos": [
+      "poison",
+      "earth"
+    ]
+  },
+  "340": {
+    "nome": "Whiscash",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "341": {
+    "nome": "Corphish",
+    "tipos": [
+      "water"
+    ]
+  },
+  "342": {
+    "nome": "Crawdaunt",
+    "tipos": [
+      "water",
+      "dark"
+    ]
+  },
+  "343": {
+    "nome": "Baltoy",
+    "tipos": [
+      "earth",
+      "psychic"
+    ]
+  },
+  "344": {
+    "nome": "Claydol",
+    "tipos": [
+      "earth",
+      "psychic"
+    ]
+  },
+  "345": {
+    "nome": "Lileep",
+    "tipos": [
+      "rock",
+      "grass"
+    ]
+  },
+  "346": {
+    "nome": "Cradily",
+    "tipos": [
+      "rock",
+      "grass"
+    ]
+  },
+  "347": {
+    "nome": "Anorith",
+    "tipos": [
+      "rock",
+      "bug"
+    ]
+  },
+  "348": {
+    "nome": "Armaldo",
+    "tipos": [
+      "rock",
+      "bug"
+    ]
+  },
+  "349": {
+    "nome": "Feebas",
+    "tipos": [
+      "water"
+    ]
+  },
+  "35": {
+    "nome": "Clefairy",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "350": {
+    "nome": "Milotic",
+    "tipos": [
+      "water"
+    ]
+  },
+  "351": {
+    "formas": [
+      {
+        "id": "rainy",
+        "imagem": "0351-rainy.png",
+        "nome": "Castform Chuvoso"
+      },
+      {
+        "id": "snowy",
+        "imagem": "0351-snowy.png",
+        "nome": "Castform Nevado"
+      },
+      {
+        "id": "sunny",
+        "imagem": "0351-sunny.png",
+        "nome": "Castform Ensolarado"
+      }
+    ],
+    "nome": "Castform",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "352": {
+    "nome": "Kecleon",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "353": {
+    "nome": "Shuppet",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "354": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0354-mega.png",
+        "nome": "Mega Banette"
+      }
+    ],
+    "nome": "Banette",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "355": {
+    "nome": "Duskull",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "356": {
+    "nome": "Dusclops",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "357": {
+    "nome": "Tropius",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "358": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0358-mega.png",
+        "nome": "Mega Chimecho"
+      }
+    ],
+    "nome": "Chimecho",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "359": {
+    "formas": [
+      {
+        "id": "mega-z",
+        "imagem": "0359-mega-z.png",
+        "nome": "Absol (mega-z)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0359-mega.png",
+        "nome": "Mega Absol"
+      }
+    ],
+    "nome": "Absol",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "36": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0036-mega.png",
+        "nome": "Mega Clefable"
+      }
+    ],
+    "nome": "Clefable",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "360": {
+    "nome": "Wynaut",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "361": {
+    "nome": "Snorunt",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "362": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0362-mega.png",
+        "nome": "Mega Glalie"
+      }
+    ],
+    "nome": "Glalie",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "363": {
+    "nome": "Spheal",
+    "tipos": [
+      "ice",
+      "water"
+    ]
+  },
+  "364": {
+    "nome": "Sealeo",
+    "tipos": [
+      "ice",
+      "water"
+    ]
+  },
+  "365": {
+    "nome": "Walrein",
+    "tipos": [
+      "ice",
+      "water"
+    ]
+  },
+  "366": {
+    "nome": "Clamperl",
+    "tipos": [
+      "water"
+    ]
+  },
+  "367": {
+    "nome": "Huntail",
+    "tipos": [
+      "water"
+    ]
+  },
+  "368": {
+    "nome": "Gorebyss",
+    "tipos": [
+      "water"
+    ]
+  },
+  "369": {
+    "nome": "Relicanth",
+    "tipos": [
+      "water",
+      "rock"
+    ]
+  },
+  "37": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0037-alola.png",
+        "nome": "Vulpix de Alola"
+      }
+    ],
+    "nome": "Vulpix",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "370": {
+    "nome": "Luvdisc",
+    "tipos": [
+      "water"
+    ]
+  },
+  "371": {
+    "nome": "Bagon",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "372": {
+    "nome": "Shelgon",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "373": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0373-mega.png",
+        "nome": "Mega Salamence"
+      }
+    ],
+    "nome": "Salamence",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "374": {
+    "nome": "Beldum",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "375": {
+    "nome": "Metang",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "376": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0376-mega.png",
+        "nome": "Mega Metagross"
+      }
+    ],
+    "nome": "Metagross",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "377": {
+    "nome": "Regirock",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "378": {
+    "nome": "Regice",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "379": {
+    "nome": "Registeel",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "38": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0038-alola.png",
+        "nome": "Ninetales de Alola"
+      }
+    ],
+    "nome": "Ninetales",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "380": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0380-mega.png",
+        "nome": "Mega Latias"
+      }
+    ],
+    "nome": "Latias",
+    "tipos": [
+      "dragon",
+      "psychic"
+    ]
+  },
+  "381": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0381-mega.png",
+        "nome": "Mega Latios"
+      }
+    ],
+    "nome": "Latios",
+    "tipos": [
+      "dragon",
+      "psychic"
+    ]
+  },
+  "382": {
+    "formas": [
+      {
+        "id": "primal",
+        "imagem": "0382-primal.png",
+        "nome": "Primal Kyogre"
+      }
+    ],
+    "nome": "Kyogre",
+    "tipos": [
+      "water"
+    ]
+  },
+  "383": {
+    "formas": [
+      {
+        "id": "primal",
+        "imagem": "0383-primal.png",
+        "nome": "Primal Groudon"
+      }
+    ],
+    "nome": "Groudon",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "384": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0384-mega.png",
+        "nome": "Mega Rayquaza"
+      }
+    ],
+    "nome": "Rayquaza",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "385": {
+    "nome": "Jirachi",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "386": {
+    "formas": [
+      {
+        "id": "attack",
+        "imagem": "0386-attack.png",
+        "nome": "Deoxys Ataque"
+      },
+      {
+        "id": "deffense",
+        "imagem": "0386-deffense.png",
+        "nome": "Deoxys Defesa"
+      },
+      {
+        "id": "speed",
+        "imagem": "0386-speed.png",
+        "nome": "Deoxys Velocidade"
+      }
+    ],
+    "nome": "Deoxys",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "387": {
+    "nome": "Turtwig",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "388": {
+    "nome": "Grotle",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "389": {
+    "nome": "Torterra",
+    "tipos": [
+      "grass",
+      "earth"
+    ]
+  },
+  "39": {
+    "nome": "Jigglypuff",
+    "tipos": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "390": {
+    "nome": "Chimchar",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "391": {
+    "nome": "Monferno",
+    "tipos": [
+      "fire",
+      "fight"
+    ]
+  },
+  "392": {
+    "nome": "Infernape",
+    "tipos": [
+      "fire",
+      "fight"
+    ]
+  },
+  "393": {
+    "nome": "Piplup",
+    "tipos": [
+      "water"
+    ]
+  },
+  "394": {
+    "nome": "Prinplup",
+    "tipos": [
+      "water"
+    ]
+  },
+  "395": {
+    "nome": "Empoleon",
+    "tipos": [
+      "water",
+      "steel"
+    ]
+  },
+  "396": {
+    "nome": "Starly",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "397": {
+    "nome": "Staravia",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "398": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0398-mega.png",
+        "nome": "Mega Staraptor"
+      }
+    ],
+    "nome": "Staraptor",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "399": {
+    "nome": "Bidoof",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "4": {
+    "nome": "Charmander",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "40": {
+    "nome": "Wigglytuff",
+    "tipos": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "400": {
+    "nome": "Bibarel",
+    "tipos": [
+      "normal",
+      "water"
+    ]
+  },
+  "401": {
+    "nome": "Kricketot",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "402": {
+    "nome": "Kricketune",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "403": {
+    "nome": "Shinx",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "404": {
+    "nome": "Luxio",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "405": {
+    "nome": "Luxray",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "406": {
+    "nome": "Budew",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "407": {
+    "nome": "Roserade",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "408": {
+    "nome": "Cranidos",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "409": {
+    "nome": "Rampardos",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "41": {
+    "nome": "Zubat",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "410": {
+    "nome": "Shieldon",
+    "tipos": [
+      "rock",
+      "steel"
+    ]
+  },
+  "411": {
+    "nome": "Bastiodon",
+    "tipos": [
+      "rock",
+      "steel"
+    ]
+  },
+  "412": {
+    "formas": [
+      {
+        "id": "sandy",
+        "imagem": "0412-sandy.png",
+        "nome": "Burmy Areia"
+      },
+      {
+        "id": "trash",
+        "imagem": "0412-trash.png",
+        "nome": "Burmy Lixo"
+      }
+    ],
+    "nome": "Burmy",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "413": {
+    "formas": [
+      {
+        "id": "sandy",
+        "imagem": "0413-sandy.png",
+        "nome": "Wormadam Areia"
+      },
+      {
+        "id": "trash",
+        "imagem": "0413-trash.png",
+        "nome": "Wormadam Lixo"
+      }
+    ],
+    "nome": "Wormadam",
+    "tipos": [
+      "bug",
+      "grass"
+    ]
+  },
+  "414": {
+    "nome": "Mothim",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "415": {
+    "nome": "Combee",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "416": {
+    "nome": "Vespiquen",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "417": {
+    "nome": "Pachirisu",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "418": {
+    "nome": "Buizel",
+    "tipos": [
+      "water"
+    ]
+  },
+  "419": {
+    "nome": "Floatzel",
+    "tipos": [
+      "water"
+    ]
+  },
+  "42": {
+    "nome": "Golbat",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "420": {
+    "nome": "Cherubi",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "421": {
+    "formas": [
+      {
+        "id": "sunshine",
+        "imagem": "0421-sunshine.png",
+        "nome": "Cherrim do Sol"
+      }
+    ],
+    "nome": "Cherrim",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "422": {
+    "formas": [
+      {
+        "id": "east",
+        "imagem": "0422-east.png",
+        "nome": "Shellos Leste"
+      }
+    ],
+    "nome": "Shellos",
+    "tipos": [
+      "water"
+    ]
+  },
+  "423": {
+    "formas": [
+      {
+        "id": "east",
+        "imagem": "0423-east.png",
+        "nome": "Gastrodon Leste"
+      }
+    ],
+    "nome": "Gastrodon",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "424": {
+    "nome": "Ambipom",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "425": {
+    "nome": "Drifloon",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "426": {
+    "nome": "Drifblim",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "427": {
+    "nome": "Buneary",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "428": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0428-mega.png",
+        "nome": "Mega Lopunny"
+      }
+    ],
+    "nome": "Lopunny",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "429": {
+    "nome": "Mismagius",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "43": {
+    "nome": "Oddish",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "430": {
+    "nome": "Honchkrow",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "431": {
+    "nome": "Glameow",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "432": {
+    "nome": "Purugly",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "433": {
+    "nome": "Chingling",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "434": {
+    "nome": "Stunky",
+    "tipos": [
+      "poison",
+      "dark"
+    ]
+  },
+  "435": {
+    "nome": "Skuntank",
+    "tipos": [
+      "poison",
+      "dark"
+    ]
+  },
+  "436": {
+    "nome": "Bronzor",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "437": {
+    "nome": "Bronzong",
+    "tipos": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "438": {
+    "nome": "Bonsly",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "439": {
+    "nome": "Mime.Jr",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "44": {
+    "nome": "Gloom",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "440": {
+    "nome": "Happiny",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "441": {
+    "nome": "Chatot",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "442": {
+    "nome": "Spiritomb",
+    "tipos": [
+      "ghost",
+      "dark"
+    ]
+  },
+  "443": {
+    "nome": "Gible",
+    "tipos": [
+      "dragon",
+      "earth"
+    ]
+  },
+  "444": {
+    "nome": "Gabite",
+    "tipos": [
+      "dragon",
+      "earth"
+    ]
+  },
+  "445": {
+    "formas": [
+      {
+        "id": "mega-z",
+        "imagem": "0445-mega-z.png",
+        "nome": "Garchomp (mega-z)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0445-mega.png",
+        "nome": "Mega Garchomp"
+      }
+    ],
+    "nome": "Garchomp",
+    "tipos": [
+      "dragon",
+      "earth"
+    ]
+  },
+  "446": {
+    "nome": "Munchlax",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "447": {
+    "nome": "Riolu",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "448": {
+    "formas": [
+      {
+        "id": "mega-z",
+        "imagem": "0448-mega-z.png",
+        "nome": "Lucario (mega-z)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0448-mega.png",
+        "nome": "Mega Lucario"
+      }
+    ],
+    "nome": "Lucario",
+    "tipos": [
+      "fight",
+      "steel"
+    ]
+  },
+  "449": {
+    "nome": "Hippopotas",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "45": {
+    "nome": "Vileplume",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "450": {
+    "nome": "Hippowdon",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "451": {
+    "nome": "Skorupi",
+    "tipos": [
+      "poison",
+      "bug"
+    ]
+  },
+  "452": {
+    "nome": "Drapion",
+    "tipos": [
+      "poison",
+      "dark"
+    ]
+  },
+  "453": {
+    "nome": "Croagunk",
+    "tipos": [
+      "poison",
+      "fight"
+    ]
+  },
+  "454": {
+    "nome": "Toxicroak",
+    "tipos": [
+      "poison",
+      "fight"
+    ]
+  },
+  "455": {
+    "nome": "Carnivine",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "456": {
+    "nome": "Finneon",
+    "tipos": [
+      "water"
+    ]
+  },
+  "457": {
+    "nome": "Lumineon",
+    "tipos": [
+      "water"
+    ]
+  },
+  "458": {
+    "nome": "Mantyke",
+    "tipos": [
+      "water"
+    ]
+  },
+  "459": {
+    "nome": "Snover",
+    "tipos": [
+      "grass",
+      "ice"
+    ]
+  },
+  "46": {
+    "nome": "Paras",
+    "tipos": [
+      "bug",
+      "grass"
+    ]
+  },
+  "460": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0460-mega.png",
+        "nome": "Mega Abomasnow"
+      }
+    ],
+    "nome": "Abomasnow",
+    "tipos": [
+      "grass",
+      "ice"
+    ]
+  },
+  "461": {
+    "nome": "Weavile",
+    "tipos": [
+      "dark",
+      "ice"
+    ]
+  },
+  "462": {
+    "nome": "Magnezone",
+    "tipos": [
+      "electric",
+      "steel"
+    ]
+  },
+  "463": {
+    "nome": "Lickilicky",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "464": {
+    "nome": "Rhyperior",
+    "tipos": [
+      "earth",
+      "rock"
+    ]
+  },
+  "465": {
+    "nome": "Tangrowth",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "466": {
+    "nome": "Electivire",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "467": {
+    "nome": "Magmortar",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "468": {
+    "nome": "Togekiss",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "469": {
+    "nome": "Yanmega",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "47": {
+    "nome": "Parasect",
+    "tipos": [
+      "bug",
+      "grass"
+    ]
+  },
+  "470": {
+    "nome": "Leafeon",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "471": {
+    "nome": "Glaceon",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "472": {
+    "nome": "Gliscor",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "473": {
+    "nome": "Mamoswine",
+    "tipos": [
+      "ice",
+      "earth"
+    ]
+  },
+  "474": {
+    "nome": "Porygon-Z",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "475": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0475-mega.png",
+        "nome": "Mega Gallade"
+      }
+    ],
+    "nome": "Gallade",
+    "tipos": [
+      "psychic",
+      "fight"
+    ]
+  },
+  "476": {
+    "nome": "Probopass",
+    "tipos": [
+      "rock",
+      "steel"
+    ]
+  },
+  "477": {
+    "nome": "Dusknoir",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "478": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0478-mega.png",
+        "nome": "Mega Froslass"
+      }
+    ],
+    "nome": "Froslass",
+    "tipos": [
+      "ice",
+      "ghost"
+    ]
+  },
+  "479": {
+    "formas": [
+      {
+        "id": "fan",
+        "imagem": "0479-fan.png",
+        "nome": "Rotom Ventilador"
+      },
+      {
+        "id": "frost",
+        "imagem": "0479-frost.png",
+        "nome": "Rotom Gelo"
+      },
+      {
+        "id": "heat",
+        "imagem": "0479-heat.png",
+        "nome": "Rotom Calor"
+      },
+      {
+        "id": "mow",
+        "imagem": "0479-mow.png",
+        "nome": "Rotom Cortador"
+      },
+      {
+        "id": "wash",
+        "imagem": "0479-wash.png",
+        "nome": "Rotom Lavador"
+      }
+    ],
+    "nome": "Rotom",
+    "tipos": [
+      "electric",
+      "ghost"
+    ]
+  },
+  "48": {
+    "nome": "Venonat",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "480": {
+    "nome": "Uxie",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "481": {
+    "nome": "Mesprit",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "482": {
+    "nome": "Azelf",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "483": {
+    "formas": [
+      {
+        "id": "origin",
+        "imagem": "0483-origin.png",
+        "nome": "Dialga Origem"
+      }
+    ],
+    "nome": "Dialga",
+    "tipos": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "484": {
+    "formas": [
+      {
+        "id": "origin",
+        "imagem": "0484-origin.png",
+        "nome": "Palkia Origem"
+      }
+    ],
+    "nome": "Palkia",
+    "tipos": [
+      "water",
+      "dragon"
+    ]
+  },
+  "485": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0485-mega.png",
+        "nome": "Mega Heatran"
+      }
+    ],
+    "nome": "Heatran",
+    "tipos": [
+      "fire",
+      "steel"
+    ]
+  },
+  "486": {
+    "nome": "Regigigas",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "487": {
+    "formas": [
+      {
+        "id": "origin",
+        "imagem": "0487-origin.png",
+        "nome": "Giratina Origem"
+      }
+    ],
+    "nome": "Giratina",
+    "tipos": [
+      "ghost",
+      "dragon"
+    ]
+  },
+  "488": {
+    "nome": "Cresselia",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "489": {
+    "nome": "Phione",
+    "tipos": [
+      "water"
+    ]
+  },
+  "49": {
+    "nome": "Venomoth",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "490": {
+    "nome": "Manaphy",
+    "tipos": [
+      "water"
+    ]
+  },
+  "491": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0491-mega.png",
+        "nome": "Mega Darkrai"
+      }
+    ],
+    "nome": "Darkrai",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "492": {
+    "formas": [
+      {
+        "id": "sky",
+        "imagem": "0492-sky.png",
+        "nome": "Shaymin do Céu"
+      }
+    ],
+    "nome": "Shaymin",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "493": {
+    "nome": "Arceus",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "494": {
+    "nome": "Victini",
+    "tipos": [
+      "psychic",
+      "fire"
+    ]
+  },
+  "495": {
+    "nome": "Snivy",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "496": {
+    "nome": "Servine",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "497": {
+    "nome": "Serperior",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "498": {
+    "nome": "Tepig",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "499": {
+    "nome": "Pignite",
+    "tipos": [
+      "fire",
+      "fight"
+    ]
+  },
+  "5": {
+    "nome": "Charmeleon",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "50": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0050-alola.png",
+        "nome": "Diglett de Alola"
+      }
+    ],
+    "nome": "Diglett",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "500": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0500-mega.png",
+        "nome": "Mega Emboar"
+      }
+    ],
+    "nome": "Emboar",
+    "tipos": [
+      "fire",
+      "fight"
+    ]
+  },
+  "501": {
+    "nome": "Oshawott",
+    "tipos": [
+      "water"
+    ]
+  },
+  "502": {
+    "nome": "Dewott",
+    "tipos": [
+      "water"
+    ]
+  },
+  "503": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0503-hisui.png",
+        "nome": "Samurott de Hisui"
+      }
+    ],
+    "nome": "Samurott",
+    "tipos": [
+      "water"
+    ]
+  },
+  "504": {
+    "nome": "Patrat",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "505": {
+    "nome": "Watchog",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "506": {
+    "nome": "Lillipup",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "507": {
+    "nome": "Herdier",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "508": {
+    "nome": "Stoutland",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "509": {
+    "nome": "Purrloin",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "51": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0051-alola.png",
+        "nome": "Dugtrio de Alola"
+      }
+    ],
+    "nome": "Dugtrio",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "510": {
+    "nome": "Liepard",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "511": {
+    "nome": "Pansage",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "512": {
+    "nome": "Simisage",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "513": {
+    "nome": "Pansear",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "514": {
+    "nome": "Simisear",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "515": {
+    "nome": "Panpour",
+    "tipos": [
+      "water"
+    ]
+  },
+  "516": {
+    "nome": "Simipour",
+    "tipos": [
+      "water"
+    ]
+  },
+  "517": {
+    "nome": "Munna",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "518": {
+    "nome": "Musharna",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "519": {
+    "nome": "Pidove",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "52": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0052-alola.png",
+        "nome": "Meowth de Alola"
+      },
+      {
+        "id": "galar",
+        "imagem": "0052-galar.png",
+        "nome": "Meowth de Galar"
+      },
+      {
+        "id": "giga",
+        "imagem": "0052-giga.png",
+        "nome": "Meowth Gigantamax"
+      }
+    ],
+    "nome": "Meowth",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "520": {
+    "nome": "Tranquill",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "521": {
+    "nome": "Unfezant",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "522": {
+    "nome": "Blitzle",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "523": {
+    "nome": "Zebstrika",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "524": {
+    "nome": "Roggenrola",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "525": {
+    "nome": "Boldore",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "526": {
+    "nome": "Gigalith",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "527": {
+    "nome": "Woobat",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "528": {
+    "nome": "Swoobat",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "529": {
+    "nome": "Drilbur",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "53": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0053-alola.png",
+        "nome": "Persian de Alola"
+      }
+    ],
+    "nome": "Persian",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "530": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0530-mega.png",
+        "nome": "Mega Excadrill"
+      }
+    ],
+    "nome": "Excadrill",
+    "tipos": [
+      "earth",
+      "steel"
+    ]
+  },
+  "531": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0531-mega.png",
+        "nome": "Mega Audino"
+      }
+    ],
+    "nome": "Audino",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "532": {
+    "nome": "Timburr",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "533": {
+    "nome": "Gurdurr",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "534": {
+    "nome": "Conkeldurr",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "535": {
+    "nome": "Tympole",
+    "tipos": [
+      "water"
+    ]
+  },
+  "536": {
+    "nome": "Palpitoad",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "537": {
+    "nome": "Seismitoad",
+    "tipos": [
+      "water",
+      "earth"
+    ]
+  },
+  "538": {
+    "nome": "Throh",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "539": {
+    "nome": "Sawk",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "54": {
+    "nome": "Psyduck",
+    "tipos": [
+      "water"
+    ]
+  },
+  "540": {
+    "nome": "Sewaddle",
+    "tipos": [
+      "bug",
+      "grass"
+    ]
+  },
+  "541": {
+    "nome": "Swadloon",
+    "tipos": [
+      "bug",
+      "grass"
+    ]
+  },
+  "542": {
+    "nome": "Leavanny",
+    "tipos": [
+      "bug",
+      "grass"
+    ]
+  },
+  "543": {
+    "nome": "Venipede",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "544": {
+    "nome": "Whirlipede",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "545": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0545-mega.png",
+        "nome": "Mega Scolipede"
+      }
+    ],
+    "nome": "Scolipede",
+    "tipos": [
+      "bug",
+      "poison"
+    ]
+  },
+  "546": {
+    "nome": "Cottonee",
+    "tipos": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "547": {
+    "nome": "Whimsicott",
+    "tipos": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "548": {
+    "nome": "Petilil",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "549": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0549-hisui.png",
+        "nome": "Lilligant de Hisui"
+      }
+    ],
+    "nome": "Lilligant",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "55": {
+    "nome": "Golduck",
+    "tipos": [
+      "water"
+    ]
+  },
+  "550": {
+    "formas": [
+      {
+        "id": "blue",
+        "imagem": "0550-blue.png",
+        "nome": "Basculin Azul"
+      },
+      {
+        "id": "white",
+        "imagem": "0550-white.png",
+        "nome": "Basculin Branco"
+      }
+    ],
+    "nome": "Basculin",
+    "tipos": [
+      "water"
+    ]
+  },
+  "551": {
+    "nome": "Sandile",
+    "tipos": [
+      "earth",
+      "dark"
+    ]
+  },
+  "552": {
+    "nome": "Krokorok",
+    "tipos": [
+      "earth",
+      "dark"
+    ]
+  },
+  "553": {
+    "nome": "Krookodile",
+    "tipos": [
+      "earth",
+      "dark"
+    ]
+  },
+  "554": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0554-galar.png",
+        "nome": "Darumaka de Galar"
+      }
+    ],
+    "nome": "Darumaka",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "555": {
+    "formas": [
+      {
+        "id": "galar-zen",
+        "imagem": "0555-galar-zen.png",
+        "nome": "Darmanitan de Galar Modo Zen"
+      },
+      {
+        "id": "galar",
+        "imagem": "0555-galar.png",
+        "nome": "Darmanitan de Galar"
+      },
+      {
+        "id": "zen",
+        "imagem": "0555-zen.png",
+        "nome": "Darmanitan Modo Zen"
+      }
+    ],
+    "nome": "Darmanitan",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "556": {
+    "nome": "Maractus",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "557": {
+    "nome": "Dwebble",
+    "tipos": [
+      "bug",
+      "rock"
+    ]
+  },
+  "558": {
+    "nome": "Crustle",
+    "tipos": [
+      "bug",
+      "rock"
+    ]
+  },
+  "559": {
+    "nome": "Scraggy",
+    "tipos": [
+      "dark",
+      "fight"
+    ]
+  },
+  "56": {
+    "nome": "Mankey",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "560": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0560-mega.png",
+        "nome": "Mega Scrafty"
+      }
+    ],
+    "nome": "Scrafty",
+    "tipos": [
+      "dark",
+      "fight"
+    ]
+  },
+  "561": {
+    "nome": "Sigilyph",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "562": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0562-galar.png",
+        "nome": "Yamask de Galar"
+      }
+    ],
+    "nome": "Yamask",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "563": {
+    "nome": "Cofagrigus",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "564": {
+    "nome": "Tirtouga",
+    "tipos": [
+      "water",
+      "rock"
+    ]
+  },
+  "565": {
+    "nome": "Carracosta",
+    "tipos": [
+      "water",
+      "rock"
+    ]
+  },
+  "566": {
+    "nome": "Archen",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "567": {
+    "nome": "Archeops",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "568": {
+    "nome": "Trubbish",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "569": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0569-giga.png",
+        "nome": "Garbodor Gigantamax"
+      }
+    ],
+    "nome": "Garbodor",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "57": {
+    "nome": "Primeape",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "570": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0570-hisui.png",
+        "nome": "Zorua de Hisui"
+      }
+    ],
+    "nome": "Zorua",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "571": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0571-hisui.png",
+        "nome": "Zoroark de Hisui"
+      }
+    ],
+    "nome": "Zoroark",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "572": {
+    "nome": "Minccino",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "573": {
+    "nome": "Cinccino",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "574": {
+    "nome": "Gothita",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "575": {
+    "nome": "Gothorita",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "576": {
+    "nome": "Gothitelle",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "577": {
+    "nome": "Solosis",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "578": {
+    "nome": "Duosion",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "579": {
+    "nome": "Reuniclus",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "58": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0058-hisui.png",
+        "nome": "Growlithe de Hisui"
+      }
+    ],
+    "nome": "Growlithe",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "580": {
+    "nome": "Ducklett",
+    "tipos": [
+      "water"
+    ]
+  },
+  "581": {
+    "nome": "Swanna",
+    "tipos": [
+      "water"
+    ]
+  },
+  "582": {
+    "nome": "Vanillite",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "583": {
+    "nome": "Vanillish",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "584": {
+    "nome": "Vanilluxe",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "585": {
+    "formas": [
+      {
+        "id": "autumn",
+        "imagem": "0585-autumn.png",
+        "nome": "Deerling Outono"
+      },
+      {
+        "id": "summer",
+        "imagem": "0585-summer.png",
+        "nome": "Deerling Verão"
+      },
+      {
+        "id": "winter",
+        "imagem": "0585-winter.png",
+        "nome": "Deerling Inverno"
+      }
+    ],
+    "nome": "Deerling",
+    "tipos": [
+      "normal",
+      "grass"
+    ]
+  },
+  "586": {
+    "formas": [
+      {
+        "id": "autumn",
+        "imagem": "0586-autumn.png",
+        "nome": "Sawsbuck Outono"
+      },
+      {
+        "id": "summer",
+        "imagem": "0586-summer.png",
+        "nome": "Sawsbuck Verão"
+      },
+      {
+        "id": "winter",
+        "imagem": "0586-winter.png",
+        "nome": "Sawsbuck Inverno"
+      }
+    ],
+    "nome": "Sawsbuck",
+    "tipos": [
+      "normal",
+      "grass"
+    ]
+  },
+  "587": {
+    "nome": "Emolga",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "588": {
+    "nome": "Karrablast",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "589": {
+    "nome": "Escavalier",
+    "tipos": [
+      "bug",
+      "steel"
+    ]
+  },
+  "59": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0059-hisui.png",
+        "nome": "Arcanine de Hisui"
+      }
+    ],
+    "nome": "Arcanine",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "590": {
+    "nome": "Foongus",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "591": {
+    "nome": "Amoonguss",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "592": {
+    "nome": "Frillish",
+    "tipos": [
+      "water",
+      "ghost"
+    ]
+  },
+  "593": {
+    "nome": "Jellicent",
+    "tipos": [
+      "water",
+      "ghost"
+    ]
+  },
+  "594": {
+    "nome": "Alomomola",
+    "tipos": [
+      "water"
+    ]
+  },
+  "595": {
+    "nome": "Joltik",
+    "tipos": [
+      "bug",
+      "electric"
+    ]
+  },
+  "596": {
+    "nome": "Galvantula",
+    "tipos": [
+      "bug",
+      "electric"
+    ]
+  },
+  "597": {
+    "nome": "Ferroseed",
+    "tipos": [
+      "grass",
+      "steel"
+    ]
+  },
+  "598": {
+    "nome": "Ferrothorn",
+    "tipos": [
+      "grass",
+      "steel"
+    ]
+  },
+  "599": {
+    "nome": "Klink",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "6": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0006-giga.png",
+        "nome": "Charizard Gigantamax"
+      },
+      {
+        "id": "megax",
+        "imagem": "0006-megax.png",
+        "nome": "Mega Charizard X"
+      },
+      {
+        "id": "megay",
+        "imagem": "0006-megay.png",
+        "nome": "Mega Charizard Y"
+      }
+    ],
+    "nome": "Charizard",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "60": {
+    "nome": "Poliwag",
+    "tipos": [
+      "water"
+    ]
+  },
+  "600": {
+    "nome": "Klang",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "601": {
+    "nome": "Klinklang",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "602": {
+    "nome": "Tynamo",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "603": {
+    "nome": "Eelektrik",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "604": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0604-mega.png",
+        "nome": "Mega Eelektross"
+      }
+    ],
+    "nome": "Eelektross",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "605": {
+    "nome": "Elgyem",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "606": {
+    "nome": "Beheeyem",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "607": {
+    "nome": "Litwick",
+    "tipos": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "608": {
+    "nome": "Lampent",
+    "tipos": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "609": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0609-mega.png",
+        "nome": "Mega Chandelure"
+      }
+    ],
+    "nome": "Chandelure",
+    "tipos": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "61": {
+    "nome": "Poliwhirl",
+    "tipos": [
+      "water"
+    ]
+  },
+  "610": {
+    "nome": "Axew",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "611": {
+    "nome": "Fraxure",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "612": {
+    "nome": "Haxorus",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "613": {
+    "nome": "Cubchoo",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "614": {
+    "nome": "Beartic",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "615": {
+    "nome": "Cryogonal",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "616": {
+    "nome": "Shelmet",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "617": {
+    "nome": "Accelgor",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "618": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0618-galar.png",
+        "nome": "Stunfisk de Galar"
+      }
+    ],
+    "nome": "Stunfisk",
+    "tipos": [
+      "earth",
+      "electric"
+    ]
+  },
+  "619": {
+    "nome": "Mienfoo",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "62": {
+    "nome": "Poliwrath",
+    "tipos": [
+      "water",
+      "fight"
+    ]
+  },
+  "620": {
+    "nome": "Mienshao",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "621": {
+    "nome": "Druddigon",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "622": {
+    "nome": "Golett",
+    "tipos": [
+      "earth",
+      "ghost"
+    ]
+  },
+  "623": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0623-mega.png",
+        "nome": "Mega Golurk"
+      }
+    ],
+    "nome": "Golurk",
+    "tipos": [
+      "earth",
+      "ghost"
+    ]
+  },
+  "624": {
+    "nome": "Pawniard",
+    "tipos": [
+      "dark",
+      "steel"
+    ]
+  },
+  "625": {
+    "nome": "Bisharp",
+    "tipos": [
+      "dark",
+      "steel"
+    ]
+  },
+  "626": {
+    "nome": "Bouffalant",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "627": {
+    "nome": "Rufflet",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "628": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0628-mega.png",
+        "nome": "Mega Braviary"
+      }
+    ],
+    "nome": "Braviary",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "629": {
+    "nome": "Vullaby",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "63": {
+    "nome": "Abra",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "630": {
+    "nome": "Mandibuzz",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "631": {
+    "nome": "Heatmor",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "632": {
+    "nome": "Durant",
+    "tipos": [
+      "bug",
+      "steel"
+    ]
+  },
+  "633": {
+    "nome": "Deino",
+    "tipos": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "634": {
+    "nome": "Zweilous",
+    "tipos": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "635": {
+    "nome": "Hydreigon",
+    "tipos": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "636": {
+    "nome": "Larvesta",
+    "tipos": [
+      "bug",
+      "fire"
+    ]
+  },
+  "637": {
+    "nome": "Volcarona",
+    "tipos": [
+      "bug",
+      "fire"
+    ]
+  },
+  "638": {
+    "nome": "Cobalion",
+    "tipos": [
+      "steel",
+      "fight"
+    ]
+  },
+  "639": {
+    "nome": "Terrakion",
+    "tipos": [
+      "rock",
+      "fight"
+    ]
+  },
+  "64": {
+    "nome": "Kadabra",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "640": {
+    "nome": "Virizion",
+    "tipos": [
+      "grass",
+      "fight"
+    ]
+  },
+  "641": {
+    "formas": [
+      {
+        "id": "therian",
+        "imagem": "0641-therian.png",
+        "nome": "Tornadus Terian"
+      }
+    ],
+    "nome": "Tornadus",
+    "tipos": []
+  },
+  "642": {
+    "formas": [
+      {
+        "id": "therian",
+        "imagem": "0642-therian.png",
+        "nome": "Thundurus Terian"
+      }
+    ],
+    "nome": "Thundurus",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "643": {
+    "nome": "Reshiram",
+    "tipos": [
+      "dragon",
+      "fire"
+    ]
+  },
+  "644": {
+    "nome": "Zekrom",
+    "tipos": [
+      "dragon",
+      "electric"
+    ]
+  },
+  "645": {
+    "formas": [
+      {
+        "id": "therian",
+        "imagem": "0645-therian.png",
+        "nome": "Landorus Terian"
+      }
+    ],
+    "nome": "Landorus",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "646": {
+    "formas": [
+      {
+        "id": "black",
+        "imagem": "0646-black.png",
+        "nome": "Kyurem Preto"
+      },
+      {
+        "id": "white",
+        "imagem": "0646-white.png",
+        "nome": "Kyurem Branco"
+      }
+    ],
+    "nome": "Kyurem",
+    "tipos": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "647": {
+    "formas": [
+      {
+        "id": "resolute",
+        "imagem": "0647-resolute.png",
+        "nome": "Keldeo Resoluto"
+      }
+    ],
+    "nome": "Keldeo",
+    "tipos": [
+      "water",
+      "fight"
+    ]
+  },
+  "648": {
+    "formas": [
+      {
+        "id": "pirouette",
+        "imagem": "0648-pirouette.png",
+        "nome": "Meloetta Pirueta"
+      }
+    ],
+    "nome": "Meloetta",
+    "tipos": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "649": {
+    "nome": "Genesect",
+    "tipos": [
+      "bug",
+      "steel"
+    ]
+  },
+  "65": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0065-mega.png",
+        "nome": "Mega Alakazam"
+      }
+    ],
+    "nome": "Alakazam",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "650": {
+    "nome": "Chespin",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "651": {
+    "nome": "Quilladin",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "652": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0652-mega.png",
+        "nome": "Mega Chesnaught"
+      }
+    ],
+    "nome": "Chesnaught",
+    "tipos": [
+      "grass",
+      "fight"
+    ]
+  },
+  "653": {
+    "nome": "Fennekin",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "654": {
+    "nome": "Braixen",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "655": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0655-mega.png",
+        "nome": "Mega Delphox"
+      }
+    ],
+    "nome": "Delphox",
+    "tipos": [
+      "fire",
+      "psychic"
+    ]
+  },
+  "656": {
+    "nome": "Froakie",
+    "tipos": [
+      "water"
+    ]
+  },
+  "657": {
+    "nome": "Frogadier",
+    "tipos": [
+      "water"
+    ]
+  },
+  "658": {
+    "formas": [
+      {
+        "id": "ash",
+        "imagem": "0658-ash.png",
+        "nome": "Greninja (ash)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0658-mega.png",
+        "nome": "Mega Greninja"
+      }
+    ],
+    "nome": "Greninja",
+    "tipos": [
+      "water",
+      "dark"
+    ]
+  },
+  "659": {
+    "nome": "Bunnelby",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "66": {
+    "nome": "Machop",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "660": {
+    "nome": "Diggersby",
+    "tipos": [
+      "normal",
+      "earth"
+    ]
+  },
+  "661": {
+    "nome": "Fletchling",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "662": {
+    "nome": "Fletchinder",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "663": {
+    "nome": "Talonflame",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "664": {
+    "nome": "Scatterbug",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "665": {
+    "nome": "Spewpa",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "666": {
+    "formas": [
+      {
+        "id": "1",
+        "imagem": "0666-1.png",
+        "nome": "Vivillon (1)"
+      },
+      {
+        "id": "2",
+        "imagem": "0666-2.png",
+        "nome": "Vivillon (2)"
+      },
+      {
+        "id": "3",
+        "imagem": "0666-3.png",
+        "nome": "Vivillon (3)"
+      },
+      {
+        "id": "4",
+        "imagem": "0666-4.png",
+        "nome": "Vivillon (4)"
+      },
+      {
+        "id": "5",
+        "imagem": "0666-5.png",
+        "nome": "Vivillon (5)"
+      },
+      {
+        "id": "6",
+        "imagem": "0666-6.png",
+        "nome": "Vivillon (6)"
+      },
+      {
+        "id": "7",
+        "imagem": "0666-7.png",
+        "nome": "Vivillon (7)"
+      }
+    ],
+    "nome": "Vivillon",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "667": {
+    "nome": "Litleo",
+    "tipos": [
+      "fire",
+      "normal"
+    ]
+  },
+  "668": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0668-mega.png",
+        "nome": "Mega Pyroar"
+      }
+    ],
+    "nome": "Pyroar",
+    "tipos": [
+      "fire",
+      "normal"
+    ]
+  },
+  "669": {
+    "nome": "Flabebe",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "67": {
+    "nome": "Machoke",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "670": {
+    "formas": [
+      {
+        "id": "eternal",
+        "imagem": "0670-eternal.png",
+        "nome": "Floette Eterno"
+      },
+      {
+        "id": "mega",
+        "imagem": "0670-mega.png",
+        "nome": "Mega Floette"
+      }
+    ],
+    "nome": "Floette",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "671": {
+    "nome": "Florges",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "672": {
+    "nome": "Skiddo",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "673": {
+    "nome": "Gogoat",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "674": {
+    "nome": "Pancham",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "675": {
+    "nome": "Pangoro",
+    "tipos": [
+      "fight",
+      "dark"
+    ]
+  },
+  "676": {
+    "formas": [
+      {
+        "id": "1",
+        "imagem": "0676-1.png",
+        "nome": "Furfrou (1)"
+      },
+      {
+        "id": "2",
+        "imagem": "0676-2.png",
+        "nome": "Furfrou (2)"
+      },
+      {
+        "id": "3",
+        "imagem": "0676-3.png",
+        "nome": "Furfrou (3)"
+      },
+      {
+        "id": "4",
+        "imagem": "0676-4.png",
+        "nome": "Furfrou (4)"
+      },
+      {
+        "id": "5",
+        "imagem": "0676-5.png",
+        "nome": "Furfrou (5)"
+      },
+      {
+        "id": "6",
+        "imagem": "0676-6.png",
+        "nome": "Furfrou (6)"
+      },
+      {
+        "id": "7",
+        "imagem": "0676-7.png",
+        "nome": "Furfrou (7)"
+      },
+      {
+        "id": "8",
+        "imagem": "0676-8.png",
+        "nome": "Furfrou (8)"
+      },
+      {
+        "id": "9",
+        "imagem": "0676-9.png",
+        "nome": "Furfrou (9)"
+      }
+    ],
+    "nome": "Furfrou",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "677": {
+    "nome": "Espurr",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "678": {
+    "formas": [
+      {
+        "id": "f",
+        "imagem": "0678-f.png",
+        "nome": "Meowstic (f)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0678-mega.png",
+        "nome": "Mega Meowstic"
+      }
+    ],
+    "nome": "Meowstic",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "679": {
+    "nome": "Honedge",
+    "tipos": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "68": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0068-giga.png",
+        "nome": "Machamp Gigantamax"
+      }
+    ],
+    "nome": "Machamp",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "680": {
+    "nome": "Doublade",
+    "tipos": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "681": {
+    "formas": [
+      {
+        "id": "blade",
+        "imagem": "0681-blade.png",
+        "nome": "Aegislash Lâmina"
+      }
+    ],
+    "nome": "Aegislash",
+    "tipos": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "682": {
+    "nome": "Spritzee",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "683": {
+    "nome": "Aromatisse",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "684": {
+    "nome": "Swirlix",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "685": {
+    "nome": "Slurpuff",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "686": {
+    "nome": "Inkay",
+    "tipos": [
+      "dark",
+      "psychic"
+    ]
+  },
+  "687": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0687-mega.png",
+        "nome": "Mega Malamar"
+      }
+    ],
+    "nome": "Malamar",
+    "tipos": [
+      "dark",
+      "psychic"
+    ]
+  },
+  "688": {
+    "nome": "Binacle",
+    "tipos": [
+      "rock",
+      "water"
+    ]
+  },
+  "689": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0689-mega.png",
+        "nome": "Mega Barbaracle"
+      }
+    ],
+    "nome": "Barbaracle",
+    "tipos": [
+      "rock",
+      "water"
+    ]
+  },
+  "69": {
+    "nome": "Bellsprout",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "690": {
+    "nome": "Skrelp",
+    "tipos": [
+      "poison",
+      "water"
+    ]
+  },
+  "691": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0691-mega.png",
+        "nome": "Mega Dragalge"
+      }
+    ],
+    "nome": "Dragalge",
+    "tipos": [
+      "poison",
+      "dragon"
+    ]
+  },
+  "692": {
+    "nome": "Clauncher",
+    "tipos": [
+      "water"
+    ]
+  },
+  "693": {
+    "nome": "Clawitzer",
+    "tipos": [
+      "water"
+    ]
+  },
+  "694": {
+    "nome": "Helioptile",
+    "tipos": [
+      "electric",
+      "normal"
+    ]
+  },
+  "695": {
+    "nome": "Heliolisk",
+    "tipos": [
+      "electric",
+      "normal"
+    ]
+  },
+  "696": {
+    "nome": "Tyrunt",
+    "tipos": [
+      "rock",
+      "dragon"
+    ]
+  },
+  "697": {
+    "nome": "Tyrantrum",
+    "tipos": [
+      "rock",
+      "dragon"
+    ]
+  },
+  "698": {
+    "nome": "Amaura",
+    "tipos": [
+      "rock",
+      "ice"
+    ]
+  },
+  "699": {
+    "nome": "Aurorus",
+    "tipos": [
+      "rock",
+      "ice"
+    ]
+  },
+  "7": {
+    "nome": "Squirtle",
+    "tipos": [
+      "water"
+    ]
+  },
+  "70": {
+    "nome": "Weepinbell",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "700": {
+    "nome": "Sylveon",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "701": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0701-mega.png",
+        "nome": "Mega Hawlucha"
+      }
+    ],
+    "nome": "Hawlucha",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "702": {
+    "nome": "Dedenne",
+    "tipos": [
+      "electric",
+      "fairy"
+    ]
+  },
+  "703": {
+    "nome": "Carbink",
+    "tipos": [
+      "rock",
+      "fairy"
+    ]
+  },
+  "704": {
+    "nome": "Goomy",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "705": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0705-hisui.png",
+        "nome": "Sliggoo de Hisui"
+      }
+    ],
+    "nome": "Sliggoo",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "706": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0706-hisui.png",
+        "nome": "Goodra de Hisui"
+      }
+    ],
+    "nome": "Goodra",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "707": {
+    "nome": "Klefki",
+    "tipos": [
+      "steel",
+      "fairy"
+    ]
+  },
+  "708": {
+    "nome": "Phantump",
+    "tipos": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "709": {
+    "nome": "Trevenant",
+    "tipos": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "71": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0071-mega.png",
+        "nome": "Mega Victreebel"
+      }
+    ],
+    "nome": "Victreebel",
+    "tipos": [
+      "grass",
+      "poison"
+    ]
+  },
+  "710": {
+    "nome": "Pumpkaboo",
+    "tipos": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "711": {
+    "nome": "Gourgeist",
+    "tipos": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "712": {
+    "nome": "Bergmite",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "713": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0713-hisui.png",
+        "nome": "Avalugg de Hisui"
+      }
+    ],
+    "nome": "Avalugg",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "714": {
+    "nome": "Noibat",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "715": {
+    "nome": "Noivern",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "716": {
+    "nome": "Xerneas",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "717": {
+    "nome": "Yveltal",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "718": {
+    "formas": [
+      {
+        "id": "10",
+        "imagem": "0718-10.png",
+        "nome": "Zygarde (10)"
+      },
+      {
+        "id": "100",
+        "imagem": "0718-100.png",
+        "nome": "Zygarde (100)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0718-mega.png",
+        "nome": "Mega Zygarde"
+      }
+    ],
+    "nome": "Zygarde",
+    "tipos": [
+      "dragon",
+      "earth"
+    ]
+  },
+  "719": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0719-mega.png",
+        "nome": "Mega Diancie"
+      }
+    ],
+    "nome": "Diancie",
+    "tipos": [
+      "rock",
+      "fairy"
+    ]
+  },
+  "72": {
+    "nome": "Tentacool",
+    "tipos": [
+      "water",
+      "poison"
+    ]
+  },
+  "720": {
+    "formas": [
+      {
+        "id": "unbound",
+        "imagem": "0720-unbound.png",
+        "nome": "Hoopa Desperto"
+      }
+    ],
+    "nome": "Hoopa",
+    "tipos": [
+      "psychic",
+      "ghost"
+    ]
+  },
+  "721": {
+    "nome": "Volcanion",
+    "tipos": [
+      "fire",
+      "water"
+    ]
+  },
+  "722": {
+    "nome": "Rowlet",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "723": {
+    "nome": "Dartrix",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "724": {
+    "formas": [
+      {
+        "id": "hisui",
+        "imagem": "0724-hisui.png",
+        "nome": "Decidueye de Hisui"
+      }
+    ],
+    "nome": "Decidueye",
+    "tipos": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "725": {
+    "nome": "Litten",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "726": {
+    "nome": "Torracat",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "727": {
+    "nome": "Incineroar",
+    "tipos": [
+      "fire",
+      "dark"
+    ]
+  },
+  "728": {
+    "nome": "Popplio",
+    "tipos": [
+      "water"
+    ]
+  },
+  "729": {
+    "nome": "Brionne",
+    "tipos": [
+      "water"
+    ]
+  },
+  "73": {
+    "nome": "Tentacruel",
+    "tipos": [
+      "water",
+      "poison"
+    ]
+  },
+  "730": {
+    "nome": "Primarina",
+    "tipos": [
+      "water",
+      "fairy"
+    ]
+  },
+  "731": {
+    "nome": "Pikipek",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "732": {
+    "nome": "Trumbeak",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "733": {
+    "nome": "Toucannon",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "734": {
+    "nome": "Yungoos",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "735": {
+    "nome": "Gumshoos",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "736": {
+    "nome": "Grubbin",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "737": {
+    "nome": "Charjabug",
+    "tipos": [
+      "bug",
+      "electric"
+    ]
+  },
+  "738": {
+    "nome": "Vikavolt",
+    "tipos": [
+      "bug",
+      "electric"
+    ]
+  },
+  "739": {
+    "nome": "Crabrawler",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "74": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0074-alola.png",
+        "nome": "Geodude de Alola"
+      }
+    ],
+    "nome": "Geodude",
+    "tipos": [
+      "rock",
+      "earth"
+    ]
+  },
+  "740": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0740-mega.png",
+        "nome": "Mega Crabominable"
+      }
+    ],
+    "nome": "Crabominable",
+    "tipos": [
+      "fight",
+      "ice"
+    ]
+  },
+  "741": {
+    "formas": [
+      {
+        "id": "pa",
+        "imagem": "0741-pa.png",
+        "nome": "Oricorio (pa)"
+      },
+      {
+        "id": "pp",
+        "imagem": "0741-pp.png",
+        "nome": "Oricorio (pp)"
+      },
+      {
+        "id": "ss",
+        "imagem": "0741-ss.png",
+        "nome": "Oricorio (ss)"
+      }
+    ],
+    "nome": "Oricorio",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "742": {
+    "nome": "Cutiefly",
+    "tipos": [
+      "bug",
+      "fairy"
+    ]
+  },
+  "743": {
+    "nome": "Ribombee",
+    "tipos": [
+      "bug",
+      "fairy"
+    ]
+  },
+  "744": {
+    "nome": "Rockruff",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "745": {
+    "formas": [
+      {
+        "id": "dusk",
+        "imagem": "0745-dusk.png",
+        "nome": "Lycanroc Crepúsculo"
+      },
+      {
+        "id": "mid",
+        "imagem": "0745-mid.png",
+        "nome": "Lycanroc Meio"
+      }
+    ],
+    "nome": "Lycanroc",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "746": {
+    "formas": [
+      {
+        "id": "s",
+        "imagem": "0746-s.png",
+        "nome": "Wishiwashi (s)"
+      }
+    ],
+    "nome": "Wishiwashi",
+    "tipos": [
+      "water"
+    ]
+  },
+  "747": {
+    "nome": "Mareanie",
+    "tipos": [
+      "poison",
+      "water"
+    ]
+  },
+  "748": {
+    "nome": "Toxapex",
+    "tipos": [
+      "poison",
+      "water"
+    ]
+  },
+  "749": {
+    "nome": "Mudbray",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "75": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0075-alola.png",
+        "nome": "Graveler de Alola"
+      }
+    ],
+    "nome": "Graveler",
+    "tipos": [
+      "rock",
+      "earth"
+    ]
+  },
+  "750": {
+    "nome": "Mudsdale",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "751": {
+    "nome": "Dewpider",
+    "tipos": [
+      "water",
+      "bug"
+    ]
+  },
+  "752": {
+    "nome": "Araquanid",
+    "tipos": [
+      "water",
+      "bug"
+    ]
+  },
+  "753": {
+    "nome": "Fomantis",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "754": {
+    "nome": "Lurantis",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "755": {
+    "nome": "Morelull",
+    "tipos": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "756": {
+    "nome": "Shiinotic",
+    "tipos": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "757": {
+    "nome": "Salandit",
+    "tipos": [
+      "poison",
+      "fire"
+    ]
+  },
+  "758": {
+    "nome": "Salazzle",
+    "tipos": [
+      "poison",
+      "fire"
+    ]
+  },
+  "759": {
+    "nome": "Stufful",
+    "tipos": [
+      "normal",
+      "fight"
+    ]
+  },
+  "76": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0076-alola.png",
+        "nome": "Golem de Alola"
+      }
+    ],
+    "nome": "Golem",
+    "tipos": [
+      "rock",
+      "earth"
+    ]
+  },
+  "760": {
+    "nome": "Bewear",
+    "tipos": [
+      "normal",
+      "fight"
+    ]
+  },
+  "761": {
+    "nome": "Bounsweet",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "762": {
+    "nome": "Steenee",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "763": {
+    "nome": "Tsareena",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "764": {
+    "nome": "Comfey",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "765": {
+    "nome": "Oranguru",
+    "tipos": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "766": {
+    "nome": "Passimian",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "767": {
+    "nome": "Wimpod",
+    "tipos": [
+      "bug",
+      "water"
+    ]
+  },
+  "768": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0768-mega.png",
+        "nome": "Mega Golisopod"
+      }
+    ],
+    "nome": "Golisopod",
+    "tipos": [
+      "bug",
+      "water"
+    ]
+  },
+  "769": {
+    "nome": "Sandygast",
+    "tipos": [
+      "ghost",
+      "earth"
+    ]
+  },
+  "77": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0077-galar.png",
+        "nome": "Ponyta de Galar"
+      }
+    ],
+    "nome": "Ponyta",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "770": {
+    "nome": "Palossand",
+    "tipos": [
+      "ghost",
+      "earth"
+    ]
+  },
+  "771": {
+    "nome": "Pyukumuku",
+    "tipos": [
+      "water"
+    ]
+  },
+  "772": {
+    "nome": "Type: Null",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "773": {
+    "nome": "Silvally",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "774": {
+    "formas": [
+      {
+        "id": "red",
+        "imagem": "0774-red.png",
+        "nome": "Minior Vermelho"
+      }
+    ],
+    "nome": "Minior",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "775": {
+    "nome": "Komala",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "776": {
+    "nome": "Turtonator",
+    "tipos": [
+      "fire",
+      "dragon"
+    ]
+  },
+  "777": {
+    "nome": "Togedemaru",
+    "tipos": [
+      "electric",
+      "steel"
+    ]
+  },
+  "778": {
+    "formas": [
+      {
+        "id": "busted",
+        "imagem": "0778-busted.png",
+        "nome": "Mimikyu Quebrado"
+      }
+    ],
+    "nome": "Mimikyu",
+    "tipos": [
+      "ghost",
+      "fairy"
+    ]
+  },
+  "779": {
+    "nome": "Bruxish",
+    "tipos": [
+      "water",
+      "psychic"
+    ]
+  },
+  "78": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0078-galar.png",
+        "nome": "Rapidash de Galar"
+      }
+    ],
+    "nome": "Rapidash",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "780": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0780-mega.png",
+        "nome": "Mega Drampa"
+      }
+    ],
+    "nome": "Drampa",
+    "tipos": [
+      "normal",
+      "dragon"
+    ]
+  },
+  "781": {
+    "nome": "Dhelmise",
+    "tipos": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "782": {
+    "nome": "Jangmo-o",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "783": {
+    "nome": "Hakamo-o",
+    "tipos": [
+      "dragon",
+      "fight"
+    ]
+  },
+  "784": {
+    "nome": "Kommo-o",
+    "tipos": [
+      "dragon",
+      "fight"
+    ]
+  },
+  "785": {
+    "nome": "Tapu Koko",
+    "tipos": [
+      "electric",
+      "fairy"
+    ]
+  },
+  "786": {
+    "nome": "Tapu Lele",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "787": {
+    "nome": "Tapu Bulu",
+    "tipos": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "788": {
+    "nome": "Tapu Fini",
+    "tipos": [
+      "water",
+      "fairy"
+    ]
+  },
+  "789": {
+    "nome": "Cosmog",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "79": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0079-galar.png",
+        "nome": "Slowpoke de Galar"
+      }
+    ],
+    "nome": "Slowpoke",
+    "tipos": [
+      "water",
+      "psychic"
+    ]
+  },
+  "790": {
+    "nome": "Cosmoem",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "791": {
+    "nome": "Solgaleo",
+    "tipos": [
+      "psychic",
+      "steel"
+    ]
+  },
+  "792": {
+    "nome": "Lunala",
+    "tipos": [
+      "psychic",
+      "ghost"
+    ]
+  },
+  "793": {
+    "nome": "Nihilego",
+    "tipos": [
+      "rock",
+      "poison"
+    ]
+  },
+  "794": {
+    "nome": "Buzzwole",
+    "tipos": [
+      "bug",
+      "fight"
+    ]
+  },
+  "795": {
+    "nome": "Pheromosa",
+    "tipos": [
+      "bug",
+      "fight"
+    ]
+  },
+  "796": {
+    "nome": "Xurkitree",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "797": {
+    "nome": "Celesteela",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "798": {
+    "nome": "Kartana",
+    "tipos": [
+      "grass",
+      "steel"
+    ]
+  },
+  "799": {
+    "nome": "Guzzlord",
+    "tipos": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "8": {
+    "nome": "Wartortle",
+    "tipos": [
+      "water"
+    ]
+  },
+  "80": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0080-galar.png",
+        "nome": "Slowbro de Galar"
+      },
+      {
+        "id": "mega",
+        "imagem": "0080-mega.png",
+        "nome": "Mega Slowbro"
+      }
+    ],
+    "nome": "Slowbro",
+    "tipos": [
+      "water",
+      "psychic"
+    ]
+  },
+  "800": {
+    "formas": [
+      {
+        "id": "dawn",
+        "imagem": "0800-dawn.png",
+        "nome": "Necrozma Amanhecer"
+      },
+      {
+        "id": "dusk",
+        "imagem": "0800-dusk.png",
+        "nome": "Necrozma Crepúsculo"
+      },
+      {
+        "id": "ultra",
+        "imagem": "0800-ultra.png",
+        "nome": "Ultra Necrozma"
+      }
+    ],
+    "nome": "Necrozma",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "801": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0801-mega.png",
+        "nome": "Mega Magearna"
+      }
+    ],
+    "nome": "Magearna",
+    "tipos": [
+      "steel",
+      "fairy"
+    ]
+  },
+  "802": {
+    "nome": "Marshadow",
+    "tipos": [
+      "fight",
+      "ghost"
+    ]
+  },
+  "803": {
+    "nome": "Poipole",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "804": {
+    "nome": "Naganadel",
+    "tipos": [
+      "poison",
+      "dragon"
+    ]
+  },
+  "805": {
+    "nome": "Stakataka",
+    "tipos": [
+      "rock",
+      "steel"
+    ]
+  },
+  "806": {
+    "nome": "Blacephalon",
+    "tipos": [
+      "fire",
+      "ghost"
+    ]
+  },
+  "807": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0807-mega.png",
+        "nome": "Mega Zeraora"
+      }
+    ],
+    "nome": "Zeraora",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "808": {
+    "nome": "Meltan",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "809": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0809-giga.png",
+        "nome": "Melmetal Gigantamax"
+      }
+    ],
+    "nome": "Melmetal",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "81": {
+    "nome": "Magnemite",
+    "tipos": [
+      "electric",
+      "steel"
+    ]
+  },
+  "810": {
+    "nome": "Grookey",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "811": {
+    "nome": "Thwackey",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "812": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0812-giga.png",
+        "nome": "Rillaboom Gigantamax"
+      }
+    ],
+    "nome": "Rillaboom",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "813": {
+    "nome": "Scorbunny",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "814": {
+    "nome": "Raboot",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "815": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0815-giga.png",
+        "nome": "Cinderace Gigantamax"
+      }
+    ],
+    "nome": "Cinderace",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "816": {
+    "nome": "Sobble",
+    "tipos": [
+      "water"
+    ]
+  },
+  "817": {
+    "nome": "Drizzile",
+    "tipos": [
+      "water"
+    ]
+  },
+  "818": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0818-giga.png",
+        "nome": "Inteleon Gigantamax"
+      }
+    ],
+    "nome": "Inteleon",
+    "tipos": [
+      "water"
+    ]
+  },
+  "819": {
+    "nome": "Skwovet",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "82": {
+    "nome": "Magneton",
+    "tipos": [
+      "electric",
+      "steel"
+    ]
+  },
+  "820": {
+    "nome": "Greedent",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "821": {
+    "nome": "Rookidee",
+    "tipos": []
+  },
+  "822": {
+    "nome": "Corvisquire",
+    "tipos": []
+  },
+  "823": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0823-giga.png",
+        "nome": "Corviknight Gigantamax"
+      }
+    ],
+    "nome": "Corviknight",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "824": {
+    "nome": "Blipbug",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "825": {
+    "nome": "Dottler",
+    "tipos": [
+      "bug",
+      "psychic"
+    ]
+  },
+  "826": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0826-giga.png",
+        "nome": "Orbeetle Gigantamax"
+      }
+    ],
+    "nome": "Orbeetle",
+    "tipos": [
+      "bug",
+      "psychic"
+    ]
+  },
+  "827": {
+    "nome": "Nickit",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "828": {
+    "nome": "Thievul",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "829": {
+    "nome": "Gossifleur",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "83": {
+    "formas": [
+      {
+        "id": "galar",
+        "imagem": "0083-galar.png",
+        "nome": "Farfetch'd de Galar"
+      }
+    ],
+    "nome": "Farfetch'd",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "830": {
+    "nome": "Eldegoss",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "831": {
+    "nome": "Wooloo",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "832": {
+    "nome": "Dubwool",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "833": {
+    "nome": "Chewtle",
+    "tipos": [
+      "water"
+    ]
+  },
+  "834": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0834-giga.png",
+        "nome": "Drednaw Gigantamax"
+      }
+    ],
+    "nome": "Drednaw",
+    "tipos": [
+      "water",
+      "rock"
+    ]
+  },
+  "835": {
+    "nome": "Yamper",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "836": {
+    "nome": "Boltund",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "837": {
+    "nome": "Rolycoly",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "838": {
+    "nome": "Carkol",
+    "tipos": [
+      "rock",
+      "fire"
+    ]
+  },
+  "839": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0839-giga.png",
+        "nome": "Coalossal Gigantamax"
+      }
+    ],
+    "nome": "Coalossal",
+    "tipos": [
+      "rock",
+      "fire"
+    ]
+  },
+  "84": {
+    "nome": "Doduo",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "840": {
+    "nome": "Applin",
+    "tipos": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "841": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0841-giga.png",
+        "nome": "Flapple Gigantamax"
+      }
+    ],
+    "nome": "Flapple",
+    "tipos": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "842": {
+    "nome": "Appletun",
+    "tipos": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "843": {
+    "nome": "Silicobra",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "844": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0844-giga.png",
+        "nome": "Sandaconda Gigantamax"
+      }
+    ],
+    "nome": "Sandaconda",
+    "tipos": [
+      "earth"
+    ]
+  },
+  "845": {
+    "nome": "Cramorant",
+    "tipos": [
+      "water"
+    ]
+  },
+  "846": {
+    "nome": "Arrokuda",
+    "tipos": [
+      "water"
+    ]
+  },
+  "847": {
+    "nome": "Barraskewda",
+    "tipos": [
+      "water"
+    ]
+  },
+  "848": {
+    "nome": "Toxel",
+    "tipos": [
+      "electric",
+      "poison"
+    ]
+  },
+  "849": {
+    "formas": [
+      {
+        "id": "2",
+        "imagem": "0849-2.png",
+        "nome": "Toxtricity (2)"
+      },
+      {
+        "id": "lowkey",
+        "imagem": "0849-lowkey.png",
+        "nome": "Toxtricity Low Key"
+      }
+    ],
+    "nome": "Toxtricity",
+    "tipos": [
+      "electric",
+      "poison"
+    ]
+  },
+  "85": {
+    "nome": "Dodrio",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "850": {
+    "nome": "Sizzlipede",
+    "tipos": [
+      "fire",
+      "bug"
+    ]
+  },
+  "851": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0851-giga.png",
+        "nome": "Centiskorch Gigantamax"
+      }
+    ],
+    "nome": "Centiskorch",
+    "tipos": [
+      "fire",
+      "bug"
+    ]
+  },
+  "852": {
+    "nome": "Clobbopus",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "853": {
+    "nome": "Grapploct",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "854": {
+    "formas": [
+      {
+        "id": "a",
+        "imagem": "0854-a.png",
+        "nome": "Sinistea (a)"
+      }
+    ],
+    "nome": "Sinistea",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "855": {
+    "formas": [
+      {
+        "id": "a",
+        "imagem": "0855-a.png",
+        "nome": "Polteageist (a)"
+      }
+    ],
+    "nome": "Polteageist",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "856": {
+    "nome": "Hatenna",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "857": {
+    "nome": "Hattrem",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "858": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0858-giga.png",
+        "nome": "Hatterene Gigantamax"
+      }
+    ],
+    "nome": "Hatterene",
+    "tipos": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "859": {
+    "nome": "Impidimp",
+    "tipos": [
+      "dark",
+      "fairy"
+    ]
+  },
+  "86": {
+    "nome": "Seel",
+    "tipos": [
+      "water"
+    ]
+  },
+  "860": {
+    "nome": "Morgrem",
+    "tipos": [
+      "dark",
+      "fairy"
+    ]
+  },
+  "861": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0861-giga.png",
+        "nome": "Grimmsnarl Gigantamax"
+      }
+    ],
+    "nome": "Grimmsnarl",
+    "tipos": [
+      "dark",
+      "fairy"
+    ]
+  },
+  "862": {
+    "nome": "Obstagoon",
+    "tipos": [
+      "dark",
+      "normal"
+    ]
+  },
+  "863": {
+    "nome": "Perrserker",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "864": {
+    "nome": "Cursola",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "865": {
+    "nome": "Sirfetchd",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "866": {
+    "nome": "Mr.Rime",
+    "tipos": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "867": {
+    "nome": "Runerigus",
+    "tipos": [
+      "earth",
+      "ghost"
+    ]
+  },
+  "868": {
+    "nome": "Milcery",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "869": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0869-giga.png",
+        "nome": "Alcremie Gigantamax"
+      }
+    ],
+    "nome": "Alcremie",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "87": {
+    "nome": "Dewgong",
+    "tipos": [
+      "water",
+      "ice"
+    ]
+  },
+  "870": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0870-mega.png",
+        "nome": "Mega Falinks"
+      }
+    ],
+    "nome": "Falinks",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "871": {
+    "nome": "Pincurchin",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "872": {
+    "nome": "Snom",
+    "tipos": [
+      "ice",
+      "bug"
+    ]
+  },
+  "873": {
+    "nome": "Frosmoth",
+    "tipos": [
+      "ice",
+      "bug"
+    ]
+  },
+  "874": {
+    "nome": "Stonjourner",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "875": {
+    "formas": [
+      {
+        "id": "noice",
+        "imagem": "0875-noice.png",
+        "nome": "Eiscue Noice"
+      }
+    ],
+    "nome": "Eiscue",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "876": {
+    "formas": [
+      {
+        "id": "f",
+        "imagem": "0876-f.png",
+        "nome": "Indeedee (f)"
+      }
+    ],
+    "nome": "Indeedee",
+    "tipos": [
+      "psychic",
+      "normal"
+    ]
+  },
+  "877": {
+    "formas": [
+      {
+        "id": "h",
+        "imagem": "0877-h.png",
+        "nome": "Morpeko (h)"
+      }
+    ],
+    "nome": "Morpeko",
+    "tipos": [
+      "electric",
+      "dark"
+    ]
+  },
+  "878": {
+    "nome": "Cufant",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "879": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0879-giga.png",
+        "nome": "Copperajah Gigantamax"
+      }
+    ],
+    "nome": "Copperajah",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "88": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0088-alola.png",
+        "nome": "Grimer de Alola"
+      }
+    ],
+    "nome": "Grimer",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "880": {
+    "nome": "Dracozolt",
+    "tipos": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "881": {
+    "nome": "Arctozolt",
+    "tipos": [
+      "electric",
+      "ice"
+    ]
+  },
+  "882": {
+    "nome": "Dracovish",
+    "tipos": [
+      "water",
+      "dragon"
+    ]
+  },
+  "883": {
+    "nome": "Arctovish",
+    "tipos": [
+      "water",
+      "ice"
+    ]
+  },
+  "884": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0884-giga.png",
+        "nome": "Duraludon Gigantamax"
+      }
+    ],
+    "nome": "Duraludon",
+    "tipos": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "885": {
+    "nome": "Dreepy",
+    "tipos": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "886": {
+    "nome": "Drakloak",
+    "tipos": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "887": {
+    "nome": "Dragapult",
+    "tipos": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "888": {
+    "formas": [
+      {
+        "id": "crowned",
+        "imagem": "0888-crowned.png",
+        "nome": "Zacian Coroado"
+      }
+    ],
+    "nome": "Zacian",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "889": {
+    "formas": [
+      {
+        "id": "crowned",
+        "imagem": "0889-crowned.png",
+        "nome": "Zamazenta Coroado"
+      }
+    ],
+    "nome": "Zamazenta",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "89": {
+    "formas": [
+      {
+        "id": "alola",
+        "imagem": "0089-alola.png",
+        "nome": "Muk de Alola"
+      }
+    ],
+    "nome": "Muk",
+    "tipos": [
+      "poison"
+    ]
+  },
+  "890": {
+    "formas": [
+      {
+        "id": "max",
+        "imagem": "0890-max.png",
+        "nome": "Eternatus Máximo"
+      }
+    ],
+    "nome": "Eternatus",
+    "tipos": [
+      "poison",
+      "dragon"
+    ]
+  },
+  "891": {
+    "nome": "Kubfu",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "892": {
+    "formas": [
+      {
+        "id": "giga-rapid",
+        "imagem": "0892-giga-rapid.png",
+        "nome": "Urshifu Gigantamax Rápido"
+      },
+      {
+        "id": "giga-single",
+        "imagem": "0892-giga-single.png",
+        "nome": "Urshifu Gigantamax Singular"
+      },
+      {
+        "id": "rapid",
+        "imagem": "0892-rapid.png",
+        "nome": "Urshifu Rápido"
+      }
+    ],
+    "nome": "Urshifu",
+    "tipos": [
+      "fight",
+      "dark"
+    ]
+  },
+  "893": {
+    "nome": "Zarude",
+    "tipos": [
+      "dark",
+      "grass"
+    ]
+  },
+  "894": {
+    "nome": "Regieleki",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "895": {
+    "nome": "Regidrago",
+    "tipos": [
+      "dragon"
+    ]
+  },
+  "896": {
+    "nome": "Glastrier",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "897": {
+    "nome": "Spectrier",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "898": {
+    "formas": [
+      {
+        "id": "ice",
+        "imagem": "0898-ice.png",
+        "nome": "Calyrex de Gelo"
+      },
+      {
+        "id": "shadow",
+        "imagem": "0898-shadow.png",
+        "nome": "Calyrex Sombra"
+      }
+    ],
+    "nome": "Calyrex",
+    "tipos": [
+      "psychic",
+      "grass"
+    ]
+  },
+  "899": {
+    "nome": "Wyrdeer",
+    "tipos": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "9": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0009-giga.png",
+        "nome": "Blastoise Gigantamax"
+      },
+      {
+        "id": "mega",
+        "imagem": "0009-mega.png",
+        "nome": "Mega Blastoise"
+      }
+    ],
+    "nome": "Blastoise",
+    "tipos": [
+      "water"
+    ]
+  },
+  "90": {
+    "nome": "Shellder",
+    "tipos": [
+      "water"
+    ]
+  },
+  "900": {
+    "nome": "Kleavor",
+    "tipos": [
+      "bug",
+      "rock"
+    ]
+  },
+  "901": {
+    "formas": [
+      {
+        "id": "blood",
+        "imagem": "0901-blood.png",
+        "nome": "Ursaluna de Sangue"
+      }
+    ],
+    "nome": "Ursaluna",
+    "tipos": [
+      "earth",
+      "normal"
+    ]
+  },
+  "902": {
+    "formas": [
+      {
+        "id": "f",
+        "imagem": "0902-f.png",
+        "nome": "Basculegion (f)"
+      }
+    ],
+    "nome": "Basculegion",
+    "tipos": [
+      "water",
+      "ghost"
+    ]
+  },
+  "903": {
+    "nome": "Sneasler",
+    "tipos": [
+      "fight",
+      "poison"
+    ]
+  },
+  "904": {
+    "nome": "Overqwil",
+    "tipos": [
+      "dark",
+      "poison"
+    ]
+  },
+  "905": {
+    "formas": [
+      {
+        "id": "therian",
+        "imagem": "0905-therian.png",
+        "nome": "Enamorus Terian"
+      }
+    ],
+    "nome": "Enamorus",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "906": {
+    "nome": "Sprigatito",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "907": {
+    "nome": "Floragato",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "908": {
+    "nome": "Meowscarada",
+    "tipos": [
+      "grass",
+      "dark"
+    ]
+  },
+  "909": {
+    "nome": "Fuecoco",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "91": {
+    "nome": "Cloyster",
+    "tipos": [
+      "water",
+      "ice"
+    ]
+  },
+  "910": {
+    "nome": "Crocalor",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "911": {
+    "nome": "Skeledirge",
+    "tipos": [
+      "fire",
+      "ghost"
+    ]
+  },
+  "912": {
+    "nome": "Quaxly",
+    "tipos": [
+      "water"
+    ]
+  },
+  "913": {
+    "nome": "Quaxwell",
+    "tipos": [
+      "water"
+    ]
+  },
+  "914": {
+    "nome": "Quaquaval",
+    "tipos": [
+      "water",
+      "fight"
+    ]
+  },
+  "915": {
+    "nome": "Lechonk",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "916": {
+    "formas": [
+      {
+        "id": "f",
+        "imagem": "0916-f.png",
+        "nome": "Oinkologne (f)"
+      }
+    ],
+    "nome": "Oinkologne",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "917": {
+    "nome": "Tarountula",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "918": {
+    "nome": "Spidops",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "919": {
+    "nome": "Nymble",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "92": {
+    "nome": "Gastly",
+    "tipos": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "920": {
+    "nome": "Lokix",
+    "tipos": [
+      "bug",
+      "dark"
+    ]
+  },
+  "921": {
+    "nome": "Pawmi",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "922": {
+    "nome": "Pawmo",
+    "tipos": [
+      "electric",
+      "fight"
+    ]
+  },
+  "923": {
+    "nome": "Pawmot",
+    "tipos": [
+      "electric",
+      "fight"
+    ]
+  },
+  "924": {
+    "nome": "Tandemaus",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "925": {
+    "formas": [
+      {
+        "id": "f4",
+        "imagem": "0925-f4.png",
+        "nome": "Maushold (f4)"
+      }
+    ],
+    "nome": "Maushold",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "926": {
+    "nome": "Fidough",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "927": {
+    "nome": "Dachsbun",
+    "tipos": [
+      "fairy"
+    ]
+  },
+  "928": {
+    "nome": "Smoliv",
+    "tipos": [
+      "grass",
+      "normal"
+    ]
+  },
+  "929": {
+    "nome": "Dolliv",
+    "tipos": [
+      "grass",
+      "normal"
+    ]
+  },
+  "93": {
+    "nome": "Haunter",
+    "tipos": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "930": {
+    "nome": "Arboliva",
+    "tipos": [
+      "grass",
+      "normal"
+    ]
+  },
+  "931": {
+    "formas": [
+      {
+        "id": "b",
+        "imagem": "0931-b.png",
+        "nome": "Squawkabilly (b)"
+      },
+      {
+        "id": "w",
+        "imagem": "0931-w.png",
+        "nome": "Squawkabilly (w)"
+      },
+      {
+        "id": "y",
+        "imagem": "0931-y.png",
+        "nome": "Squawkabilly (y)"
+      }
+    ],
+    "nome": "Squawkabilly",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "932": {
+    "nome": "Nacli",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "933": {
+    "nome": "Naclstack",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "934": {
+    "nome": "Garganacl",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "935": {
+    "nome": "Charcadet",
+    "tipos": [
+      "fire"
+    ]
+  },
+  "936": {
+    "nome": "Armarouge",
+    "tipos": [
+      "fire",
+      "psychic"
+    ]
+  },
+  "937": {
+    "nome": "Ceruledge",
+    "tipos": [
+      "fire",
+      "ghost"
+    ]
+  },
+  "938": {
+    "nome": "Tadbulb",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "939": {
+    "nome": "Bellibolt",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "94": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0094-giga.png",
+        "nome": "Gengar Gigantamax"
+      },
+      {
+        "id": "mega",
+        "imagem": "0094-mega.png",
+        "nome": "Mega Gengar"
+      }
+    ],
+    "nome": "Gengar",
+    "tipos": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "940": {
+    "nome": "Wattrel",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "941": {
+    "nome": "Kilowattrel",
+    "tipos": [
+      "electric"
+    ]
+  },
+  "942": {
+    "nome": "Maschiff",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "943": {
+    "nome": "Mabosstiff",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "944": {
+    "nome": "Shroodle",
+    "tipos": [
+      "poison",
+      "normal"
+    ]
+  },
+  "945": {
+    "nome": "Grafaiai",
+    "tipos": [
+      "poison",
+      "normal"
+    ]
+  },
+  "946": {
+    "nome": "Bramblin",
+    "tipos": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "947": {
+    "nome": "Brambleghast",
+    "tipos": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "948": {
+    "nome": "Toedscool",
+    "tipos": [
+      "earth",
+      "grass"
+    ]
+  },
+  "949": {
+    "nome": "Toedscruel",
+    "tipos": [
+      "earth",
+      "grass"
+    ]
+  },
+  "95": {
+    "nome": "Onix",
+    "tipos": [
+      "rock",
+      "earth"
+    ]
+  },
+  "950": {
+    "nome": "Klawf",
+    "tipos": [
+      "rock"
+    ]
+  },
+  "951": {
+    "nome": "Capsakid",
+    "tipos": [
+      "grass"
+    ]
+  },
+  "952": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0952-mega.png",
+        "nome": "Mega Scovillain"
+      }
+    ],
+    "nome": "Scovillain",
+    "tipos": [
+      "grass",
+      "fire"
+    ]
+  },
+  "953": {
+    "nome": "Rellor",
+    "tipos": [
+      "bug"
+    ]
+  },
+  "954": {
+    "nome": "Rabsca",
+    "tipos": [
+      "bug",
+      "psychic"
+    ]
+  },
+  "955": {
+    "nome": "Flittle",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "956": {
+    "nome": "Espathra",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "957": {
+    "nome": "Tinkatink",
+    "tipos": [
+      "fairy",
+      "steel"
+    ]
+  },
+  "958": {
+    "nome": "Tinkatuff",
+    "tipos": [
+      "fairy",
+      "steel"
+    ]
+  },
+  "959": {
+    "nome": "Tinkaton",
+    "tipos": [
+      "fairy",
+      "steel"
+    ]
+  },
+  "96": {
+    "nome": "Drowzee",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "960": {
+    "nome": "Wiglett",
+    "tipos": [
+      "water"
+    ]
+  },
+  "961": {
+    "nome": "Wugtrio",
+    "tipos": [
+      "water"
+    ]
+  },
+  "962": {
+    "nome": "Bombirdier",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "963": {
+    "nome": "Finizen",
+    "tipos": [
+      "water"
+    ]
+  },
+  "964": {
+    "nome": "Palafin",
+    "tipos": [
+      "water"
+    ]
+  },
+  "965": {
+    "nome": "Varoom",
+    "tipos": [
+      "steel",
+      "poison"
+    ]
+  },
+  "966": {
+    "nome": "Revavroom",
+    "tipos": [
+      "steel",
+      "poison"
+    ]
+  },
+  "967": {
+    "nome": "Cyclizar",
+    "tipos": [
+      "dragon",
+      "normal"
+    ]
+  },
+  "968": {
+    "nome": "Orthworm",
+    "tipos": [
+      "steel"
+    ]
+  },
+  "969": {
+    "nome": "Glimmet",
+    "tipos": [
+      "rock",
+      "poison"
+    ]
+  },
+  "97": {
+    "nome": "Hypno",
+    "tipos": [
+      "psychic"
+    ]
+  },
+  "970": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0970-mega.png",
+        "nome": "Mega Glimmora"
+      }
+    ],
+    "nome": "Glimmora",
+    "tipos": [
+      "rock",
+      "poison"
+    ]
+  },
+  "971": {
+    "nome": "Greavard",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "972": {
+    "nome": "Houndstone",
+    "tipos": [
+      "ghost"
+    ]
+  },
+  "973": {
+    "nome": "Flamigo",
+    "tipos": [
+      "fight"
+    ]
+  },
+  "974": {
+    "nome": "Cetoddle",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "975": {
+    "nome": "Cetitan",
+    "tipos": [
+      "ice"
+    ]
+  },
+  "976": {
+    "nome": "Veluza",
+    "tipos": [
+      "water",
+      "psychic"
+    ]
+  },
+  "977": {
+    "nome": "Dondozo",
+    "tipos": [
+      "water"
+    ]
+  },
+  "978": {
+    "formas": [
+      {
+        "id": "d",
+        "imagem": "0978-d.png",
+        "nome": "Tatsugiri (d)"
+      },
+      {
+        "id": "mega",
+        "imagem": "0978-mega.png",
+        "nome": "Mega Tatsugiri"
+      },
+      {
+        "id": "s",
+        "imagem": "0978-s.png",
+        "nome": "Tatsugiri (s)"
+      }
+    ],
+    "nome": "Tatsugiri",
+    "tipos": [
+      "dragon",
+      "water"
+    ]
+  },
+  "979": {
+    "nome": "Annihilape",
+    "tipos": [
+      "fight",
+      "ghost"
+    ]
+  },
+  "98": {
+    "nome": "Krabby",
+    "tipos": [
+      "water"
+    ]
+  },
+  "980": {
+    "nome": "Clodsire",
+    "tipos": [
+      "poison",
+      "earth"
+    ]
+  },
+  "981": {
+    "nome": "Farigiraf",
+    "tipos": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "982": {
+    "nome": "Dudunsparce",
+    "tipos": [
+      "normal"
+    ]
+  },
+  "983": {
+    "nome": "Kingambit",
+    "tipos": [
+      "dark",
+      "steel"
+    ]
+  },
+  "984": {
+    "nome": "Great Tusk",
+    "tipos": [
+      "earth",
+      "fight"
+    ]
+  },
+  "985": {
+    "nome": "Scream Tail",
+    "tipos": [
+      "fairy",
+      "psychic"
+    ]
+  },
+  "986": {
+    "nome": "Brute Bonnet",
+    "tipos": [
+      "grass",
+      "dark"
+    ]
+  },
+  "987": {
+    "nome": "Flutter Mane",
+    "tipos": [
+      "ghost",
+      "fairy"
+    ]
+  },
+  "988": {
+    "nome": "Slither Wing",
+    "tipos": [
+      "bug",
+      "fight"
+    ]
+  },
+  "989": {
+    "nome": "Sandy Shocks",
+    "tipos": [
+      "electric",
+      "earth"
+    ]
+  },
+  "99": {
+    "formas": [
+      {
+        "id": "giga",
+        "imagem": "0099-giga.png",
+        "nome": "Kingler Gigantamax"
+      }
+    ],
+    "nome": "Kingler",
+    "tipos": [
+      "water"
+    ]
+  },
+  "990": {
+    "nome": "Iron Treads",
+    "tipos": [
+      "earth",
+      "steel"
+    ]
+  },
+  "991": {
+    "nome": "Iron Bundle",
+    "tipos": [
+      "ice",
+      "water"
+    ]
+  },
+  "992": {
+    "nome": "Iron Hands",
+    "tipos": [
+      "fight",
+      "electric"
+    ]
+  },
+  "993": {
+    "nome": "Iron Jugulis",
+    "tipos": [
+      "dark"
+    ]
+  },
+  "994": {
+    "nome": "Iron Moth",
+    "tipos": [
+      "fire",
+      "poison"
+    ]
+  },
+  "995": {
+    "nome": "Iron Thorns",
+    "tipos": [
+      "rock",
+      "electric"
+    ]
+  },
+  "996": {
+    "nome": "Frigibax",
+    "tipos": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "997": {
+    "nome": "Arctibax",
+    "tipos": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "998": {
+    "formas": [
+      {
+        "id": "mega",
+        "imagem": "0998-mega.png",
+        "nome": "Mega Baxcalibur"
+      }
+    ],
+    "nome": "Baxcalibur",
+    "tipos": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "999": {
+    "formas": [
+      {
+        "id": "r",
+        "imagem": "0999-r.png",
+        "nome": "Gimmighoul (r)"
+      }
+    ],
+    "nome": "Gimmighoul",
+    "tipos": [
+      "ghost"
+    ]
+  }
+}
