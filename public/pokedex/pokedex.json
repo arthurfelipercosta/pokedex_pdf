@@ -17,7 +17,11 @@
       {
         "id": "hisui",
         "imagem": "0100-hisui.png",
-        "nome": "Voltorb de Hisui"
+        "nome": "Voltorb de Hisui",
+        "tipos": [
+          "electric",
+          "grass"
+        ]
       }
     ],
     "nome": "Voltorb",
@@ -100,7 +104,11 @@
       {
         "id": "hisui",
         "imagem": "0101-hisui.png",
-        "nome": "Electrode de Hisui"
+        "nome": "Electrode de Hisui",
+        "tipos": [
+          "electric",
+          "grass"
+        ]
       }
     ],
     "nome": "Electrode",
@@ -162,17 +170,29 @@
       {
         "id": "c",
         "imagem": "1017-c.png",
-        "nome": "Ogerpon (c)"
+        "nome": "Ogerpon (c)",
+        "tipos": [
+          "grass",
+          "rock"
+        ]
       },
       {
         "id": "h",
         "imagem": "1017-h.png",
-        "nome": "Ogerpon (h)"
+        "nome": "Ogerpon (h)",
+        "tipos": [
+          "grass",
+          "fire"
+        ]
       },
       {
         "id": "w",
         "imagem": "1017-w.png",
-        "nome": "Ogerpon (w)"
+        "nome": "Ogerpon (w)",
+        "tipos": [
+          "grass",
+          "water"
+        ]
       }
     ],
     "nome": "Ogerpon",
@@ -234,12 +254,18 @@
       {
         "id": "stellar",
         "imagem": "1024-stellar.png",
-        "nome": "Terapagos Estelar"
+        "nome": "Terapagos Estelar",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "tera",
         "imagem": "1024-tera.png",
-        "nome": "Terapagos Tera"
+        "nome": "Terapagos Tera",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Terapagos",
@@ -279,7 +305,11 @@
       {
         "id": "alola",
         "imagem": "0105-alola.png",
-        "nome": "Marowak de Alola"
+        "nome": "Marowak de Alola",
+        "tipos": [
+          "fire",
+          "ghost"
+        ]
       }
     ],
     "nome": "Marowak",
@@ -322,7 +352,11 @@
       {
         "id": "galar",
         "imagem": "0110-galar.png",
-        "nome": "Weezing de Galar"
+        "nome": "Weezing de Galar",
+        "tipos": [
+          "poison",
+          "fairy"
+        ]
       }
     ],
     "nome": "Weezing",
@@ -361,7 +395,10 @@
       {
         "id": "mega",
         "imagem": "0115-mega.png",
-        "nome": "Mega Kangaskhan"
+        "nome": "Mega Kangaskhan",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Kangaskhan",
@@ -398,12 +435,17 @@
       {
         "id": "giga",
         "imagem": "0012-giga.png",
-        "nome": "Butterfree Gigantamax"
+        "nome": "Butterfree Gigantamax",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       }
     ],
     "nome": "Butterfree",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "120": {
@@ -417,7 +459,11 @@
       {
         "id": "mega",
         "imagem": "0121-mega.png",
-        "nome": "Mega Starmie"
+        "nome": "Mega Starmie",
+        "tipos": [
+          "water",
+          "psychic"
+        ]
       }
     ],
     "nome": "Starmie",
@@ -431,7 +477,11 @@
       {
         "id": "galar",
         "imagem": "0122-galar.png",
-        "nome": "Mr.Mime de Galar"
+        "nome": "Mr.Mime de Galar",
+        "tipos": [
+          "ice",
+          "psychic"
+        ]
       }
     ],
     "nome": "Mr.Mime",
@@ -443,7 +493,8 @@
   "123": {
     "nome": "Scyther",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "124": {
@@ -470,7 +521,11 @@
       {
         "id": "mega",
         "imagem": "0127-mega.png",
-        "nome": "Mega Pinsir"
+        "nome": "Mega Pinsir",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       }
     ],
     "nome": "Pinsir",
@@ -483,17 +538,28 @@
       {
         "id": "paldea-aqua",
         "imagem": "0128-paldea-aqua.png",
-        "nome": "Tauros de Paldea (Água)"
+        "nome": "Tauros de Paldea (Água)",
+        "tipos": [
+          "fight",
+          "water"
+        ]
       },
       {
         "id": "paldea-blaze",
         "imagem": "0128-paldea-blaze.png",
-        "nome": "Tauros de Paldea (Chama)"
+        "nome": "Tauros de Paldea (Chama)",
+        "tipos": [
+          "fight",
+          "fire"
+        ]
       },
       {
         "id": "paldea-combat",
         "imagem": "0128-paldea-combat.png",
-        "nome": "Tauros de Paldea (Combate)"
+        "nome": "Tauros de Paldea (Combate)",
+        "tipos": [
+          "fight"
+        ]
       }
     ],
     "nome": "Tauros",
@@ -519,12 +585,17 @@
       {
         "id": "mega",
         "imagem": "0130-mega.png",
-        "nome": "Mega Gyarados"
+        "nome": "Mega Gyarados",
+        "tipos": [
+          "water",
+          "dark"
+        ]
       }
     ],
     "nome": "Gyarados",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "131": {
@@ -532,7 +603,11 @@
       {
         "id": "giga",
         "imagem": "0131-giga.png",
-        "nome": "Lapras Gigantamax"
+        "nome": "Lapras Gigantamax",
+        "tipos": [
+          "water",
+          "ice"
+        ]
       }
     ],
     "nome": "Lapras",
@@ -552,7 +627,10 @@
       {
         "id": "giga",
         "imagem": "0133-giga.png",
-        "nome": "Eevee Gigantamax"
+        "nome": "Eevee Gigantamax",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Eevee",
@@ -624,12 +702,17 @@
       {
         "id": "mega",
         "imagem": "0142-mega.png",
-        "nome": "Mega Aerodactyl"
+        "nome": "Mega Aerodactyl",
+        "tipos": [
+          "rock",
+          "flying"
+        ]
       }
     ],
     "nome": "Aerodactyl",
     "tipos": [
-      "rock"
+      "rock",
+      "flying"
     ]
   },
   "143": {
@@ -637,7 +720,10 @@
       {
         "id": "giga",
         "imagem": "0143-giga.png",
-        "nome": "Snorlax Gigantamax"
+        "nome": "Snorlax Gigantamax",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Snorlax",
@@ -650,12 +736,17 @@
       {
         "id": "galar",
         "imagem": "0144-galar.png",
-        "nome": "Articuno de Galar"
+        "nome": "Articuno de Galar",
+        "tipos": [
+          "psychic",
+          "flying"
+        ]
       }
     ],
     "nome": "Articuno",
     "tipos": [
-      "ice"
+      "ice",
+      "flying"
     ]
   },
   "145": {
@@ -663,12 +754,17 @@
       {
         "id": "galar",
         "imagem": "0145-galar.png",
-        "nome": "Zapdos de Galar"
+        "nome": "Zapdos de Galar",
+        "tipos": [
+          "fight",
+          "flying"
+        ]
       }
     ],
     "nome": "Zapdos",
     "tipos": [
-      "electric"
+      "electric",
+      "flying"
     ]
   },
   "146": {
@@ -676,12 +772,17 @@
       {
         "id": "galar",
         "imagem": "0146-galar.png",
-        "nome": "Moltres de Galar"
+        "nome": "Moltres de Galar",
+        "tipos": [
+          "dark",
+          "flying"
+        ]
       }
     ],
     "nome": "Moltres",
     "tipos": [
-      "fire"
+      "fire",
+      "flying"
     ]
   },
   "147": {
@@ -701,12 +802,17 @@
       {
         "id": "mega",
         "imagem": "0149-mega.png",
-        "nome": "Mega Dragonite"
+        "nome": "Mega Dragonite",
+        "tipos": [
+          "dragon",
+          "flying"
+        ]
       }
     ],
     "nome": "Dragonite",
     "tipos": [
-      "dragon"
+      "dragon",
+      "flying"
     ]
   },
   "15": {
@@ -714,7 +820,11 @@
       {
         "id": "mega",
         "imagem": "0015-mega.png",
-        "nome": "Mega Beedrill"
+        "nome": "Mega Beedrill",
+        "tipos": [
+          "bug",
+          "poison"
+        ]
       }
     ],
     "nome": "Beedrill",
@@ -728,12 +838,19 @@
       {
         "id": "megax",
         "imagem": "0150-megax.png",
-        "nome": "Mega Mewtwo X"
+        "nome": "Mega Mewtwo X",
+        "tipos": [
+          "psychic",
+          "fight"
+        ]
       },
       {
         "id": "megay",
         "imagem": "0150-megay.png",
-        "nome": "Mega Mewtwo Y"
+        "nome": "Mega Mewtwo Y",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Mewtwo",
@@ -764,7 +881,11 @@
       {
         "id": "mega",
         "imagem": "0154-mega.png",
-        "nome": "Mega Meganium"
+        "nome": "Mega Meganium",
+        "tipos": [
+          "grass",
+          "fairy"
+        ]
       }
     ],
     "nome": "Meganium",
@@ -789,7 +910,11 @@
       {
         "id": "hisui",
         "imagem": "0157-hisui.png",
-        "nome": "Typhlosion de Hisui"
+        "nome": "Typhlosion de Hisui",
+        "tipos": [
+          "fire",
+          "ghost"
+        ]
       }
     ],
     "nome": "Typhlosion",
@@ -812,7 +937,8 @@
   "16": {
     "nome": "Pidgey",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "160": {
@@ -820,7 +946,11 @@
       {
         "id": "mega",
         "imagem": "0160-mega.png",
-        "nome": "Mega Feraligatr"
+        "nome": "Mega Feraligatr",
+        "tipos": [
+          "water",
+          "dragon"
+        ]
       }
     ],
     "nome": "Feraligatr",
@@ -843,25 +973,29 @@
   "163": {
     "nome": "Hoothoot",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "164": {
     "nome": "Noctowl",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "165": {
     "nome": "Ledyba",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "166": {
     "nome": "Ledian",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "167": {
@@ -881,13 +1015,15 @@
   "169": {
     "nome": "Crobat",
     "tipos": [
-      "poison"
+      "poison",
+      "flying"
     ]
   },
   "17": {
     "nome": "Pidgeotto",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "170": {
@@ -932,19 +1068,22 @@
   "176": {
     "nome": "Togetic",
     "tipos": [
-      "fairy"
+      "fairy",
+      "flying"
     ]
   },
   "177": {
     "nome": "Natu",
     "tipos": [
-      "psychic"
+      "psychic",
+      "flying"
     ]
   },
   "178": {
     "nome": "Xatu",
     "tipos": [
-      "psychic"
+      "psychic",
+      "flying"
     ]
   },
   "179": {
@@ -958,12 +1097,17 @@
       {
         "id": "mega",
         "imagem": "0018-mega.png",
-        "nome": "Mega Pidgeot"
+        "nome": "Mega Pidgeot",
+        "tipos": [
+          "normal",
+          "flying"
+        ]
       }
     ],
     "nome": "Pidgeot",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "180": {
@@ -977,7 +1121,11 @@
       {
         "id": "mega",
         "imagem": "0181-mega.png",
-        "nome": "Mega Ampharos"
+        "nome": "Mega Ampharos",
+        "tipos": [
+          "electric",
+          "dragon"
+        ]
       }
     ],
     "nome": "Ampharos",
@@ -1020,19 +1168,22 @@
   "187": {
     "nome": "Hoppip",
     "tipos": [
-      "grass"
+      "grass",
+      "flying"
     ]
   },
   "188": {
     "nome": "Skiploom",
     "tipos": [
-      "grass"
+      "grass",
+      "flying"
     ]
   },
   "189": {
     "nome": "Jumpluff",
     "tipos": [
-      "grass"
+      "grass",
+      "flying"
     ]
   },
   "19": {
@@ -1040,7 +1191,11 @@
       {
         "id": "alola",
         "imagem": "0019-alola.png",
-        "nome": "Rattata de Alola"
+        "nome": "Rattata de Alola",
+        "tipos": [
+          "dark",
+          "normal"
+        ]
       }
     ],
     "nome": "Rattata",
@@ -1069,7 +1224,8 @@
   "193": {
     "nome": "Yanma",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "194": {
@@ -1077,7 +1233,11 @@
       {
         "id": "paldea",
         "imagem": "0194-paldea.png",
-        "nome": "Wooper de Paldea"
+        "nome": "Wooper de Paldea",
+        "tipos": [
+          "poison",
+          "earth"
+        ]
       }
     ],
     "nome": "Wooper",
@@ -1108,7 +1268,8 @@
   "198": {
     "nome": "Murkrow",
     "tipos": [
-      "dark"
+      "dark",
+      "flying"
     ]
   },
   "199": {
@@ -1116,7 +1277,11 @@
       {
         "id": "galar",
         "imagem": "0199-galar.png",
-        "nome": "Slowking de Galar"
+        "nome": "Slowking de Galar",
+        "tipos": [
+          "poison",
+          "psychic"
+        ]
       }
     ],
     "nome": "Slowking",
@@ -1137,7 +1302,11 @@
       {
         "id": "alola",
         "imagem": "0020-alola.png",
-        "nome": "Raticate de Alola"
+        "nome": "Raticate de Alola",
+        "tipos": [
+          "dark",
+          "normal"
+        ]
       }
     ],
     "nome": "Raticate",
@@ -1156,142 +1325,226 @@
       {
         "id": "!!",
         "imagem": "0201-!!.png",
-        "nome": "Unown (!!)"
+        "nome": "Unown (!!)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "!",
         "imagem": "0201-!.png",
-        "nome": "Unown (!)"
+        "nome": "Unown (!)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "a",
         "imagem": "0201-a.png",
-        "nome": "Unown (a)"
+        "nome": "Unown (a)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "b",
         "imagem": "0201-b.png",
-        "nome": "Unown (b)"
+        "nome": "Unown (b)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "c",
         "imagem": "0201-c.png",
-        "nome": "Unown (c)"
+        "nome": "Unown (c)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "d",
         "imagem": "0201-d.png",
-        "nome": "Unown (d)"
+        "nome": "Unown (d)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "e",
         "imagem": "0201-e.png",
-        "nome": "Unown (e)"
+        "nome": "Unown (e)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "f",
         "imagem": "0201-f.png",
-        "nome": "Unown (f)"
+        "nome": "Unown (f)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "g",
         "imagem": "0201-g.png",
-        "nome": "Unown (g)"
+        "nome": "Unown (g)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "h",
         "imagem": "0201-h.png",
-        "nome": "Unown (h)"
+        "nome": "Unown (h)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "i",
         "imagem": "0201-i.png",
-        "nome": "Unown (i)"
+        "nome": "Unown (i)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "j",
         "imagem": "0201-j.png",
-        "nome": "Unown (j)"
+        "nome": "Unown (j)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "k",
         "imagem": "0201-k.png",
-        "nome": "Unown (k)"
+        "nome": "Unown (k)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "l",
         "imagem": "0201-l.png",
-        "nome": "Unown (l)"
+        "nome": "Unown (l)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "m",
         "imagem": "0201-m.png",
-        "nome": "Unown (m)"
+        "nome": "Unown (m)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "n",
         "imagem": "0201-n.png",
-        "nome": "Unown (n)"
+        "nome": "Unown (n)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "o",
         "imagem": "0201-o.png",
-        "nome": "Unown (o)"
+        "nome": "Unown (o)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "p",
         "imagem": "0201-p.png",
-        "nome": "Unown (p)"
+        "nome": "Unown (p)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "q",
         "imagem": "0201-q.png",
-        "nome": "Unown (q)"
+        "nome": "Unown (q)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "r",
         "imagem": "0201-r.png",
-        "nome": "Unown (r)"
+        "nome": "Unown (r)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "s",
         "imagem": "0201-s.png",
-        "nome": "Unown (s)"
+        "nome": "Unown (s)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "t",
         "imagem": "0201-t.png",
-        "nome": "Unown (t)"
+        "nome": "Unown (t)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "u",
         "imagem": "0201-u.png",
-        "nome": "Unown (u)"
+        "nome": "Unown (u)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "v",
         "imagem": "0201-v.png",
-        "nome": "Unown (v)"
+        "nome": "Unown (v)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "w",
         "imagem": "0201-w.png",
-        "nome": "Unown (w)"
+        "nome": "Unown (w)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "x",
         "imagem": "0201-x.png",
-        "nome": "Unown (x)"
+        "nome": "Unown (x)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "y",
         "imagem": "0201-y.png",
-        "nome": "Unown (y)"
+        "nome": "Unown (y)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "z",
         "imagem": "0201-z.png",
-        "nome": "Unown (z)"
+        "nome": "Unown (z)",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Unown",
@@ -1334,7 +1587,8 @@
   "207": {
     "nome": "Gligar",
     "tipos": [
-      "earth"
+      "earth",
+      "flying"
     ]
   },
   "208": {
@@ -1342,7 +1596,11 @@
       {
         "id": "mega",
         "imagem": "0208-mega.png",
-        "nome": "Mega Steelix"
+        "nome": "Mega Steelix",
+        "tipos": [
+          "steel",
+          "earth"
+        ]
       }
     ],
     "nome": "Steelix",
@@ -1360,7 +1618,8 @@
   "21": {
     "nome": "Spearow",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "210": {
@@ -1374,7 +1633,11 @@
       {
         "id": "hisui",
         "imagem": "0211-hisui.png",
-        "nome": "Qwilfish de Hisui"
+        "nome": "Qwilfish de Hisui",
+        "tipos": [
+          "dark",
+          "poison"
+        ]
       }
     ],
     "nome": "Qwilfish",
@@ -1388,7 +1651,11 @@
       {
         "id": "mega",
         "imagem": "0212-mega.png",
-        "nome": "Mega Scizor"
+        "nome": "Mega Scizor",
+        "tipos": [
+          "bug",
+          "steel"
+        ]
       }
     ],
     "nome": "Scizor",
@@ -1409,7 +1676,11 @@
       {
         "id": "mega",
         "imagem": "0214-mega.png",
-        "nome": "Mega Heracross"
+        "nome": "Mega Heracross",
+        "tipos": [
+          "bug",
+          "fight"
+        ]
       }
     ],
     "nome": "Heracross",
@@ -1423,7 +1694,11 @@
       {
         "id": "hisui",
         "imagem": "0215-hisui.png",
-        "nome": "Sneasel de Hisui"
+        "nome": "Sneasel de Hisui",
+        "tipos": [
+          "fight",
+          "poison"
+        ]
       }
     ],
     "nome": "Sneasel",
@@ -1460,7 +1735,8 @@
   "22": {
     "nome": "Fearow",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "220": {
@@ -1482,7 +1758,10 @@
       {
         "id": "galar",
         "imagem": "0222-galar.png",
-        "nome": "Corsola de Galar"
+        "nome": "Corsola de Galar",
+        "tipos": [
+          "ghost"
+        ]
       }
     ],
     "nome": "Corsola",
@@ -1506,13 +1785,15 @@
   "225": {
     "nome": "Delibird",
     "tipos": [
-      "ice"
+      "ice",
+      "flying"
     ]
   },
   "226": {
     "nome": "Mantine",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "227": {
@@ -1520,12 +1801,17 @@
       {
         "id": "mega",
         "imagem": "0227-mega.png",
-        "nome": "Mega Skarmory"
+        "nome": "Mega Skarmory",
+        "tipos": [
+          "steel",
+          "flying"
+        ]
       }
     ],
     "nome": "Skarmory",
     "tipos": [
-      "steel"
+      "steel",
+      "flying"
     ]
   },
   "228": {
@@ -1540,7 +1826,11 @@
       {
         "id": "mega",
         "imagem": "0229-mega.png",
-        "nome": "Mega Houndoom"
+        "nome": "Mega Houndoom",
+        "tipos": [
+          "dark",
+          "fire"
+        ]
       }
     ],
     "nome": "Houndoom",
@@ -1678,7 +1968,11 @@
       {
         "id": "mega",
         "imagem": "0248-mega.png",
-        "nome": "Mega Tyranitar"
+        "nome": "Mega Tyranitar",
+        "tipos": [
+          "rock",
+          "dark"
+        ]
       }
     ],
     "nome": "Tyranitar",
@@ -1690,7 +1984,8 @@
   "249": {
     "nome": "Lugia",
     "tipos": [
-      "psychic"
+      "psychic",
+      "flying"
     ]
   },
   "25": {
@@ -1698,7 +1993,10 @@
       {
         "id": "giga",
         "imagem": "0025-giga.png",
-        "nome": "Pikachu Gigantamax"
+        "nome": "Pikachu Gigantamax",
+        "tipos": [
+          "electric"
+        ]
       }
     ],
     "nome": "Pikachu",
@@ -1709,7 +2007,8 @@
   "250": {
     "nome": "Ho-oh",
     "tipos": [
-      "fire"
+      "fire",
+      "flying"
     ]
   },
   "251": {
@@ -1736,7 +2035,11 @@
       {
         "id": "mega",
         "imagem": "0254-mega.png",
-        "nome": "Mega Sceptile"
+        "nome": "Mega Sceptile",
+        "tipos": [
+          "grass",
+          "dragon"
+        ]
       }
     ],
     "nome": "Sceptile",
@@ -1762,7 +2065,11 @@
       {
         "id": "mega",
         "imagem": "0257-mega.png",
-        "nome": "Mega Blaziken"
+        "nome": "Mega Blaziken",
+        "tipos": [
+          "fire",
+          "fight"
+        ]
       }
     ],
     "nome": "Blaziken",
@@ -1789,17 +2096,27 @@
       {
         "id": "alola",
         "imagem": "0026-alola.png",
-        "nome": "Raichu de Alola"
+        "nome": "Raichu de Alola",
+        "tipos": [
+          "electric",
+          "psychic"
+        ]
       },
       {
         "id": "megax",
         "imagem": "0026-megax.png",
-        "nome": "Mega Raichu X"
+        "nome": "Mega Raichu X",
+        "tipos": [
+          "electric"
+        ]
       },
       {
         "id": "megay",
         "imagem": "0026-megay.png",
-        "nome": "Mega Raichu Y"
+        "nome": "Mega Raichu Y",
+        "tipos": [
+          "electric"
+        ]
       }
     ],
     "nome": "Raichu",
@@ -1812,7 +2129,11 @@
       {
         "id": "mega",
         "imagem": "0260-mega.png",
-        "nome": "Mega Swampert"
+        "nome": "Mega Swampert",
+        "tipos": [
+          "water",
+          "earth"
+        ]
       }
     ],
     "nome": "Swampert",
@@ -1838,7 +2159,11 @@
       {
         "id": "galar",
         "imagem": "0263-galar.png",
-        "nome": "Zigzagoon de Galar"
+        "nome": "Zigzagoon de Galar",
+        "tipos": [
+          "dark",
+          "normal"
+        ]
       }
     ],
     "nome": "Zigzagoon",
@@ -1851,7 +2176,11 @@
       {
         "id": "galar",
         "imagem": "0264-galar.png",
-        "nome": "Linoone de Galar"
+        "nome": "Linoone de Galar",
+        "tipos": [
+          "dark",
+          "normal"
+        ]
       }
     ],
     "nome": "Linoone",
@@ -1874,7 +2203,8 @@
   "267": {
     "nome": "Beautifly",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "268": {
@@ -1895,7 +2225,11 @@
       {
         "id": "alola",
         "imagem": "0027-alola.png",
-        "nome": "Sandshrew de Alola"
+        "nome": "Sandshrew de Alola",
+        "tipos": [
+          "ice",
+          "steel"
+        ]
       }
     ],
     "nome": "Sandshrew",
@@ -1947,25 +2281,29 @@
   "276": {
     "nome": "Taillow",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "277": {
     "nome": "Swellow",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "278": {
     "nome": "Wingull",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "279": {
     "nome": "Pelipper",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "28": {
@@ -1973,7 +2311,11 @@
       {
         "id": "alola",
         "imagem": "0028-alola.png",
-        "nome": "Sandslash de Alola"
+        "nome": "Sandslash de Alola",
+        "tipos": [
+          "ice",
+          "steel"
+        ]
       }
     ],
     "nome": "Sandslash",
@@ -2000,7 +2342,11 @@
       {
         "id": "mega",
         "imagem": "0282-mega.png",
-        "nome": "Mega Gardevoir"
+        "nome": "Mega Gardevoir",
+        "tipos": [
+          "psychic",
+          "fairy"
+        ]
       }
     ],
     "nome": "Gardevoir",
@@ -2019,7 +2365,8 @@
   "284": {
     "nome": "Masquerain",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "285": {
@@ -2069,7 +2416,8 @@
   "291": {
     "nome": "Ninjask",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "292": {
@@ -2127,12 +2475,20 @@
       {
         "id": "giga",
         "imagem": "0003-giga.png",
-        "nome": "Venusaur Gigantamax"
+        "nome": "Venusaur Gigantamax",
+        "tipos": [
+          "grass",
+          "poison"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0003-mega.png",
-        "nome": "Mega Venusaur"
+        "nome": "Mega Venusaur",
+        "tipos": [
+          "grass",
+          "poison"
+        ]
       }
     ],
     "nome": "Venusaur",
@@ -2164,7 +2520,11 @@
       {
         "id": "mega",
         "imagem": "0302-mega.png",
-        "nome": "Mega Sableye"
+        "nome": "Mega Sableye",
+        "tipos": [
+          "dark",
+          "ghost"
+        ]
       }
     ],
     "nome": "Sableye",
@@ -2178,7 +2538,11 @@
       {
         "id": "mega",
         "imagem": "0303-mega.png",
-        "nome": "Mega Mawile"
+        "nome": "Mega Mawile",
+        "tipos": [
+          "steel",
+          "fairy"
+        ]
       }
     ],
     "nome": "Mawile",
@@ -2206,7 +2570,10 @@
       {
         "id": "mega",
         "imagem": "0306-mega.png",
-        "nome": "Mega Aggron"
+        "nome": "Mega Aggron",
+        "tipos": [
+          "steel"
+        ]
       }
     ],
     "nome": "Aggron",
@@ -2227,7 +2594,11 @@
       {
         "id": "mega",
         "imagem": "0308-mega.png",
-        "nome": "Mega Medicham"
+        "nome": "Mega Medicham",
+        "tipos": [
+          "fight",
+          "psychic"
+        ]
       }
     ],
     "nome": "Medicham",
@@ -2254,7 +2625,10 @@
       {
         "id": "mega",
         "imagem": "0310-mega.png",
-        "nome": "Mega Manectric"
+        "nome": "Mega Manectric",
+        "tipos": [
+          "electric"
+        ]
       }
     ],
     "nome": "Manectric",
@@ -2317,7 +2691,11 @@
       {
         "id": "mega",
         "imagem": "0319-mega.png",
-        "nome": "Mega Sharpedo"
+        "nome": "Mega Sharpedo",
+        "tipos": [
+          "water",
+          "dark"
+        ]
       }
     ],
     "nome": "Sharpedo",
@@ -2356,7 +2734,11 @@
       {
         "id": "mega",
         "imagem": "0323-mega.png",
-        "nome": "Mega Camerupt"
+        "nome": "Mega Camerupt",
+        "tipos": [
+          "fire",
+          "earth"
+        ]
       }
     ],
     "nome": "Camerupt",
@@ -2431,7 +2813,8 @@
   "333": {
     "nome": "Swablu",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "334": {
@@ -2439,12 +2822,17 @@
       {
         "id": "mega",
         "imagem": "0334-mega.png",
-        "nome": "Mega Altaria"
+        "nome": "Mega Altaria",
+        "tipos": [
+          "dragon",
+          "fairy"
+        ]
       }
     ],
     "nome": "Altaria",
     "tipos": [
-      "dragon"
+      "dragon",
+      "flying"
     ]
   },
   "335": {
@@ -2572,17 +2960,26 @@
       {
         "id": "rainy",
         "imagem": "0351-rainy.png",
-        "nome": "Castform Chuvoso"
+        "nome": "Castform Chuvoso",
+        "tipos": [
+          "water"
+        ]
       },
       {
         "id": "snowy",
         "imagem": "0351-snowy.png",
-        "nome": "Castform Nevado"
+        "nome": "Castform Nevado",
+        "tipos": [
+          "ice"
+        ]
       },
       {
         "id": "sunny",
         "imagem": "0351-sunny.png",
-        "nome": "Castform Ensolarado"
+        "nome": "Castform Ensolarado",
+        "tipos": [
+          "fire"
+        ]
       }
     ],
     "nome": "Castform",
@@ -2607,7 +3004,10 @@
       {
         "id": "mega",
         "imagem": "0354-mega.png",
-        "nome": "Mega Banette"
+        "nome": "Mega Banette",
+        "tipos": [
+          "ghost"
+        ]
       }
     ],
     "nome": "Banette",
@@ -2630,7 +3030,8 @@
   "357": {
     "nome": "Tropius",
     "tipos": [
-      "grass"
+      "grass",
+      "flying"
     ]
   },
   "358": {
@@ -2638,7 +3039,11 @@
       {
         "id": "mega",
         "imagem": "0358-mega.png",
-        "nome": "Mega Chimecho"
+        "nome": "Mega Chimecho",
+        "tipos": [
+          "psychic",
+          "steel"
+        ]
       }
     ],
     "nome": "Chimecho",
@@ -2651,12 +3056,18 @@
       {
         "id": "mega-z",
         "imagem": "0359-mega-z.png",
-        "nome": "Absol (mega-z)"
+        "nome": "Absol (mega-z)",
+        "tipos": [
+          "dark"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0359-mega.png",
-        "nome": "Mega Absol"
+        "nome": "Mega Absol",
+        "tipos": [
+          "dark"
+        ]
       }
     ],
     "nome": "Absol",
@@ -2669,7 +3080,11 @@
       {
         "id": "mega",
         "imagem": "0036-mega.png",
-        "nome": "Mega Clefable"
+        "nome": "Mega Clefable",
+        "tipos": [
+          "fairy",
+          "flying"
+        ]
       }
     ],
     "nome": "Clefable",
@@ -2694,7 +3109,10 @@
       {
         "id": "mega",
         "imagem": "0362-mega.png",
-        "nome": "Mega Glalie"
+        "nome": "Mega Glalie",
+        "tipos": [
+          "ice"
+        ]
       }
     ],
     "nome": "Glalie",
@@ -2753,7 +3171,10 @@
       {
         "id": "alola",
         "imagem": "0037-alola.png",
-        "nome": "Vulpix de Alola"
+        "nome": "Vulpix de Alola",
+        "tipos": [
+          "ice"
+        ]
       }
     ],
     "nome": "Vulpix",
@@ -2784,12 +3205,17 @@
       {
         "id": "mega",
         "imagem": "0373-mega.png",
-        "nome": "Mega Salamence"
+        "nome": "Mega Salamence",
+        "tipos": [
+          "dragon",
+          "flying"
+        ]
       }
     ],
     "nome": "Salamence",
     "tipos": [
-      "dragon"
+      "dragon",
+      "flying"
     ]
   },
   "374": {
@@ -2811,7 +3237,11 @@
       {
         "id": "mega",
         "imagem": "0376-mega.png",
-        "nome": "Mega Metagross"
+        "nome": "Mega Metagross",
+        "tipos": [
+          "steel",
+          "psychic"
+        ]
       }
     ],
     "nome": "Metagross",
@@ -2843,7 +3273,11 @@
       {
         "id": "alola",
         "imagem": "0038-alola.png",
-        "nome": "Ninetales de Alola"
+        "nome": "Ninetales de Alola",
+        "tipos": [
+          "ice",
+          "fairy"
+        ]
       }
     ],
     "nome": "Ninetales",
@@ -2856,7 +3290,11 @@
       {
         "id": "mega",
         "imagem": "0380-mega.png",
-        "nome": "Mega Latias"
+        "nome": "Mega Latias",
+        "tipos": [
+          "dragon",
+          "psychic"
+        ]
       }
     ],
     "nome": "Latias",
@@ -2870,7 +3308,11 @@
       {
         "id": "mega",
         "imagem": "0381-mega.png",
-        "nome": "Mega Latios"
+        "nome": "Mega Latios",
+        "tipos": [
+          "dragon",
+          "psychic"
+        ]
       }
     ],
     "nome": "Latios",
@@ -2884,7 +3326,10 @@
       {
         "id": "primal",
         "imagem": "0382-primal.png",
-        "nome": "Primal Kyogre"
+        "nome": "Primal Kyogre",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Kyogre",
@@ -2897,7 +3342,11 @@
       {
         "id": "primal",
         "imagem": "0383-primal.png",
-        "nome": "Primal Groudon"
+        "nome": "Primal Groudon",
+        "tipos": [
+          "earth",
+          "fire"
+        ]
       }
     ],
     "nome": "Groudon",
@@ -2910,12 +3359,17 @@
       {
         "id": "mega",
         "imagem": "0384-mega.png",
-        "nome": "Mega Rayquaza"
+        "nome": "Mega Rayquaza",
+        "tipos": [
+          "dragon",
+          "flying"
+        ]
       }
     ],
     "nome": "Rayquaza",
     "tipos": [
-      "dragon"
+      "dragon",
+      "flying"
     ]
   },
   "385": {
@@ -2930,17 +3384,26 @@
       {
         "id": "attack",
         "imagem": "0386-attack.png",
-        "nome": "Deoxys Ataque"
+        "nome": "Deoxys Ataque",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "deffense",
         "imagem": "0386-deffense.png",
-        "nome": "Deoxys Defesa"
+        "nome": "Deoxys Defesa",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "speed",
         "imagem": "0386-speed.png",
-        "nome": "Deoxys Velocidade"
+        "nome": "Deoxys Velocidade",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Deoxys",
@@ -3016,13 +3479,15 @@
   "396": {
     "nome": "Starly",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "397": {
     "nome": "Staravia",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "398": {
@@ -3030,12 +3495,17 @@
       {
         "id": "mega",
         "imagem": "0398-mega.png",
-        "nome": "Mega Staraptor"
+        "nome": "Mega Staraptor",
+        "tipos": [
+          "fight",
+          "flying"
+        ]
       }
     ],
     "nome": "Staraptor",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "399": {
@@ -3123,7 +3593,8 @@
   "41": {
     "nome": "Zubat",
     "tipos": [
-      "poison"
+      "poison",
+      "flying"
     ]
   },
   "410": {
@@ -3145,12 +3616,18 @@
       {
         "id": "sandy",
         "imagem": "0412-sandy.png",
-        "nome": "Burmy Areia"
+        "nome": "Burmy Areia",
+        "tipos": [
+          "bug"
+        ]
       },
       {
         "id": "trash",
         "imagem": "0412-trash.png",
-        "nome": "Burmy Lixo"
+        "nome": "Burmy Lixo",
+        "tipos": [
+          "bug"
+        ]
       }
     ],
     "nome": "Burmy",
@@ -3163,12 +3640,20 @@
       {
         "id": "sandy",
         "imagem": "0413-sandy.png",
-        "nome": "Wormadam Areia"
+        "nome": "Wormadam Areia",
+        "tipos": [
+          "bug",
+          "earth"
+        ]
       },
       {
         "id": "trash",
         "imagem": "0413-trash.png",
-        "nome": "Wormadam Lixo"
+        "nome": "Wormadam Lixo",
+        "tipos": [
+          "bug",
+          "steel"
+        ]
       }
     ],
     "nome": "Wormadam",
@@ -3180,19 +3665,22 @@
   "414": {
     "nome": "Mothim",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "415": {
     "nome": "Combee",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "416": {
     "nome": "Vespiquen",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "417": {
@@ -3216,7 +3704,8 @@
   "42": {
     "nome": "Golbat",
     "tipos": [
-      "poison"
+      "poison",
+      "flying"
     ]
   },
   "420": {
@@ -3230,7 +3719,10 @@
       {
         "id": "sunshine",
         "imagem": "0421-sunshine.png",
-        "nome": "Cherrim do Sol"
+        "nome": "Cherrim do Sol",
+        "tipos": [
+          "grass"
+        ]
       }
     ],
     "nome": "Cherrim",
@@ -3243,7 +3735,10 @@
       {
         "id": "east",
         "imagem": "0422-east.png",
-        "nome": "Shellos Leste"
+        "nome": "Shellos Leste",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Shellos",
@@ -3256,7 +3751,11 @@
       {
         "id": "east",
         "imagem": "0423-east.png",
-        "nome": "Gastrodon Leste"
+        "nome": "Gastrodon Leste",
+        "tipos": [
+          "water",
+          "earth"
+        ]
       }
     ],
     "nome": "Gastrodon",
@@ -3274,13 +3773,15 @@
   "425": {
     "nome": "Drifloon",
     "tipos": [
-      "ghost"
+      "ghost",
+      "flying"
     ]
   },
   "426": {
     "nome": "Drifblim",
     "tipos": [
-      "ghost"
+      "ghost",
+      "flying"
     ]
   },
   "427": {
@@ -3294,7 +3795,11 @@
       {
         "id": "mega",
         "imagem": "0428-mega.png",
-        "nome": "Mega Lopunny"
+        "nome": "Mega Lopunny",
+        "tipos": [
+          "normal",
+          "fight"
+        ]
       }
     ],
     "nome": "Lopunny",
@@ -3318,7 +3823,8 @@
   "430": {
     "nome": "Honchkrow",
     "tipos": [
-      "dark"
+      "dark",
+      "flying"
     ]
   },
   "431": {
@@ -3396,7 +3902,8 @@
   "441": {
     "nome": "Chatot",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "442": {
@@ -3425,12 +3932,20 @@
       {
         "id": "mega-z",
         "imagem": "0445-mega-z.png",
-        "nome": "Garchomp (mega-z)"
+        "nome": "Garchomp (mega-z)",
+        "tipos": [
+          "dragon",
+          "earth"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0445-mega.png",
-        "nome": "Mega Garchomp"
+        "nome": "Mega Garchomp",
+        "tipos": [
+          "dragon",
+          "earth"
+        ]
       }
     ],
     "nome": "Garchomp",
@@ -3456,12 +3971,20 @@
       {
         "id": "mega-z",
         "imagem": "0448-mega-z.png",
-        "nome": "Lucario (mega-z)"
+        "nome": "Lucario (mega-z)",
+        "tipos": [
+          "fight",
+          "steel"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0448-mega.png",
-        "nome": "Mega Lucario"
+        "nome": "Mega Lucario",
+        "tipos": [
+          "fight",
+          "steel"
+        ]
       }
     ],
     "nome": "Lucario",
@@ -3538,7 +4061,8 @@
   "458": {
     "nome": "Mantyke",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "459": {
@@ -3560,7 +4084,11 @@
       {
         "id": "mega",
         "imagem": "0460-mega.png",
-        "nome": "Mega Abomasnow"
+        "nome": "Mega Abomasnow",
+        "tipos": [
+          "grass",
+          "ice"
+        ]
       }
     ],
     "nome": "Abomasnow",
@@ -3617,13 +4145,15 @@
   "468": {
     "nome": "Togekiss",
     "tipos": [
-      "fairy"
+      "fairy",
+      "flying"
     ]
   },
   "469": {
     "nome": "Yanmega",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "47": {
@@ -3648,7 +4178,8 @@
   "472": {
     "nome": "Gliscor",
     "tipos": [
-      "earth"
+      "earth",
+      "flying"
     ]
   },
   "473": {
@@ -3669,7 +4200,11 @@
       {
         "id": "mega",
         "imagem": "0475-mega.png",
-        "nome": "Mega Gallade"
+        "nome": "Mega Gallade",
+        "tipos": [
+          "psychic",
+          "fight"
+        ]
       }
     ],
     "nome": "Gallade",
@@ -3696,7 +4231,11 @@
       {
         "id": "mega",
         "imagem": "0478-mega.png",
-        "nome": "Mega Froslass"
+        "nome": "Mega Froslass",
+        "tipos": [
+          "ice",
+          "ghost"
+        ]
       }
     ],
     "nome": "Froslass",
@@ -3710,27 +4249,47 @@
       {
         "id": "fan",
         "imagem": "0479-fan.png",
-        "nome": "Rotom Ventilador"
+        "nome": "Rotom Ventilador",
+        "tipos": [
+          "electric",
+          "flying"
+        ]
       },
       {
         "id": "frost",
         "imagem": "0479-frost.png",
-        "nome": "Rotom Gelo"
+        "nome": "Rotom Gelo",
+        "tipos": [
+          "electric",
+          "ice"
+        ]
       },
       {
         "id": "heat",
         "imagem": "0479-heat.png",
-        "nome": "Rotom Calor"
+        "nome": "Rotom Calor",
+        "tipos": [
+          "electric",
+          "fire"
+        ]
       },
       {
         "id": "mow",
         "imagem": "0479-mow.png",
-        "nome": "Rotom Cortador"
+        "nome": "Rotom Cortador",
+        "tipos": [
+          "electric",
+          "grass"
+        ]
       },
       {
         "id": "wash",
         "imagem": "0479-wash.png",
-        "nome": "Rotom Lavador"
+        "nome": "Rotom Lavador",
+        "tipos": [
+          "electric",
+          "water"
+        ]
       }
     ],
     "nome": "Rotom",
@@ -3769,7 +4328,11 @@
       {
         "id": "origin",
         "imagem": "0483-origin.png",
-        "nome": "Dialga Origem"
+        "nome": "Dialga Origem",
+        "tipos": [
+          "steel",
+          "dragon"
+        ]
       }
     ],
     "nome": "Dialga",
@@ -3783,7 +4346,11 @@
       {
         "id": "origin",
         "imagem": "0484-origin.png",
-        "nome": "Palkia Origem"
+        "nome": "Palkia Origem",
+        "tipos": [
+          "water",
+          "dragon"
+        ]
       }
     ],
     "nome": "Palkia",
@@ -3797,7 +4364,11 @@
       {
         "id": "mega",
         "imagem": "0485-mega.png",
-        "nome": "Mega Heatran"
+        "nome": "Mega Heatran",
+        "tipos": [
+          "fire",
+          "steel"
+        ]
       }
     ],
     "nome": "Heatran",
@@ -3817,7 +4388,11 @@
       {
         "id": "origin",
         "imagem": "0487-origin.png",
-        "nome": "Giratina Origem"
+        "nome": "Giratina Origem",
+        "tipos": [
+          "ghost",
+          "dragon"
+        ]
       }
     ],
     "nome": "Giratina",
@@ -3856,7 +4431,10 @@
       {
         "id": "mega",
         "imagem": "0491-mega.png",
-        "nome": "Mega Darkrai"
+        "nome": "Mega Darkrai",
+        "tipos": [
+          "dark"
+        ]
       }
     ],
     "nome": "Darkrai",
@@ -3869,7 +4447,11 @@
       {
         "id": "sky",
         "imagem": "0492-sky.png",
-        "nome": "Shaymin do Céu"
+        "nome": "Shaymin do Céu",
+        "tipos": [
+          "grass",
+          "flying"
+        ]
       }
     ],
     "nome": "Shaymin",
@@ -3932,7 +4514,11 @@
       {
         "id": "alola",
         "imagem": "0050-alola.png",
-        "nome": "Diglett de Alola"
+        "nome": "Diglett de Alola",
+        "tipos": [
+          "earth",
+          "steel"
+        ]
       }
     ],
     "nome": "Diglett",
@@ -3945,7 +4531,11 @@
       {
         "id": "mega",
         "imagem": "0500-mega.png",
-        "nome": "Mega Emboar"
+        "nome": "Mega Emboar",
+        "tipos": [
+          "fire",
+          "fight"
+        ]
       }
     ],
     "nome": "Emboar",
@@ -3971,7 +4561,11 @@
       {
         "id": "hisui",
         "imagem": "0503-hisui.png",
-        "nome": "Samurott de Hisui"
+        "nome": "Samurott de Hisui",
+        "tipos": [
+          "water",
+          "dark"
+        ]
       }
     ],
     "nome": "Samurott",
@@ -4020,7 +4614,11 @@
       {
         "id": "alola",
         "imagem": "0051-alola.png",
-        "nome": "Dugtrio de Alola"
+        "nome": "Dugtrio de Alola",
+        "tipos": [
+          "earth",
+          "steel"
+        ]
       }
     ],
     "nome": "Dugtrio",
@@ -4085,7 +4683,8 @@
   "519": {
     "nome": "Pidove",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "52": {
@@ -4093,17 +4692,26 @@
       {
         "id": "alola",
         "imagem": "0052-alola.png",
-        "nome": "Meowth de Alola"
+        "nome": "Meowth de Alola",
+        "tipos": [
+          "dark"
+        ]
       },
       {
         "id": "galar",
         "imagem": "0052-galar.png",
-        "nome": "Meowth de Galar"
+        "nome": "Meowth de Galar",
+        "tipos": [
+          "steel"
+        ]
       },
       {
         "id": "giga",
         "imagem": "0052-giga.png",
-        "nome": "Meowth Gigantamax"
+        "nome": "Meowth Gigantamax",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Meowth",
@@ -4114,13 +4722,15 @@
   "520": {
     "nome": "Tranquill",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "521": {
     "nome": "Unfezant",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "522": {
@@ -4156,13 +4766,15 @@
   "527": {
     "nome": "Woobat",
     "tipos": [
-      "psychic"
+      "psychic",
+      "flying"
     ]
   },
   "528": {
     "nome": "Swoobat",
     "tipos": [
-      "psychic"
+      "psychic",
+      "flying"
     ]
   },
   "529": {
@@ -4176,7 +4788,10 @@
       {
         "id": "alola",
         "imagem": "0053-alola.png",
-        "nome": "Persian de Alola"
+        "nome": "Persian de Alola",
+        "tipos": [
+          "dark"
+        ]
       }
     ],
     "nome": "Persian",
@@ -4189,7 +4804,11 @@
       {
         "id": "mega",
         "imagem": "0530-mega.png",
-        "nome": "Mega Excadrill"
+        "nome": "Mega Excadrill",
+        "tipos": [
+          "earth",
+          "steel"
+        ]
       }
     ],
     "nome": "Excadrill",
@@ -4203,7 +4822,11 @@
       {
         "id": "mega",
         "imagem": "0531-mega.png",
-        "nome": "Mega Audino"
+        "nome": "Mega Audino",
+        "tipos": [
+          "normal",
+          "fairy"
+        ]
       }
     ],
     "nome": "Audino",
@@ -4307,7 +4930,11 @@
       {
         "id": "mega",
         "imagem": "0545-mega.png",
-        "nome": "Mega Scolipede"
+        "nome": "Mega Scolipede",
+        "tipos": [
+          "bug",
+          "poison"
+        ]
       }
     ],
     "nome": "Scolipede",
@@ -4341,7 +4968,11 @@
       {
         "id": "hisui",
         "imagem": "0549-hisui.png",
-        "nome": "Lilligant de Hisui"
+        "nome": "Lilligant de Hisui",
+        "tipos": [
+          "grass",
+          "fight"
+        ]
       }
     ],
     "nome": "Lilligant",
@@ -4360,12 +4991,18 @@
       {
         "id": "blue",
         "imagem": "0550-blue.png",
-        "nome": "Basculin Azul"
+        "nome": "Basculin Azul",
+        "tipos": [
+          "water"
+        ]
       },
       {
         "id": "white",
         "imagem": "0550-white.png",
-        "nome": "Basculin Branco"
+        "nome": "Basculin Branco",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Basculin",
@@ -4399,7 +5036,10 @@
       {
         "id": "galar",
         "imagem": "0554-galar.png",
-        "nome": "Darumaka de Galar"
+        "nome": "Darumaka de Galar",
+        "tipos": [
+          "ice"
+        ]
       }
     ],
     "nome": "Darumaka",
@@ -4412,17 +5052,28 @@
       {
         "id": "galar-zen",
         "imagem": "0555-galar-zen.png",
-        "nome": "Darmanitan de Galar Modo Zen"
+        "nome": "Darmanitan de Galar Modo Zen",
+        "tipos": [
+          "ice",
+          "fire"
+        ]
       },
       {
         "id": "galar",
         "imagem": "0555-galar.png",
-        "nome": "Darmanitan de Galar"
+        "nome": "Darmanitan de Galar",
+        "tipos": [
+          "ice"
+        ]
       },
       {
         "id": "zen",
         "imagem": "0555-zen.png",
-        "nome": "Darmanitan Modo Zen"
+        "nome": "Darmanitan Modo Zen",
+        "tipos": [
+          "fire",
+          "psychic"
+        ]
       }
     ],
     "nome": "Darmanitan",
@@ -4468,7 +5119,11 @@
       {
         "id": "mega",
         "imagem": "0560-mega.png",
-        "nome": "Mega Scrafty"
+        "nome": "Mega Scrafty",
+        "tipos": [
+          "dark",
+          "fight"
+        ]
       }
     ],
     "nome": "Scrafty",
@@ -4480,7 +5135,8 @@
   "561": {
     "nome": "Sigilyph",
     "tipos": [
-      "psychic"
+      "psychic",
+      "flying"
     ]
   },
   "562": {
@@ -4488,7 +5144,11 @@
       {
         "id": "galar",
         "imagem": "0562-galar.png",
-        "nome": "Yamask de Galar"
+        "nome": "Yamask de Galar",
+        "tipos": [
+          "earth",
+          "ghost"
+        ]
       }
     ],
     "nome": "Yamask",
@@ -4519,13 +5179,15 @@
   "566": {
     "nome": "Archen",
     "tipos": [
-      "rock"
+      "rock",
+      "flying"
     ]
   },
   "567": {
     "nome": "Archeops",
     "tipos": [
-      "rock"
+      "rock",
+      "flying"
     ]
   },
   "568": {
@@ -4539,7 +5201,10 @@
       {
         "id": "giga",
         "imagem": "0569-giga.png",
-        "nome": "Garbodor Gigantamax"
+        "nome": "Garbodor Gigantamax",
+        "tipos": [
+          "poison"
+        ]
       }
     ],
     "nome": "Garbodor",
@@ -4558,7 +5223,11 @@
       {
         "id": "hisui",
         "imagem": "0570-hisui.png",
-        "nome": "Zorua de Hisui"
+        "nome": "Zorua de Hisui",
+        "tipos": [
+          "normal",
+          "ghost"
+        ]
       }
     ],
     "nome": "Zorua",
@@ -4571,7 +5240,11 @@
       {
         "id": "hisui",
         "imagem": "0571-hisui.png",
-        "nome": "Zoroark de Hisui"
+        "nome": "Zoroark de Hisui",
+        "tipos": [
+          "normal",
+          "ghost"
+        ]
       }
     ],
     "nome": "Zoroark",
@@ -4632,7 +5305,11 @@
       {
         "id": "hisui",
         "imagem": "0058-hisui.png",
-        "nome": "Growlithe de Hisui"
+        "nome": "Growlithe de Hisui",
+        "tipos": [
+          "fire",
+          "rock"
+        ]
       }
     ],
     "nome": "Growlithe",
@@ -4643,13 +5320,15 @@
   "580": {
     "nome": "Ducklett",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "581": {
     "nome": "Swanna",
     "tipos": [
-      "water"
+      "water",
+      "flying"
     ]
   },
   "582": {
@@ -4675,17 +5354,29 @@
       {
         "id": "autumn",
         "imagem": "0585-autumn.png",
-        "nome": "Deerling Outono"
+        "nome": "Deerling Outono",
+        "tipos": [
+          "normal",
+          "grass"
+        ]
       },
       {
         "id": "summer",
         "imagem": "0585-summer.png",
-        "nome": "Deerling Verão"
+        "nome": "Deerling Verão",
+        "tipos": [
+          "normal",
+          "grass"
+        ]
       },
       {
         "id": "winter",
         "imagem": "0585-winter.png",
-        "nome": "Deerling Inverno"
+        "nome": "Deerling Inverno",
+        "tipos": [
+          "normal",
+          "grass"
+        ]
       }
     ],
     "nome": "Deerling",
@@ -4699,17 +5390,29 @@
       {
         "id": "autumn",
         "imagem": "0586-autumn.png",
-        "nome": "Sawsbuck Outono"
+        "nome": "Sawsbuck Outono",
+        "tipos": [
+          "normal",
+          "grass"
+        ]
       },
       {
         "id": "summer",
         "imagem": "0586-summer.png",
-        "nome": "Sawsbuck Verão"
+        "nome": "Sawsbuck Verão",
+        "tipos": [
+          "normal",
+          "grass"
+        ]
       },
       {
         "id": "winter",
         "imagem": "0586-winter.png",
-        "nome": "Sawsbuck Inverno"
+        "nome": "Sawsbuck Inverno",
+        "tipos": [
+          "normal",
+          "grass"
+        ]
       }
     ],
     "nome": "Sawsbuck",
@@ -4721,7 +5424,8 @@
   "587": {
     "nome": "Emolga",
     "tipos": [
-      "electric"
+      "electric",
+      "flying"
     ]
   },
   "588": {
@@ -4742,7 +5446,11 @@
       {
         "id": "hisui",
         "imagem": "0059-hisui.png",
-        "nome": "Arcanine de Hisui"
+        "nome": "Arcanine de Hisui",
+        "tipos": [
+          "fire",
+          "rock"
+        ]
       }
     ],
     "nome": "Arcanine",
@@ -4823,22 +5531,35 @@
       {
         "id": "giga",
         "imagem": "0006-giga.png",
-        "nome": "Charizard Gigantamax"
+        "nome": "Charizard Gigantamax",
+        "tipos": [
+          "fire",
+          "flying"
+        ]
       },
       {
         "id": "megax",
         "imagem": "0006-megax.png",
-        "nome": "Mega Charizard X"
+        "nome": "Mega Charizard X",
+        "tipos": [
+          "fire",
+          "dragon"
+        ]
       },
       {
         "id": "megay",
         "imagem": "0006-megay.png",
-        "nome": "Mega Charizard Y"
+        "nome": "Mega Charizard Y",
+        "tipos": [
+          "fire",
+          "flying"
+        ]
       }
     ],
     "nome": "Charizard",
     "tipos": [
-      "fire"
+      "fire",
+      "flying"
     ]
   },
   "60": {
@@ -4876,7 +5597,10 @@
       {
         "id": "mega",
         "imagem": "0604-mega.png",
-        "nome": "Mega Eelektross"
+        "nome": "Mega Eelektross",
+        "tipos": [
+          "electric"
+        ]
       }
     ],
     "nome": "Eelektross",
@@ -4915,7 +5639,11 @@
       {
         "id": "mega",
         "imagem": "0609-mega.png",
-        "nome": "Mega Chandelure"
+        "nome": "Mega Chandelure",
+        "tipos": [
+          "ghost",
+          "fire"
+        ]
       }
     ],
     "nome": "Chandelure",
@@ -4983,7 +5711,11 @@
       {
         "id": "galar",
         "imagem": "0618-galar.png",
-        "nome": "Stunfisk de Galar"
+        "nome": "Stunfisk de Galar",
+        "tipos": [
+          "earth",
+          "steel"
+        ]
       }
     ],
     "nome": "Stunfisk",
@@ -5029,7 +5761,11 @@
       {
         "id": "mega",
         "imagem": "0623-mega.png",
-        "nome": "Mega Golurk"
+        "nome": "Mega Golurk",
+        "tipos": [
+          "earth",
+          "ghost"
+        ]
       }
     ],
     "nome": "Golurk",
@@ -5061,7 +5797,8 @@
   "627": {
     "nome": "Rufflet",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "628": {
@@ -5074,13 +5811,15 @@
     ],
     "nome": "Braviary",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "629": {
     "nome": "Vullaby",
     "tipos": [
-      "dark"
+      "dark",
+      "flying"
     ]
   },
   "63": {
@@ -5092,7 +5831,8 @@
   "630": {
     "nome": "Mandibuzz",
     "tipos": [
-      "dark"
+      "dark",
+      "flying"
     ]
   },
   "631": {
@@ -5175,23 +5915,33 @@
       {
         "id": "therian",
         "imagem": "0641-therian.png",
-        "nome": "Tornadus Terian"
+        "nome": "Tornadus Terian",
+        "tipos": [
+          "flying"
+        ]
       }
     ],
     "nome": "Tornadus",
-    "tipos": []
+    "tipos": [
+      "flying"
+    ]
   },
   "642": {
     "formas": [
       {
         "id": "therian",
         "imagem": "0642-therian.png",
-        "nome": "Thundurus Terian"
+        "nome": "Thundurus Terian",
+        "tipos": [
+          "electric",
+          "flying"
+        ]
       }
     ],
     "nome": "Thundurus",
     "tipos": [
-      "electric"
+      "electric",
+      "flying"
     ]
   },
   "643": {
@@ -5213,12 +5963,17 @@
       {
         "id": "therian",
         "imagem": "0645-therian.png",
-        "nome": "Landorus Terian"
+        "nome": "Landorus Terian",
+        "tipos": [
+          "earth",
+          "flying"
+        ]
       }
     ],
     "nome": "Landorus",
     "tipos": [
-      "earth"
+      "earth",
+      "flying"
     ]
   },
   "646": {
@@ -5226,12 +5981,20 @@
       {
         "id": "black",
         "imagem": "0646-black.png",
-        "nome": "Kyurem Preto"
+        "nome": "Kyurem Preto",
+        "tipos": [
+          "dragon",
+          "ice"
+        ]
       },
       {
         "id": "white",
         "imagem": "0646-white.png",
-        "nome": "Kyurem Branco"
+        "nome": "Kyurem Branco",
+        "tipos": [
+          "dragon",
+          "ice"
+        ]
       }
     ],
     "nome": "Kyurem",
@@ -5245,7 +6008,11 @@
       {
         "id": "resolute",
         "imagem": "0647-resolute.png",
-        "nome": "Keldeo Resoluto"
+        "nome": "Keldeo Resoluto",
+        "tipos": [
+          "water",
+          "fight"
+        ]
       }
     ],
     "nome": "Keldeo",
@@ -5259,7 +6026,11 @@
       {
         "id": "pirouette",
         "imagem": "0648-pirouette.png",
-        "nome": "Meloetta Pirueta"
+        "nome": "Meloetta Pirueta",
+        "tipos": [
+          "normal",
+          "fight"
+        ]
       }
     ],
     "nome": "Meloetta",
@@ -5280,7 +6051,10 @@
       {
         "id": "mega",
         "imagem": "0065-mega.png",
-        "nome": "Mega Alakazam"
+        "nome": "Mega Alakazam",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Alakazam",
@@ -5305,7 +6079,11 @@
       {
         "id": "mega",
         "imagem": "0652-mega.png",
-        "nome": "Mega Chesnaught"
+        "nome": "Mega Chesnaught",
+        "tipos": [
+          "grass",
+          "fight"
+        ]
       }
     ],
     "nome": "Chesnaught",
@@ -5331,7 +6109,11 @@
       {
         "id": "mega",
         "imagem": "0655-mega.png",
-        "nome": "Mega Delphox"
+        "nome": "Mega Delphox",
+        "tipos": [
+          "fire",
+          "psychic"
+        ]
       }
     ],
     "nome": "Delphox",
@@ -5357,12 +6139,20 @@
       {
         "id": "ash",
         "imagem": "0658-ash.png",
-        "nome": "Greninja (ash)"
+        "nome": "Greninja (ash)",
+        "tipos": [
+          "water",
+          "dark"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0658-mega.png",
-        "nome": "Mega Greninja"
+        "nome": "Mega Greninja",
+        "tipos": [
+          "water",
+          "dark"
+        ]
       }
     ],
     "nome": "Greninja",
@@ -5393,19 +6183,22 @@
   "661": {
     "nome": "Fletchling",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "662": {
     "nome": "Fletchinder",
     "tipos": [
-      "fire"
+      "fire",
+      "flying"
     ]
   },
   "663": {
     "nome": "Talonflame",
     "tipos": [
-      "fire"
+      "fire",
+      "flying"
     ]
   },
   "664": {
@@ -5425,42 +6218,71 @@
       {
         "id": "1",
         "imagem": "0666-1.png",
-        "nome": "Vivillon (1)"
+        "nome": "Vivillon (1)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       },
       {
         "id": "2",
         "imagem": "0666-2.png",
-        "nome": "Vivillon (2)"
+        "nome": "Vivillon (2)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       },
       {
         "id": "3",
         "imagem": "0666-3.png",
-        "nome": "Vivillon (3)"
+        "nome": "Vivillon (3)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       },
       {
         "id": "4",
         "imagem": "0666-4.png",
-        "nome": "Vivillon (4)"
+        "nome": "Vivillon (4)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       },
       {
         "id": "5",
         "imagem": "0666-5.png",
-        "nome": "Vivillon (5)"
+        "nome": "Vivillon (5)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       },
       {
         "id": "6",
         "imagem": "0666-6.png",
-        "nome": "Vivillon (6)"
+        "nome": "Vivillon (6)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       },
       {
         "id": "7",
         "imagem": "0666-7.png",
-        "nome": "Vivillon (7)"
+        "nome": "Vivillon (7)",
+        "tipos": [
+          "bug",
+          "flying"
+        ]
       }
     ],
     "nome": "Vivillon",
     "tipos": [
-      "bug"
+      "bug",
+      "flying"
     ]
   },
   "667": {
@@ -5475,7 +6297,11 @@
       {
         "id": "mega",
         "imagem": "0668-mega.png",
-        "nome": "Mega Pyroar"
+        "nome": "Mega Pyroar",
+        "tipos": [
+          "fire",
+          "normal"
+        ]
       }
     ],
     "nome": "Pyroar",
@@ -5501,12 +6327,18 @@
       {
         "id": "eternal",
         "imagem": "0670-eternal.png",
-        "nome": "Floette Eterno"
+        "nome": "Floette Eterno",
+        "tipos": [
+          "fairy"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0670-mega.png",
-        "nome": "Mega Floette"
+        "nome": "Mega Floette",
+        "tipos": [
+          "fairy"
+        ]
       }
     ],
     "nome": "Floette",
@@ -5550,47 +6382,74 @@
       {
         "id": "1",
         "imagem": "0676-1.png",
-        "nome": "Furfrou (1)"
+        "nome": "Furfrou (1)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "2",
         "imagem": "0676-2.png",
-        "nome": "Furfrou (2)"
+        "nome": "Furfrou (2)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "3",
         "imagem": "0676-3.png",
-        "nome": "Furfrou (3)"
+        "nome": "Furfrou (3)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "4",
         "imagem": "0676-4.png",
-        "nome": "Furfrou (4)"
+        "nome": "Furfrou (4)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "5",
         "imagem": "0676-5.png",
-        "nome": "Furfrou (5)"
+        "nome": "Furfrou (5)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "6",
         "imagem": "0676-6.png",
-        "nome": "Furfrou (6)"
+        "nome": "Furfrou (6)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "7",
         "imagem": "0676-7.png",
-        "nome": "Furfrou (7)"
+        "nome": "Furfrou (7)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "8",
         "imagem": "0676-8.png",
-        "nome": "Furfrou (8)"
+        "nome": "Furfrou (8)",
+        "tipos": [
+          "normal"
+        ]
       },
       {
         "id": "9",
         "imagem": "0676-9.png",
-        "nome": "Furfrou (9)"
+        "nome": "Furfrou (9)",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Furfrou",
@@ -5609,12 +6468,18 @@
       {
         "id": "f",
         "imagem": "0678-f.png",
-        "nome": "Meowstic (f)"
+        "nome": "Meowstic (f)",
+        "tipos": [
+          "psychic"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0678-mega.png",
-        "nome": "Mega Meowstic"
+        "nome": "Mega Meowstic",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Meowstic",
@@ -5634,7 +6499,10 @@
       {
         "id": "giga",
         "imagem": "0068-giga.png",
-        "nome": "Machamp Gigantamax"
+        "nome": "Machamp Gigantamax",
+        "tipos": [
+          "fight"
+        ]
       }
     ],
     "nome": "Machamp",
@@ -5654,7 +6522,11 @@
       {
         "id": "blade",
         "imagem": "0681-blade.png",
-        "nome": "Aegislash Lâmina"
+        "nome": "Aegislash Lâmina",
+        "tipos": [
+          "steel",
+          "ghost"
+        ]
       }
     ],
     "nome": "Aegislash",
@@ -5699,7 +6571,11 @@
       {
         "id": "mega",
         "imagem": "0687-mega.png",
-        "nome": "Mega Malamar"
+        "nome": "Mega Malamar",
+        "tipos": [
+          "dark",
+          "psychic"
+        ]
       }
     ],
     "nome": "Malamar",
@@ -5720,7 +6596,11 @@
       {
         "id": "mega",
         "imagem": "0689-mega.png",
-        "nome": "Mega Barbaracle"
+        "nome": "Mega Barbaracle",
+        "tipos": [
+          "rock",
+          "fight"
+        ]
       }
     ],
     "nome": "Barbaracle",
@@ -5748,7 +6628,11 @@
       {
         "id": "mega",
         "imagem": "0691-mega.png",
-        "nome": "Mega Dragalge"
+        "nome": "Mega Dragalge",
+        "tipos": [
+          "poison",
+          "dragon"
+        ]
       }
     ],
     "nome": "Dragalge",
@@ -5835,12 +6719,17 @@
       {
         "id": "mega",
         "imagem": "0701-mega.png",
-        "nome": "Mega Hawlucha"
+        "nome": "Mega Hawlucha",
+        "tipos": [
+          "fight",
+          "flying"
+        ]
       }
     ],
     "nome": "Hawlucha",
     "tipos": [
-      "fight"
+      "fight",
+      "flying"
     ]
   },
   "702": {
@@ -5868,7 +6757,11 @@
       {
         "id": "hisui",
         "imagem": "0705-hisui.png",
-        "nome": "Sliggoo de Hisui"
+        "nome": "Sliggoo de Hisui",
+        "tipos": [
+          "steel",
+          "dragon"
+        ]
       }
     ],
     "nome": "Sliggoo",
@@ -5881,7 +6774,11 @@
       {
         "id": "hisui",
         "imagem": "0706-hisui.png",
-        "nome": "Goodra de Hisui"
+        "nome": "Goodra de Hisui",
+        "tipos": [
+          "steel",
+          "dragon"
+        ]
       }
     ],
     "nome": "Goodra",
@@ -5915,7 +6812,11 @@
       {
         "id": "mega",
         "imagem": "0071-mega.png",
-        "nome": "Mega Victreebel"
+        "nome": "Mega Victreebel",
+        "tipos": [
+          "grass",
+          "poison"
+        ]
       }
     ],
     "nome": "Victreebel",
@@ -5949,7 +6850,11 @@
       {
         "id": "hisui",
         "imagem": "0713-hisui.png",
-        "nome": "Avalugg de Hisui"
+        "nome": "Avalugg de Hisui",
+        "tipos": [
+          "ice",
+          "rock"
+        ]
       }
     ],
     "nome": "Avalugg",
@@ -5960,12 +6865,14 @@
   "714": {
     "nome": "Noibat",
     "tipos": [
+      "flying",
       "dragon"
     ]
   },
   "715": {
     "nome": "Noivern",
     "tipos": [
+      "flying",
       "dragon"
     ]
   },
@@ -5978,7 +6885,8 @@
   "717": {
     "nome": "Yveltal",
     "tipos": [
-      "dark"
+      "dark",
+      "flying"
     ]
   },
   "718": {
@@ -5986,17 +6894,29 @@
       {
         "id": "10",
         "imagem": "0718-10.png",
-        "nome": "Zygarde (10)"
+        "nome": "Zygarde (10)",
+        "tipos": [
+          "dragon",
+          "earth"
+        ]
       },
       {
         "id": "100",
         "imagem": "0718-100.png",
-        "nome": "Zygarde (100)"
+        "nome": "Zygarde (100)",
+        "tipos": [
+          "dragon",
+          "earth"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0718-mega.png",
-        "nome": "Mega Zygarde"
+        "nome": "Mega Zygarde",
+        "tipos": [
+          "dragon",
+          "earth"
+        ]
       }
     ],
     "nome": "Zygarde",
@@ -6010,7 +6930,11 @@
       {
         "id": "mega",
         "imagem": "0719-mega.png",
-        "nome": "Mega Diancie"
+        "nome": "Mega Diancie",
+        "tipos": [
+          "rock",
+          "fairy"
+        ]
       }
     ],
     "nome": "Diancie",
@@ -6031,7 +6955,11 @@
       {
         "id": "unbound",
         "imagem": "0720-unbound.png",
-        "nome": "Hoopa Desperto"
+        "nome": "Hoopa Desperto",
+        "tipos": [
+          "psychic",
+          "dark"
+        ]
       }
     ],
     "nome": "Hoopa",
@@ -6050,13 +6978,15 @@
   "722": {
     "nome": "Rowlet",
     "tipos": [
-      "grass"
+      "grass",
+      "flying"
     ]
   },
   "723": {
     "nome": "Dartrix",
     "tipos": [
-      "grass"
+      "grass",
+      "flying"
     ]
   },
   "724": {
@@ -6064,7 +6994,11 @@
       {
         "id": "hisui",
         "imagem": "0724-hisui.png",
-        "nome": "Decidueye de Hisui"
+        "nome": "Decidueye de Hisui",
+        "tipos": [
+          "grass",
+          "fight"
+        ]
       }
     ],
     "nome": "Decidueye",
@@ -6121,19 +7055,22 @@
   "731": {
     "nome": "Pikipek",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "732": {
     "nome": "Trumbeak",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "733": {
     "nome": "Toucannon",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "734": {
@@ -6179,7 +7116,11 @@
       {
         "id": "alola",
         "imagem": "0074-alola.png",
-        "nome": "Geodude de Alola"
+        "nome": "Geodude de Alola",
+        "tipos": [
+          "rock",
+          "electric"
+        ]
       }
     ],
     "nome": "Geodude",
@@ -6193,7 +7134,11 @@
       {
         "id": "mega",
         "imagem": "0740-mega.png",
-        "nome": "Mega Crabominable"
+        "nome": "Mega Crabominable",
+        "tipos": [
+          "fight",
+          "ice"
+        ]
       }
     ],
     "nome": "Crabominable",
@@ -6207,22 +7152,35 @@
       {
         "id": "pa",
         "imagem": "0741-pa.png",
-        "nome": "Oricorio (pa)"
+        "nome": "Oricorio (pa)",
+        "tipos": [
+          "psychic",
+          "flying"
+        ]
       },
       {
         "id": "pp",
         "imagem": "0741-pp.png",
-        "nome": "Oricorio (pp)"
+        "nome": "Oricorio (pp)",
+        "tipos": [
+          "electric",
+          "flying"
+        ]
       },
       {
         "id": "ss",
         "imagem": "0741-ss.png",
-        "nome": "Oricorio (ss)"
+        "nome": "Oricorio (ss)",
+        "tipos": [
+          "ghost",
+          "flying"
+        ]
       }
     ],
     "nome": "Oricorio",
     "tipos": [
-      "fire"
+      "fire",
+      "flying"
     ]
   },
   "742": {
@@ -6250,12 +7208,18 @@
       {
         "id": "dusk",
         "imagem": "0745-dusk.png",
-        "nome": "Lycanroc Crepúsculo"
+        "nome": "Lycanroc Crepúsculo",
+        "tipos": [
+          "rock"
+        ]
       },
       {
         "id": "mid",
         "imagem": "0745-mid.png",
-        "nome": "Lycanroc Meio"
+        "nome": "Lycanroc Meio",
+        "tipos": [
+          "rock"
+        ]
       }
     ],
     "nome": "Lycanroc",
@@ -6268,7 +7232,10 @@
       {
         "id": "s",
         "imagem": "0746-s.png",
-        "nome": "Wishiwashi (s)"
+        "nome": "Wishiwashi (s)",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Wishiwashi",
@@ -6301,7 +7268,11 @@
       {
         "id": "alola",
         "imagem": "0075-alola.png",
-        "nome": "Graveler de Alola"
+        "nome": "Graveler de Alola",
+        "tipos": [
+          "rock",
+          "electric"
+        ]
       }
     ],
     "nome": "Graveler",
@@ -6382,7 +7353,11 @@
       {
         "id": "alola",
         "imagem": "0076-alola.png",
-        "nome": "Golem de Alola"
+        "nome": "Golem de Alola",
+        "tipos": [
+          "rock",
+          "electric"
+        ]
       }
     ],
     "nome": "Golem",
@@ -6447,7 +7422,11 @@
       {
         "id": "mega",
         "imagem": "0768-mega.png",
-        "nome": "Mega Golisopod"
+        "nome": "Mega Golisopod",
+        "tipos": [
+          "bug",
+          "steel"
+        ]
       }
     ],
     "nome": "Golisopod",
@@ -6468,7 +7447,10 @@
       {
         "id": "galar",
         "imagem": "0077-galar.png",
-        "nome": "Ponyta de Galar"
+        "nome": "Ponyta de Galar",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Ponyta",
@@ -6506,12 +7488,17 @@
       {
         "id": "red",
         "imagem": "0774-red.png",
-        "nome": "Minior Vermelho"
+        "nome": "Minior Vermelho",
+        "tipos": [
+          "rock",
+          "flying"
+        ]
       }
     ],
     "nome": "Minior",
     "tipos": [
-      "rock"
+      "rock",
+      "flying"
     ]
   },
   "775": {
@@ -6539,7 +7526,11 @@
       {
         "id": "busted",
         "imagem": "0778-busted.png",
-        "nome": "Mimikyu Quebrado"
+        "nome": "Mimikyu Quebrado",
+        "tipos": [
+          "ghost",
+          "fairy"
+        ]
       }
     ],
     "nome": "Mimikyu",
@@ -6560,7 +7551,11 @@
       {
         "id": "galar",
         "imagem": "0078-galar.png",
-        "nome": "Rapidash de Galar"
+        "nome": "Rapidash de Galar",
+        "tipos": [
+          "psychic",
+          "fairy"
+        ]
       }
     ],
     "nome": "Rapidash",
@@ -6573,7 +7568,11 @@
       {
         "id": "mega",
         "imagem": "0780-mega.png",
-        "nome": "Mega Drampa"
+        "nome": "Mega Drampa",
+        "tipos": [
+          "normal",
+          "dragon"
+        ]
       }
     ],
     "nome": "Drampa",
@@ -6648,7 +7647,10 @@
       {
         "id": "galar",
         "imagem": "0079-galar.png",
-        "nome": "Slowpoke de Galar"
+        "nome": "Slowpoke de Galar",
+        "tipos": [
+          "psychic"
+        ]
       }
     ],
     "nome": "Slowpoke",
@@ -6707,7 +7709,8 @@
   "797": {
     "nome": "Celesteela",
     "tipos": [
-      "steel"
+      "steel",
+      "flying"
     ]
   },
   "798": {
@@ -6735,12 +7738,20 @@
       {
         "id": "galar",
         "imagem": "0080-galar.png",
-        "nome": "Slowbro de Galar"
+        "nome": "Slowbro de Galar",
+        "tipos": [
+          "poison",
+          "psychic"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0080-mega.png",
-        "nome": "Mega Slowbro"
+        "nome": "Mega Slowbro",
+        "tipos": [
+          "water",
+          "psychic"
+        ]
       }
     ],
     "nome": "Slowbro",
@@ -6754,17 +7765,29 @@
       {
         "id": "dawn",
         "imagem": "0800-dawn.png",
-        "nome": "Necrozma Amanhecer"
+        "nome": "Necrozma Amanhecer",
+        "tipos": [
+          "psychic",
+          "ghost"
+        ]
       },
       {
         "id": "dusk",
         "imagem": "0800-dusk.png",
-        "nome": "Necrozma Crepúsculo"
+        "nome": "Necrozma Crepúsculo",
+        "tipos": [
+          "psychic",
+          "steel"
+        ]
       },
       {
         "id": "ultra",
         "imagem": "0800-ultra.png",
-        "nome": "Ultra Necrozma"
+        "nome": "Ultra Necrozma",
+        "tipos": [
+          "psychic",
+          "dragon"
+        ]
       }
     ],
     "nome": "Necrozma",
@@ -6777,7 +7800,11 @@
       {
         "id": "mega",
         "imagem": "0801-mega.png",
-        "nome": "Mega Magearna"
+        "nome": "Mega Magearna",
+        "tipos": [
+          "steel",
+          "fairy"
+        ]
       }
     ],
     "nome": "Magearna",
@@ -6825,7 +7852,10 @@
       {
         "id": "mega",
         "imagem": "0807-mega.png",
-        "nome": "Mega Zeraora"
+        "nome": "Mega Zeraora",
+        "tipos": [
+          "electric"
+        ]
       }
     ],
     "nome": "Zeraora",
@@ -6844,7 +7874,10 @@
       {
         "id": "giga",
         "imagem": "0809-giga.png",
-        "nome": "Melmetal Gigantamax"
+        "nome": "Melmetal Gigantamax",
+        "tipos": [
+          "steel"
+        ]
       }
     ],
     "nome": "Melmetal",
@@ -6876,7 +7909,10 @@
       {
         "id": "giga",
         "imagem": "0812-giga.png",
-        "nome": "Rillaboom Gigantamax"
+        "nome": "Rillaboom Gigantamax",
+        "tipos": [
+          "grass"
+        ]
       }
     ],
     "nome": "Rillaboom",
@@ -6901,7 +7937,10 @@
       {
         "id": "giga",
         "imagem": "0815-giga.png",
-        "nome": "Cinderace Gigantamax"
+        "nome": "Cinderace Gigantamax",
+        "tipos": [
+          "fire"
+        ]
       }
     ],
     "nome": "Cinderace",
@@ -6926,7 +7965,10 @@
       {
         "id": "giga",
         "imagem": "0818-giga.png",
-        "nome": "Inteleon Gigantamax"
+        "nome": "Inteleon Gigantamax",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Inteleon",
@@ -6955,22 +7997,31 @@
   },
   "821": {
     "nome": "Rookidee",
-    "tipos": []
+    "tipos": [
+      "flying"
+    ]
   },
   "822": {
     "nome": "Corvisquire",
-    "tipos": []
+    "tipos": [
+      "flying"
+    ]
   },
   "823": {
     "formas": [
       {
         "id": "giga",
         "imagem": "0823-giga.png",
-        "nome": "Corviknight Gigantamax"
+        "nome": "Corviknight Gigantamax",
+        "tipos": [
+          "flying",
+          "steel"
+        ]
       }
     ],
     "nome": "Corviknight",
     "tipos": [
+      "flying",
       "steel"
     ]
   },
@@ -6992,7 +8043,11 @@
       {
         "id": "giga",
         "imagem": "0826-giga.png",
-        "nome": "Orbeetle Gigantamax"
+        "nome": "Orbeetle Gigantamax",
+        "tipos": [
+          "bug",
+          "psychic"
+        ]
       }
     ],
     "nome": "Orbeetle",
@@ -7024,12 +8079,16 @@
       {
         "id": "galar",
         "imagem": "0083-galar.png",
-        "nome": "Farfetch'd de Galar"
+        "nome": "Farfetch'd de Galar",
+        "tipos": [
+          "fight"
+        ]
       }
     ],
     "nome": "Farfetch'd",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "830": {
@@ -7061,7 +8120,11 @@
       {
         "id": "giga",
         "imagem": "0834-giga.png",
-        "nome": "Drednaw Gigantamax"
+        "nome": "Drednaw Gigantamax",
+        "tipos": [
+          "water",
+          "rock"
+        ]
       }
     ],
     "nome": "Drednaw",
@@ -7100,7 +8163,11 @@
       {
         "id": "giga",
         "imagem": "0839-giga.png",
-        "nome": "Coalossal Gigantamax"
+        "nome": "Coalossal Gigantamax",
+        "tipos": [
+          "rock",
+          "fire"
+        ]
       }
     ],
     "nome": "Coalossal",
@@ -7112,7 +8179,8 @@
   "84": {
     "nome": "Doduo",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "840": {
@@ -7127,7 +8195,11 @@
       {
         "id": "giga",
         "imagem": "0841-giga.png",
-        "nome": "Flapple Gigantamax"
+        "nome": "Flapple Gigantamax",
+        "tipos": [
+          "grass",
+          "dragon"
+        ]
       }
     ],
     "nome": "Flapple",
@@ -7154,7 +8226,10 @@
       {
         "id": "giga",
         "imagem": "0844-giga.png",
-        "nome": "Sandaconda Gigantamax"
+        "nome": "Sandaconda Gigantamax",
+        "tipos": [
+          "earth"
+        ]
       }
     ],
     "nome": "Sandaconda",
@@ -7165,6 +8240,7 @@
   "845": {
     "nome": "Cramorant",
     "tipos": [
+      "flying",
       "water"
     ]
   },
@@ -7192,12 +8268,20 @@
       {
         "id": "2",
         "imagem": "0849-2.png",
-        "nome": "Toxtricity (2)"
+        "nome": "Toxtricity (2)",
+        "tipos": [
+          "electric",
+          "poison"
+        ]
       },
       {
         "id": "lowkey",
         "imagem": "0849-lowkey.png",
-        "nome": "Toxtricity Low Key"
+        "nome": "Toxtricity Low Key",
+        "tipos": [
+          "electric",
+          "poison"
+        ]
       }
     ],
     "nome": "Toxtricity",
@@ -7209,7 +8293,8 @@
   "85": {
     "nome": "Dodrio",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "850": {
@@ -7224,7 +8309,11 @@
       {
         "id": "giga",
         "imagem": "0851-giga.png",
-        "nome": "Centiskorch Gigantamax"
+        "nome": "Centiskorch Gigantamax",
+        "tipos": [
+          "fire",
+          "bug"
+        ]
       }
     ],
     "nome": "Centiskorch",
@@ -7250,7 +8339,10 @@
       {
         "id": "a",
         "imagem": "0854-a.png",
-        "nome": "Sinistea (a)"
+        "nome": "Sinistea (a)",
+        "tipos": [
+          "ghost"
+        ]
       }
     ],
     "nome": "Sinistea",
@@ -7263,7 +8355,10 @@
       {
         "id": "a",
         "imagem": "0855-a.png",
-        "nome": "Polteageist (a)"
+        "nome": "Polteageist (a)",
+        "tipos": [
+          "ghost"
+        ]
       }
     ],
     "nome": "Polteageist",
@@ -7288,7 +8383,11 @@
       {
         "id": "giga",
         "imagem": "0858-giga.png",
-        "nome": "Hatterene Gigantamax"
+        "nome": "Hatterene Gigantamax",
+        "tipos": [
+          "psychic",
+          "fairy"
+        ]
       }
     ],
     "nome": "Hatterene",
@@ -7322,7 +8421,11 @@
       {
         "id": "giga",
         "imagem": "0861-giga.png",
-        "nome": "Grimmsnarl Gigantamax"
+        "nome": "Grimmsnarl Gigantamax",
+        "tipos": [
+          "dark",
+          "fairy"
+        ]
       }
     ],
     "nome": "Grimmsnarl",
@@ -7381,7 +8484,10 @@
       {
         "id": "giga",
         "imagem": "0869-giga.png",
-        "nome": "Alcremie Gigantamax"
+        "nome": "Alcremie Gigantamax",
+        "tipos": [
+          "fairy"
+        ]
       }
     ],
     "nome": "Alcremie",
@@ -7401,7 +8507,10 @@
       {
         "id": "mega",
         "imagem": "0870-mega.png",
-        "nome": "Mega Falinks"
+        "nome": "Mega Falinks",
+        "tipos": [
+          "fight"
+        ]
       }
     ],
     "nome": "Falinks",
@@ -7440,7 +8549,10 @@
       {
         "id": "noice",
         "imagem": "0875-noice.png",
-        "nome": "Eiscue Noice"
+        "nome": "Eiscue Noice",
+        "tipos": [
+          "ice"
+        ]
       }
     ],
     "nome": "Eiscue",
@@ -7453,7 +8565,11 @@
       {
         "id": "f",
         "imagem": "0876-f.png",
-        "nome": "Indeedee (f)"
+        "nome": "Indeedee (f)",
+        "tipos": [
+          "psychic",
+          "normal"
+        ]
       }
     ],
     "nome": "Indeedee",
@@ -7467,7 +8583,11 @@
       {
         "id": "h",
         "imagem": "0877-h.png",
-        "nome": "Morpeko (h)"
+        "nome": "Morpeko (h)",
+        "tipos": [
+          "electric",
+          "dark"
+        ]
       }
     ],
     "nome": "Morpeko",
@@ -7487,7 +8607,10 @@
       {
         "id": "giga",
         "imagem": "0879-giga.png",
-        "nome": "Copperajah Gigantamax"
+        "nome": "Copperajah Gigantamax",
+        "tipos": [
+          "steel"
+        ]
       }
     ],
     "nome": "Copperajah",
@@ -7500,7 +8623,11 @@
       {
         "id": "alola",
         "imagem": "0088-alola.png",
-        "nome": "Grimer de Alola"
+        "nome": "Grimer de Alola",
+        "tipos": [
+          "poison",
+          "dark"
+        ]
       }
     ],
     "nome": "Grimer",
@@ -7541,7 +8668,11 @@
       {
         "id": "giga",
         "imagem": "0884-giga.png",
-        "nome": "Duraludon Gigantamax"
+        "nome": "Duraludon Gigantamax",
+        "tipos": [
+          "steel",
+          "dragon"
+        ]
       }
     ],
     "nome": "Duraludon",
@@ -7576,7 +8707,11 @@
       {
         "id": "crowned",
         "imagem": "0888-crowned.png",
-        "nome": "Zacian Coroado"
+        "nome": "Zacian Coroado",
+        "tipos": [
+          "fairy",
+          "steel"
+        ]
       }
     ],
     "nome": "Zacian",
@@ -7589,7 +8724,11 @@
       {
         "id": "crowned",
         "imagem": "0889-crowned.png",
-        "nome": "Zamazenta Coroado"
+        "nome": "Zamazenta Coroado",
+        "tipos": [
+          "fight",
+          "steel"
+        ]
       }
     ],
     "nome": "Zamazenta",
@@ -7602,7 +8741,11 @@
       {
         "id": "alola",
         "imagem": "0089-alola.png",
-        "nome": "Muk de Alola"
+        "nome": "Muk de Alola",
+        "tipos": [
+          "poison",
+          "dark"
+        ]
       }
     ],
     "nome": "Muk",
@@ -7615,7 +8758,11 @@
       {
         "id": "max",
         "imagem": "0890-max.png",
-        "nome": "Eternatus Máximo"
+        "nome": "Eternatus Máximo",
+        "tipos": [
+          "poison",
+          "dragon"
+        ]
       }
     ],
     "nome": "Eternatus",
@@ -7635,17 +8782,29 @@
       {
         "id": "giga-rapid",
         "imagem": "0892-giga-rapid.png",
-        "nome": "Urshifu Gigantamax Rápido"
+        "nome": "Urshifu Gigantamax Rápido",
+        "tipos": [
+          "fight",
+          "water"
+        ]
       },
       {
         "id": "giga-single",
         "imagem": "0892-giga-single.png",
-        "nome": "Urshifu Gigantamax Singular"
+        "nome": "Urshifu Gigantamax Singular",
+        "tipos": [
+          "fight",
+          "dark"
+        ]
       },
       {
         "id": "rapid",
         "imagem": "0892-rapid.png",
-        "nome": "Urshifu Rápido"
+        "nome": "Urshifu Rápido",
+        "tipos": [
+          "fight",
+          "water"
+        ]
       }
     ],
     "nome": "Urshifu",
@@ -7690,12 +8849,20 @@
       {
         "id": "ice",
         "imagem": "0898-ice.png",
-        "nome": "Calyrex de Gelo"
+        "nome": "Calyrex de Gelo",
+        "tipos": [
+          "psychic",
+          "ice"
+        ]
       },
       {
         "id": "shadow",
         "imagem": "0898-shadow.png",
-        "nome": "Calyrex Sombra"
+        "nome": "Calyrex Sombra",
+        "tipos": [
+          "psychic",
+          "ghost"
+        ]
       }
     ],
     "nome": "Calyrex",
@@ -7716,12 +8883,18 @@
       {
         "id": "giga",
         "imagem": "0009-giga.png",
-        "nome": "Blastoise Gigantamax"
+        "nome": "Blastoise Gigantamax",
+        "tipos": [
+          "water"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0009-mega.png",
-        "nome": "Mega Blastoise"
+        "nome": "Mega Blastoise",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Blastoise",
@@ -7747,7 +8920,11 @@
       {
         "id": "blood",
         "imagem": "0901-blood.png",
-        "nome": "Ursaluna de Sangue"
+        "nome": "Ursaluna de Sangue",
+        "tipos": [
+          "earth",
+          "normal"
+        ]
       }
     ],
     "nome": "Ursaluna",
@@ -7761,7 +8938,11 @@
       {
         "id": "f",
         "imagem": "0902-f.png",
-        "nome": "Basculegion (f)"
+        "nome": "Basculegion (f)",
+        "tipos": [
+          "water",
+          "ghost"
+        ]
       }
     ],
     "nome": "Basculegion",
@@ -7789,12 +8970,17 @@
       {
         "id": "therian",
         "imagem": "0905-therian.png",
-        "nome": "Enamorus Terian"
+        "nome": "Enamorus Terian",
+        "tipos": [
+          "fairy",
+          "flying"
+        ]
       }
     ],
     "nome": "Enamorus",
     "tipos": [
-      "fairy"
+      "fairy",
+      "flying"
     ]
   },
   "906": {
@@ -7872,7 +9058,10 @@
       {
         "id": "f",
         "imagem": "0916-f.png",
-        "nome": "Oinkologne (f)"
+        "nome": "Oinkologne (f)",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Oinkologne",
@@ -7943,7 +9132,10 @@
       {
         "id": "f4",
         "imagem": "0925-f4.png",
-        "nome": "Maushold (f4)"
+        "nome": "Maushold (f4)",
+        "tipos": [
+          "normal"
+        ]
       }
     ],
     "nome": "Maushold",
@@ -7996,22 +9188,35 @@
       {
         "id": "b",
         "imagem": "0931-b.png",
-        "nome": "Squawkabilly (b)"
+        "nome": "Squawkabilly (b)",
+        "tipos": [
+          "normal",
+          "flying"
+        ]
       },
       {
         "id": "w",
         "imagem": "0931-w.png",
-        "nome": "Squawkabilly (w)"
+        "nome": "Squawkabilly (w)",
+        "tipos": [
+          "normal",
+          "flying"
+        ]
       },
       {
         "id": "y",
         "imagem": "0931-y.png",
-        "nome": "Squawkabilly (y)"
+        "nome": "Squawkabilly (y)",
+        "tipos": [
+          "normal",
+          "flying"
+        ]
       }
     ],
     "nome": "Squawkabilly",
     "tipos": [
-      "normal"
+      "normal",
+      "flying"
     ]
   },
   "932": {
@@ -8069,12 +9274,20 @@
       {
         "id": "giga",
         "imagem": "0094-giga.png",
-        "nome": "Gengar Gigantamax"
+        "nome": "Gengar Gigantamax",
+        "tipos": [
+          "ghost",
+          "poison"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0094-mega.png",
-        "nome": "Mega Gengar"
+        "nome": "Mega Gengar",
+        "tipos": [
+          "ghost",
+          "poison"
+        ]
       }
     ],
     "nome": "Gengar",
@@ -8086,13 +9299,15 @@
   "940": {
     "nome": "Wattrel",
     "tipos": [
-      "electric"
+      "electric",
+      "flying"
     ]
   },
   "941": {
     "nome": "Kilowattrel",
     "tipos": [
-      "electric"
+      "electric",
+      "flying"
     ]
   },
   "942": {
@@ -8173,7 +9388,11 @@
       {
         "id": "mega",
         "imagem": "0952-mega.png",
-        "nome": "Mega Scovillain"
+        "nome": "Mega Scovillain",
+        "tipos": [
+          "grass",
+          "fire"
+        ]
       }
     ],
     "nome": "Scovillain",
@@ -8249,6 +9468,7 @@
   "962": {
     "nome": "Bombirdier",
     "tipos": [
+      "flying",
       "dark"
     ]
   },
@@ -8309,7 +9529,11 @@
       {
         "id": "mega",
         "imagem": "0970-mega.png",
-        "nome": "Mega Glimmora"
+        "nome": "Mega Glimmora",
+        "tipos": [
+          "rock",
+          "poison"
+        ]
       }
     ],
     "nome": "Glimmora",
@@ -8333,6 +9557,7 @@
   "973": {
     "nome": "Flamigo",
     "tipos": [
+      "flying",
       "fight"
     ]
   },
@@ -8366,17 +9591,29 @@
       {
         "id": "d",
         "imagem": "0978-d.png",
-        "nome": "Tatsugiri (d)"
+        "nome": "Tatsugiri (d)",
+        "tipos": [
+          "dragon",
+          "water"
+        ]
       },
       {
         "id": "mega",
         "imagem": "0978-mega.png",
-        "nome": "Mega Tatsugiri"
+        "nome": "Mega Tatsugiri",
+        "tipos": [
+          "dragon",
+          "water"
+        ]
       },
       {
         "id": "s",
         "imagem": "0978-s.png",
-        "nome": "Tatsugiri (s)"
+        "nome": "Tatsugiri (s)",
+        "tipos": [
+          "dragon",
+          "water"
+        ]
       }
     ],
     "nome": "Tatsugiri",
@@ -8472,7 +9709,10 @@
       {
         "id": "giga",
         "imagem": "0099-giga.png",
-        "nome": "Kingler Gigantamax"
+        "nome": "Kingler Gigantamax",
+        "tipos": [
+          "water"
+        ]
       }
     ],
     "nome": "Kingler",
@@ -8504,7 +9744,8 @@
   "993": {
     "nome": "Iron Jugulis",
     "tipos": [
-      "dark"
+      "dark",
+      "flying"
     ]
   },
   "994": {
@@ -8540,7 +9781,11 @@
       {
         "id": "mega",
         "imagem": "0998-mega.png",
-        "nome": "Mega Baxcalibur"
+        "nome": "Mega Baxcalibur",
+        "tipos": [
+          "dragon",
+          "ice"
+        ]
       }
     ],
     "nome": "Baxcalibur",
@@ -8554,7 +9799,10 @@
       {
         "id": "r",
         "imagem": "0999-r.png",
-        "nome": "Gimmighoul (r)"
+        "nome": "Gimmighoul (r)",
+        "tipos": [
+          "ghost"
+        ]
       }
     ],
     "nome": "Gimmighoul",

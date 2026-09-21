@@ -255,6 +255,56 @@ export function generateCompletePokedex(): PokemonIdentifier[] {
   return Array.from({ length: 1025 }, (_, i) => String(i + 1));
 }
 
+// Carregar Pokédex completa com formas baseado nas categorias selecionadas
+export async function loadCompletePokedexWithForms(
+  categories: { mega: boolean; giga: boolean; regional: boolean; other: boolean }
+): Promise<PokemonIdentifier[]> {
+  const pokedex = await loadPokedex();
+  const result: PokemonIdentifier[] = [];
+
+  for (let i = 1; i <= 1025; i++) {
+    const numStr = String(i);
+    result.push(numStr);
+
+    const entry = pokedex[numStr];
+    if (!entry?.formas) continue;
+
+    for (const form of entry.formas) {
+      const formId = form.id;
+
+      // Megas & Primal
+      if (categories.mega && ['mega', 'megax', 'megay', 'primal'].includes(formId)) {
+        result.push(`${i}-${formId}`);
+        continue;
+      }
+
+      // Gigantamax
+      if (categories.giga && formId === 'giga') {
+        result.push(`${i}-${formId}`);
+        continue;
+      }
+
+      // Regionais
+      if (categories.regional && ['alola', 'galar', 'hisui', 'paldea', 'paldea-combat', 'paldea-blaze', 'paldea-aqua'].includes(formId)) {
+        result.push(`${i}-${formId}`);
+        continue;
+      }
+
+      // Outras formas
+      if (categories.other) {
+        const megaForms = ['mega', 'megax', 'megay', 'primal'];
+        const gigaForms = ['giga'];
+        const regionalForms = ['alola', 'galar', 'hisui', 'paldea', 'paldea-combat', 'paldea-blaze', 'paldea-aqua'];
+        if (!megaForms.includes(formId) && !gigaForms.includes(formId) && !regionalForms.includes(formId)) {
+          result.push(`${i}-${formId}`);
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
 // Gerar range para geração específica
 export function generateGenerationRange(start: number, end: number): PokemonIdentifier[] {
   return Array.from({ length: end - start + 1 }, (_, i) => String(start + i));

@@ -41,6 +41,7 @@ export interface PDFConfig {
   showNumbers: boolean;
   showNames: boolean;
   showRarity: boolean;
+  numberingMode: 'sequential' | 'tcg';
 }
 
 export interface SelectionMode {
@@ -53,7 +54,9 @@ export interface Masterset {
   id: string;
   name: string;
   description: string;
+  logo?: string;
   pokemon: PokemonIdentifier[];
+  setNumbers?: string[];
   total: string;
   rarities: string[];
 }
@@ -61,10 +64,32 @@ export interface Masterset {
 export interface MastersetInfo {
   total: string;
   rarities: string[];
+  setNumbers?: string[];
+  logo?: string;
 }
 
 export interface ParsedInput {
   pokemon: PokemonIdentifier[];
   errors: string[];
   warnings: string[];
+}
+
+export interface MastersetCategory {
+  id: string;
+  name: string;
+  icon: string;
+  sets: Masterset[];
+}
+
+export interface FormCategoryOption {
+  id: string;
+  label: string;
+  forms: string[];
+}
+
+export interface FormCategories {
+  mega: FormCategoryOption;
+  giga: FormCategoryOption;
+  regional: FormCategoryOption;
+  other: FormCategoryOption;
 }

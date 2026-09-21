@@ -5,16 +5,31 @@ import type { ParsedInput, MastersetInfo, PokemonIdentifier } from '../types/pok
 interface ManualInputProps {
   onPokemonListChange: (pokemon: PokemonIdentifier[], mastersetInfo?: MastersetInfo) => void;
   disabled?: boolean;
+  externalInput?: string;
+  mastersetInfo?: MastersetInfo | null;
 }
 
-export function ManualInput({ onPokemonListChange, disabled = false }: ManualInputProps) {
+export function ManualInput({ onPokemonListChange, disabled = false, externalInput, mastersetInfo }: ManualInputProps) {
   const [input, setInput] = useState('');
   const [total, setTotal] = useState('');
   const [allowDuplicates, setAllowDuplicates] = useState(true);
   const [parsedResult, setParsedResult] = useState<ParsedInput | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [isExternal, setIsExternal] = useState(false);
 
   useEffect(() => {
+    if (externalInput !== undefined) {
+      setInput(externalInput);
+      setIsExternal(true);
+    }
+  }, [externalInput]);
+
+  useEffect(() => {
+    if (isExternal) {
+      setIsExternal(false);
+      return;
+    }
+
     const debounceTimer = setTimeout(async () => {
       if (input.trim()) {
         setIsProcessing(true);
@@ -22,7 +37,9 @@ export function ManualInput({ onPokemonListChange, disabled = false }: ManualInp
           const result = await parseInput(input, allowDuplicates);
           setParsedResult(result);
           if (result.errors.length === 0) {
-            const info = total.trim() ? { total: total.trim(), rarities: [] } : undefined;
+            const info = total.trim() 
+              ? { total: total.trim(), rarities: [] } 
+              : mastersetInfo ?? undefined;
             onPokemonListChange(result.pokemon, info);
           }
         } catch (error) {
@@ -37,7 +54,7 @@ export function ManualInput({ onPokemonListChange, disabled = false }: ManualInp
     }, 500);
 
     return () => clearTimeout(debounceTimer);
-  }, [input, total, allowDuplicates, onPokemonListChange]);
+  }, [input, total, allowDuplicates, onPokemonListChange, mastersetInfo, isExternal]);
 
   const handleExampleClick = (example: string) => {
     setInput(prev => prev ? `${prev}; ${example}` : example);
@@ -96,17 +113,6 @@ export function ManualInput({ onPokemonListChange, disabled = false }: ManualInp
               <ul>
                 {parsedResult.errors.map((error, index) => (
                   <li key={index}>{error}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          
-          {parsedResult.warnings.length > 0 && (
-            <div className="parse-warnings">
-              <h4>Avisos:</h4>
-              <ul>
-                {parsedResult.warnings.map((warning, index) => (
-                  <li key={index}>{warning}</li>
                 ))}
               </ul>
             </div>

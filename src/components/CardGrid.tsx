@@ -43,6 +43,16 @@ export function CardGrid({ pokemonList, config, startIndex = 0, mastersetInfo = 
         const displayNum = mastersetInfo && uniquePositionMap
           ? uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)
           : globalIndex + 1;
+        
+        let cardNumber: string;
+        if (config.numberingMode === 'tcg' && mastersetInfo?.setNumbers?.[globalIndex]) {
+          cardNumber = `#${mastersetInfo.setNumbers[globalIndex]}/${mastersetInfo.total}`;
+        } else if (config.numberingMode === 'tcg' && mastersetInfo) {
+          cardNumber = `${displayNum.toString().padStart(3, '0')}/${mastersetInfo.total}`;
+        } else {
+          cardNumber = `#${displayNum.toString().padStart(3, '0')}`;
+        }
+
         const pokemonName = pokedex ? getPokemonDisplayName(id, pokedex) : id;
         const pokemonTypes = pokedex ? getPokemonTypes(id, pokedex) : [];
         const imgPath = getImagePath(id, config.visualMode);
@@ -61,10 +71,7 @@ export function CardGrid({ pokemonList, config, startIndex = 0, mastersetInfo = 
               )}
               {config.showNumbers && (
                 <div className="card-number pokemon-font">
-                  {mastersetInfo
-                    ? `${displayNum.toString().padStart(3, '0')}/${mastersetInfo.total}`
-                    : `#${displayNum.toString().padStart(3, '0')}`
-                  }
+                  {cardNumber}
                 </div>
               )}
             </div>

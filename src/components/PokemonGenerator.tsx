@@ -8,9 +8,9 @@ import { ConfigPanel } from './ConfigPanel';
 import { PDFPreview } from './PDFPreview';
 import { AdBanner } from './AdBanner';
 import { generatePDF } from '../utils/pdfGenerator';
-import { generateCompletePokedex } from '../utils/parser';
+import { generateCompletePokedex, loadCompletePokedexWithForms } from '../utils/parser';
 import type { PDFConfig, SelectionMode, VisualMode, MastersetInfo, PokemonIdentifier } from '../types/pokemon';
-import { DEFAULT_CONFIG } from '../data/constants';
+import { DEFAULT_CONFIG, FORM_CATEGORIES } from '../data/constants';
 
 export function PokemonGenerator() {
   const [config, setConfig] = useState<PDFConfig>(DEFAULT_CONFIG);
@@ -19,6 +19,14 @@ export function PokemonGenerator() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [generateError, setGenerateError] = useState<string | null>(null);
   const [mastersetInfo, setMastersetInfo] = useState<MastersetInfo | null>(null);
+  const [formCategories, setFormCategories] = useState({
+    mega: false,
+    giga: false,
+    regional: false,
+    other: false,
+  });
+  const [showHelp, setShowHelp] = useState(false);
+  const [mastersetInput, setMastersetInput] = useState<string | undefined>(undefined);
 
   const uniquePositionMap = (() => {
     const map = new Map<string, number>();
@@ -42,9 +50,15 @@ export function PokemonGenerator() {
     setGenerateError(null);
   };
 
-  const handleCompletePokedex = () => {
-    const complete = generateCompletePokedex();
-    setPokemonList(complete);
+  const handleCompletePokedex = async () => {
+    const hasAnyCategory = Object.values(formCategories).some(v => v);
+    if (hasAnyCategory) {
+      const complete = await loadCompletePokedexWithForms(formCategories);
+      setPokemonList(complete);
+    } else {
+      const complete = generateCompletePokedex();
+      setPokemonList(complete);
+    }
   };
 
   const handleGeneratePDF = async () => {
@@ -89,6 +103,40 @@ export function PokemonGenerator() {
             <div className="complete-pokedex-info">
               <h3>Pokédex Completa</h3>
               <p>Isso gerará um PDF com todos os 1025 Pokémon.</p>
+
+              <div className="form-categories">
+                <p className="form-categories-label">Incluir formas alternativas:</p>
+                <label className="form-category-checkbox form-category-all">
+                  <input
+                    type="checkbox"
+                    checked={Object.values(formCategories).every(v => v)}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      setFormCategories({
+                        mega: checked,
+                        giga: checked,
+                        regional: checked,
+                        other: checked,
+                      });
+                    }}
+                  />
+                  <span className="form-category-label">Todos</span>
+                </label>
+                {Object.entries(FORM_CATEGORIES).map(([key, cat]) => (
+                  <label key={key} className="form-category-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={formCategories[key as keyof typeof formCategories]}
+                      onChange={(e) => setFormCategories({
+                        ...formCategories,
+                        [key]: e.target.checked,
+                      })}
+                    />
+                    <span className="form-category-label">{cat.label}</span>
+                  </label>
+                ))}
+              </div>
+
               <button
                 onClick={handleCompletePokedex}
                 className="action-button primary"
@@ -108,12 +156,14 @@ export function PokemonGenerator() {
         return (
           <MastersetSelector
             onPokemonListChange={handlePokemonListChange}
+            onMastersetSelected={(input) => setMastersetInput(input)}
           />
         );
       case 'manual':
         return (
           <ManualInput
             onPokemonListChange={handlePokemonListChange}
+            externalInput={mastersetInput}
           />
         );
       default:
@@ -126,7 +176,60 @@ export function PokemonGenerator() {
       <div className="generator-header">
         <h1>🎮 Gerador de PDF Personalizado</h1>
         <p>Crie sua Pokédex personalizada com os Pokémon que você escolher</p>
+        <button 
+          className="help-button"
+          onClick={() => setShowHelp(true)}
+          title="Ajuda"
+        >
+          ?
+        </button>
       </div>
+
+      {showHelp && (
+        <div className="help-modal-overlay" onClick={() => setShowHelp(false)}>
+          <div className="help-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="help-modal-close" onClick={() => setShowHelp(false)}>×</button>
+            <h2>📖 Como Usar</h2>
+            
+            <div className="help-section">
+              <h3>Modos de Seleção</h3>
+              <ul>
+                <li><strong>Pokédex Completa:</strong> Carrega todos os 1025 Pokémon. Use os checkboxes para incluir formas alternativas (Megas, Regionais, etc.)</li>
+                <li><strong>Por Geração:</strong> Seleciona Pokémon de uma geração específica</li>
+                <li><strong>Masterset:</strong> Coleções pré-definidas organizadas por categoria</li>
+                <li><strong>Manual:</strong> Digite números ou nomes separados por ponto e vírgula (;)</li>
+              </ul>
+            </div>
+
+            <div className="help-section">
+              <h3>Sintaxe do Input Manual</h3>
+              <ul>
+                <li><strong>Números:</strong> <code>3;6;25</code> (Venusaur, Charizard, Pikachu)</li>
+                <li><strong>Nomes:</strong> <code>charizard;pikachu</code></li>
+                <li><strong>Formas:</strong> <code>3-mega;6-megax;25-alola</code></li>
+                <li><strong>Nomes com formas:</strong> <code>mega charizard x;charizard giga</code></li>
+                <li><strong>Sufixos TCG:</strong> <code>3-mega-ex;charizard ex</code></li>
+                <li><strong>Compostos:</strong> <code>6-megax-ex</code> (Mega Charizard X EX)</li>
+              </ul>
+            </div>
+
+            <div className="help-section">
+              <h3>Categorias de Formas</h3>
+              <ul>
+                <li><strong>Megas & Primal:</strong> mega, megax, megay, primal</li>
+                <li><strong>Gigantamax:</strong> giga</li>
+                <li><strong>Regionais:</strong> alola, galar, hisui, paldea</li>
+                <li><strong>Outras:</strong> therian, origin, zen, rotom, etc.</li>
+              </ul>
+            </div>
+
+            <div className="help-section">
+              <h3>Raridades</h3>
+              <p>Selecione um Masterset para usar o sistema de raridades. As raridades são exibidas como ícones no PDF.</p>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="generator-layout">
         <div className="generator-sidebar">
@@ -143,6 +246,16 @@ export function PokemonGenerator() {
           <div className="selection-section">
             {renderSelectionModeContent()}
           </div>
+
+          {selectionMode !== 'manual' && (
+            <div className="selection-section">
+              <ManualInput
+                onPokemonListChange={handlePokemonListChange}
+                externalInput={mastersetInput}
+                mastersetInfo={mastersetInfo}
+              />
+            </div>
+          )}
 
           <ConfigPanel
             config={config}

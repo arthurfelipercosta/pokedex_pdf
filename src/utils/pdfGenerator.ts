@@ -147,9 +147,14 @@ export class PDFGenerator {
       const pokemonTypes = getPokemonTypes(id, this.pokedex);
 
       if (this.config.showNumbers) {
-        const numText = this.mastersetInfo
-          ? `${displayNum.toString().padStart(3, '0')}/${this.mastersetInfo.total}`
-          : `#${displayNum.toString().padStart(3, '0')}`;
+        let numText: string;
+        if (this.config.numberingMode === 'tcg' && this.mastersetInfo?.setNumbers?.[globalIndex]) {
+          numText = `#${this.mastersetInfo.setNumbers[globalIndex]}/${this.mastersetInfo.total}`;
+        } else if (this.config.numberingMode === 'tcg' && this.mastersetInfo) {
+          numText = `${displayNum.toString().padStart(3, '0')}/${this.mastersetInfo.total}`;
+        } else {
+          numText = `#${displayNum.toString().padStart(3, '0')}`;
+        }
         page.drawText(numText, {
           x: pos.x + 5,
           y: pos.y + pos.cellHeight - 20,

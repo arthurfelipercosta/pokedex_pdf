@@ -58,6 +58,127 @@ body {
   opacity: 0.9;
 }
 
+/* Help Button */
+.help-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.help-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+/* Help Modal */
+.help-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.help-modal {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.help-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #f0f0f0;
+  color: #666;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.help-modal-close:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.help-modal h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.help-section {
+  margin-bottom: 20px;
+}
+
+.help-section h3 {
+  color: #667eea;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.help-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.help-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f8f8f8;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.help-section li:last-child {
+  border-bottom: none;
+}
+
+.help-section code {
+  background: #f0f4ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #667eea;
+}
+
+.help-section p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
 /* Layout Principal */
 .generator-layout {
   display: grid;
@@ -374,10 +495,76 @@ body {
   font-weight: 600;
 }
 
-.masterset-grid {
+.masterset-accordion {
   display: flex;
   flex-direction: column;
+  gap: 4px;
+}
+
+.masterset-category {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.masterset-category-header {
+  display: flex;
+  align-items: center;
   gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.masterset-category-header:hover:not(:disabled) {
+  background: #e8ecf4;
+}
+
+.masterset-category-header:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.masterset-category-header.expanded {
+  background: #667eea;
+  color: white;
+}
+
+.category-icon {
+  font-size: 1rem;
+}
+
+.category-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.category-count {
+  font-size: 0.75rem;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.masterset-category-header.expanded .category-count {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.category-arrow {
+  font-size: 0.8rem;
+}
+
+.masterset-category-content {
+  padding: 8px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .masterset-button {
@@ -394,6 +581,11 @@ body {
   border-color: #667eea;
   background: #f0f4ff;
   transform: translateX(4px);
+}
+
+.masterset-button.selected {
+  border-color: #667eea;
+  background: #e8ecf4;
 }
 
 .masterset-name {
@@ -413,6 +605,55 @@ body {
   color: #999;
 }
 
+/* Masterset Cheat Sheet */
+.masterset-cheat-sheet {
+  margin-top: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8ecf4 100%);
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.cheat-sheet-logo {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.cheat-sheet-logo img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.cheat-sheet-header {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.cheat-sheet-info {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 6px;
+  display: flex;
+  gap: 8px;
+}
+
+.cheat-sheet-examples {
+  font-size: 0.8rem;
+  color: #888;
+  font-family: monospace;
+  margin-bottom: 6px;
+  word-break: break-all;
+}
+
+.cheat-sheet-hint {
+  font-size: 0.75rem;
+  color: #667eea;
+  font-style: italic;
+}
+
 /* Complete Pokedex Info */
 .complete-pokedex-info {
   text-align: center;
@@ -429,6 +670,58 @@ body {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 12px;
+}
+
+/* Form Categories */
+.form-categories {
+  margin: 12px 0;
+  text-align: left;
+}
+
+.form-categories-label {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-category-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-size: 0.85rem;
+}
+
+.form-category-checkbox:hover {
+  background: rgba(102, 126, 234, 0.1);
+}
+
+.form-category-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
+.form-category-label {
+  color: #444;
+  font-weight: 500;
+}
+
+.form-category-all {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.form-category-all .form-category-label {
+  font-weight: 700;
+  color: #333;
 }
 
 .action-button {
@@ -495,6 +788,37 @@ body {
 .grid-input label {
   font-size: 0.8rem;
   color: #666;
+}
+
+/* Numbering Toggle */
+.numbering-toggle {
+  display: flex;
+  gap: 4px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.numbering-option {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+  transition: all 0.2s ease;
+}
+
+.numbering-option:hover {
+  color: #333;
+}
+
+.numbering-option.active {
+  background: #667eea;
+  color: white;
 }
 
 .checkbox-group {
@@ -775,8 +1099,8 @@ body {
 }
 
 .type-icon {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 

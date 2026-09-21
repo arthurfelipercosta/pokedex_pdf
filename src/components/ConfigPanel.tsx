@@ -100,6 +100,24 @@ export function ConfigPanel({ config, onConfigChange }: ConfigPanelProps) {
       </div>
 
       <div className="config-group">
+        <label>Numeração:</label>
+        <div className="numbering-toggle">
+          <button
+            className={`numbering-option ${config.numberingMode === 'sequential' ? 'active' : ''}`}
+            onClick={() => handleConfigChange('numberingMode', 'sequential')}
+          >
+            Sequencial
+          </button>
+          <button
+            className={`numbering-option ${config.numberingMode === 'tcg' ? 'active' : ''}`}
+            onClick={() => handleConfigChange('numberingMode', 'tcg')}
+          >
+            TCG
+          </button>
+        </div>
+      </div>
+
+      <div className="config-group">
         <label>Margem (px):</label>
         <input
           type="number"
