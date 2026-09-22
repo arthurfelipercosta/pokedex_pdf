@@ -247,16 +247,6 @@ export function PokemonGenerator() {
             {renderSelectionModeContent()}
           </div>
 
-          {selectionMode !== 'manual' && (
-            <div className="selection-section">
-              <ManualInput
-                onPokemonListChange={handlePokemonListChange}
-                externalInput={mastersetInput}
-                mastersetInfo={mastersetInfo}
-              />
-            </div>
-          )}
-
           <ConfigPanel
             config={config}
             onConfigChange={setConfig}

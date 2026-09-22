@@ -306,10 +306,6 @@ export async function loadCompletePokedexWithForms(
 }
 
 // Gerar range para geração específica
-export function generateGenerationRange(start: number, end: number): PokemonIdentifier[] {
-  return Array.from({ length: end - start + 1 }, (_, i) => String(start + i));
-}
-
 // Renumerar lista de Pokémon (para exibição no PDF)
 export function renumberPokemon(pokemonList: PokemonIdentifier[]): Map<string, number> {
   const renumbering = new Map<string, number>();

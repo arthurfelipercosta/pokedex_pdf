@@ -74,6 +74,7 @@ export function MastersetSelector({ onPokemonListChange, onMastersetSelected, di
           {selectedSet.logo && (
             <div className="cheat-sheet-logo">
               <img 
+                key={selectedSet.logo}
                 src={selectedSet.logo} 
                 alt={selectedSet.name}
                 onError={(e) => {

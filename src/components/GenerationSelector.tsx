@@ -1,4 +1,4 @@
-import type { GenerationRange, PokemonIdentifier } from '../types/pokemon';
+import type { Masterset, PokemonIdentifier } from '../types/pokemon';
 import { GENERATIONS } from '../data/constants';
 
 interface GenerationSelectorProps {
@@ -7,12 +7,8 @@ interface GenerationSelectorProps {
 }
 
 export function GenerationSelector({ onPokemonListChange, disabled = false }: GenerationSelectorProps) {
-  const handleGenerationClick = (generation: GenerationRange) => {
-    const pokemon: PokemonIdentifier[] = [];
-    for (let i = generation.start; i <= generation.end; i++) {
-      pokemon.push(String(i));
-    }
-    onPokemonListChange(pokemon);
+  const handleGenerationClick = (generation: Masterset) => {
+    onPokemonListChange(generation.pokemon);
   };
 
   return (
@@ -21,17 +17,17 @@ export function GenerationSelector({ onPokemonListChange, disabled = false }: Ge
       <div className="generation-grid">
         {GENERATIONS.map((gen) => (
           <button
-            key={gen.name}
+            key={gen.id}
             className="generation-button"
             onClick={() => handleGenerationClick(gen)}
             disabled={disabled}
           >
             <div className="generation-name">{gen.name}</div>
             <div className="generation-range">
-              #{gen.start} - #{gen.end}
+              {gen.description}
             </div>
             <div className="generation-count">
-              {gen.end - gen.start + 1} Pokémon
+              {gen.pokemon.length} Pokémon
             </div>
           </button>
         ))}
