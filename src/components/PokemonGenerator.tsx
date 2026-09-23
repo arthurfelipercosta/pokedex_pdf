@@ -27,6 +27,7 @@ export function PokemonGenerator() {
   });
   const [showHelp, setShowHelp] = useState(false);
   const [mastersetInput, setMastersetInput] = useState<string | undefined>(undefined);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const uniquePositionMap = (() => {
     const map = new Map<string, number>();
@@ -42,6 +43,7 @@ export function PokemonGenerator() {
     setSelectionMode(mode);
     setPokemonList([]);
     setMastersetInfo(null);
+    setCurrentPage(1);
   };
 
   const handlePokemonListChange = (newPokemon: PokemonIdentifier[], info?: MastersetInfo) => {
@@ -275,6 +277,8 @@ export function PokemonGenerator() {
             config={config}
             mastersetInfo={mastersetInfo}
             uniquePositionMap={uniquePositionMap}
+            currentPage={currentPage}
+            onPageChange={setCurrentPage}
           />
         </div>
       </div>
