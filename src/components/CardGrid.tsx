@@ -80,7 +80,7 @@ export function CardGrid({ pokemonList, config, startIndex = 0, mastersetInfo = 
               alt={pokemonName}
               className="card-image"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = '/pokedex/pokemon/0001.png';
+                (e.target as HTMLImageElement).src = '/pokedex/webps/pokemon/0001.png';
               }}
             />
             {config.showNames && (

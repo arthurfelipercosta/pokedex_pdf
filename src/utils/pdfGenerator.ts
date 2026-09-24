@@ -40,7 +40,7 @@ export class PDFGenerator {
   }
 
   private getImagePath(id: PokemonIdentifier): string {
-    return getImagePath(id, this.config.visualMode);
+    return getImagePath(id, this.config.visualMode, true);
   }
 
   private async loadPokemonImage(id: PokemonIdentifier): Promise<any> {

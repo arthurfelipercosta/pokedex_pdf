@@ -149,16 +149,18 @@ export function identifierToNum(id: PokemonIdentifier): number {
   return parseIdentifier(id).num;
 }
 
-export function getImagePath(id: PokemonIdentifier, visualMode: 'colorido' | 'sombra'): string {
+export function getImagePath(id: PokemonIdentifier, visualMode: 'colorido' | 'sombra', paraPDF = false): string {
   const { num, form } = parseIdentifier(id);
+  const base = paraPDF ? 'pngs' : 'webps';
+  const ext = paraPDF ? 'png' : 'webp';
 
   if (form) {
     const folder = visualMode === 'colorido' ? 'forms' : 'silhuetas_forms';
-    return `/pokedex/${folder}/${String(num).padStart(4, '0')}-${form}.png`;
+    return `/pokedex/${base}/${folder}/${String(num).padStart(4, '0')}-${form}.${ext}`;
   }
 
   const folder = visualMode === 'colorido' ? 'pokemon' : 'silhuetas';
-  return `/pokedex/${folder}/${String(num).padStart(4, '0')}.png`;
+  return `/pokedex/${base}/${folder}/${String(num).padStart(4, '0')}.${ext}`;
 }
 
 export function getPokemonDisplayName(id: PokemonIdentifier, pokedex: Pokedex): string {

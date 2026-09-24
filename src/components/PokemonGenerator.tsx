@@ -27,7 +27,7 @@ export function PokemonGenerator() {
   });
   const [showHelp, setShowHelp] = useState(false);
   const [mastersetInput, setMastersetInput] = useState<string | undefined>(undefined);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(0);
 
   const uniquePositionMap = (() => {
     const map = new Map<string, number>();
@@ -43,13 +43,14 @@ export function PokemonGenerator() {
     setSelectionMode(mode);
     setPokemonList([]);
     setMastersetInfo(null);
-    setCurrentPage(1);
+    setCurrentPage(0);
   };
 
   const handlePokemonListChange = (newPokemon: PokemonIdentifier[], info?: MastersetInfo) => {
     setPokemonList(newPokemon);
     setMastersetInfo(info ?? null);
     setGenerateError(null);
+    setCurrentPage(0);
   };
 
   const handleCompletePokedex = async () => {

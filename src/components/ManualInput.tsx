@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { parseInput } from '../utils/parser';
 import type { ParsedInput, MastersetInfo, PokemonIdentifier } from '../types/pokemon';
 
@@ -15,18 +15,18 @@ export function ManualInput({ onPokemonListChange, disabled = false, externalInp
   const [allowDuplicates, setAllowDuplicates] = useState(true);
   const [parsedResult, setParsedResult] = useState<ParsedInput | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [isExternal, setIsExternal] = useState(false);
+  const isExternalRef = useRef(false);
 
   useEffect(() => {
     if (externalInput !== undefined) {
+      isExternalRef.current = true;
       setInput(externalInput);
-      setIsExternal(true);
     }
   }, [externalInput]);
 
   useEffect(() => {
-    if (isExternal) {
-      setIsExternal(false);
+    if (isExternalRef.current) {
+        isExternalRef.current = false;
       return;
     }
 
@@ -54,7 +54,7 @@ export function ManualInput({ onPokemonListChange, disabled = false, externalInp
     }, 500);
 
     return () => clearTimeout(debounceTimer);
-  }, [input, total, allowDuplicates, onPokemonListChange, mastersetInfo, isExternal]);
+  }, [input, total, allowDuplicates, onPokemonListChange, mastersetInfo, isExternalRef]);
 
   const handleExampleClick = (example: string) => {
     setInput(prev => prev ? `${prev}; ${example}` : example);

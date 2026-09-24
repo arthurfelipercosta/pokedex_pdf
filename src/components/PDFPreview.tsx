@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { CardGrid } from './CardGrid';
 import type { PDFConfig, MastersetInfo, PokemonIdentifier } from '../types/pokemon';
 
@@ -7,10 +6,18 @@ interface PDFPreviewProps {
   config: PDFConfig;
   mastersetInfo?: MastersetInfo | null;
   uniquePositionMap?: Map<string, number>;
+  currentPage: number;
+  onPageChange: (page: number) => void;
 }
 
-export function PDFPreview({ pokemonList, config, mastersetInfo = null, uniquePositionMap }: PDFPreviewProps) {
-  const [currentPage, setCurrentPage] = useState(0);
+export function PDFPreview({
+  pokemonList,
+  config,
+  mastersetInfo = null,
+  uniquePositionMap,
+  currentPage,
+  onPageChange,
+}: PDFPreviewProps) {
   const itemsPerPage = config.gridRows * config.gridCols;
   const totalPages = Math.ceil(pokemonList.length / itemsPerPage) || 1;
 
@@ -20,11 +27,11 @@ export function PDFPreview({ pokemonList, config, mastersetInfo = null, uniquePo
   };
 
   const nextPage = () => {
-    setCurrentPage((prev) => Math.min(prev + 1, totalPages - 1));
+    onPageChange(Math.min(currentPage + 1, totalPages - 1));
   };
 
   const prevPage = () => {
-    setCurrentPage((prev) => Math.max(prev - 1, 0));
+    onPageChange(Math.max(currentPage - 1, 0));
   };
 
   return (
