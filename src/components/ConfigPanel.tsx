@@ -4,9 +4,11 @@ import { DEFAULT_CONFIG } from '../data/constants';
 interface ConfigPanelProps {
   config: PDFConfig;
   onConfigChange: (config: PDFConfig) => void;
+  onlyPokemon?: boolean;
+  onOnlyPokemonChange?: (value: boolean) => void;
 }
 
-export function ConfigPanel({ config, onConfigChange }: ConfigPanelProps) {
+export function ConfigPanel({ config, onConfigChange, onlyPokemon = false, onOnlyPokemonChange }: ConfigPanelProps) {
   const handleConfigChange = (key: keyof PDFConfig, value: any) => {
     onConfigChange({ ...config, [key]: value });
   };
@@ -98,6 +100,19 @@ export function ConfigPanel({ config, onConfigChange }: ConfigPanelProps) {
           <span>Mostrar Ícones de Raridade</span>
         </label>
       </div>
+
+      {onOnlyPokemonChange && (
+        <div className="config-group checkbox-group">
+          <label className="checkbox-label">
+            <input
+              type="checkbox"
+              checked={onlyPokemon}
+              onChange={(e) => onOnlyPokemonChange(e.target.checked)}
+            />
+            <span>Somente Pokémon</span>
+          </label>
+        </div>
+      )}
 
       <div className="config-group">
         <label>Numeração:</label>

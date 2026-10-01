@@ -6,7 +6,7 @@ let pokedexCache: Pokedex | null = null;
 // Carregar dados da Pokédex
 async function loadPokedex(): Promise<Pokedex> {
   if (pokedexCache) return pokedexCache as Pokedex;
-  
+
   try {
     const response = await fetch('/pokedex/pokedex.json');
     if (!response.ok) {
@@ -25,13 +25,13 @@ async function loadPokedex(): Promise<Pokedex> {
 export async function resolveNameToNumber(name: string): Promise<number> {
   const pokedex = await loadPokedex();
   const normalizedName = name.toLowerCase().trim();
-  
+
   for (const [num, data] of Object.entries(pokedex)) {
     if (data.nome.toLowerCase() === normalizedName) {
       return parseInt(num);
     }
   }
-  
+
   return 0; // Retorna 0 se não encontrar
 }
 
@@ -65,6 +65,10 @@ export async function resolveNameToIdentifier(name: string): Promise<PokemonIden
 async function parseItem(item: string): Promise<PokemonIdentifier | null> {
   const trimmed = item.trim();
   if (!trimmed) return null;
+
+  if (trimmed.startsWith('t:') || trimmed.startsWith('e:')) {
+    return trimmed;
+  }
 
   // 1. Se é número puro: "25" → "25"
   if (/^\d+$/.test(trimmed)) {
@@ -206,25 +210,30 @@ export async function parseInput(input: string, allowDuplicates: boolean = false
   const errors: string[] = [];
   const warnings: string[] = [];
   const pokemon: PokemonIdentifier[] = [];
-  
+
   if (!input.trim()) {
     return { pokemon: [], errors: ['Input vazio'], warnings: [] };
   }
-  
+
   const items = input.split(/[;,]/).map(item => item.trim()).filter(item => item.length > 0);
-  
+
   for (const item of items) {
     try {
       const identifier = await parseItem(item);
       if (identifier) {
-        const { num } = parseIdentifier(identifier);
-        if (num >= 1 && num <= 1025) {
+        // Se é card especial, adiciona diretamente sem validar número
+        if (identifier.startsWith('t:') || identifier.startsWith('e:')) {
           pokemon.push(identifier);
-          if (identifier !== String(num)) {
-            warnings.push(`"${item}" resolvido para ${identifier}`);
-          }
         } else {
-          errors.push(`Número ${num} inválido (deve ser entre 1 e 1025)`);
+          const { num } = parseIdentifier(identifier);
+          if (num >= 1 && num <= 1025) {
+            pokemon.push(identifier);
+            if (identifier !== String(num)) {
+              warnings.push(`"${item}" resolvido para ${identifier}`);
+            }
+          } else {
+            errors.push(`Número ${num} inválido (deve ser entre 1 e 1025)`);
+          }
         }
       } else {
         errors.push(`"${item}" não encontrado na Pokédex`);
@@ -233,7 +242,7 @@ export async function parseInput(input: string, allowDuplicates: boolean = false
       errors.push(`Erro ao processar "${item}": ${error}`);
     }
   }
-  
+
   // Remover duplicatas mantendo a ordem (se não permitir repetidos)
   let uniquePokemon = pokemon;
   if (!allowDuplicates) {
@@ -242,7 +251,7 @@ export async function parseInput(input: string, allowDuplicates: boolean = false
       warnings.push(`${pokemon.length - uniquePokemon.length} duplicatas removidas`);
     }
   }
-  
+
   return {
     pokemon: uniquePokemon,
     errors,

@@ -2,7 +2,7 @@ import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import fontkit from '@pdf-lib/fontkit';
 import type { PDFConfig, MastersetInfo, PokemonIdentifier, Pokedex } from '../types/pokemon';
 import { PAGE_SIZES } from '../data/constants';
-import { parseIdentifier, getImagePath, getPokemonDisplayName, getPokemonTypes } from '../utils/pokemonId';
+import { parseIdentifier, getImagePath, getPokemonDisplayName, getPokemonTypes, isSpecialCard, parseSpecialCard, getSpecialCardLabel, getEnergyImageSlug, getEnergyImagePath } from '../utils/pokemonId';
 
 export class PDFGenerator {
   private pdfDoc: PDFDocument | null = null;
@@ -21,7 +21,7 @@ export class PDFGenerator {
   async initialize(): Promise<void> {
     this.pdfDoc = await PDFDocument.create();
     this.pdfDoc.registerFontkit(fontkit);
-    
+
     try {
       const fontBytes = await fetch('/pokedex/fontes/PokemonSolidNormal.ttf');
       const fontArrayBuffer = await fontBytes.arrayBuffer();
@@ -45,7 +45,7 @@ export class PDFGenerator {
 
   private async loadPokemonImage(id: PokemonIdentifier): Promise<any> {
     if (!this.pdfDoc) return null;
-    
+
     try {
       const imagePath = this.getImagePath(id);
       const imageBytes = await fetch(imagePath);
@@ -59,7 +59,7 @@ export class PDFGenerator {
 
   private async loadTypeIcon(type: string): Promise<any> {
     if (!this.pdfDoc) return null;
-    
+
     try {
       const iconPath = `/pokedex/tipos_icones/${type}.png`;
       const iconBytes = await fetch(iconPath);
@@ -74,25 +74,25 @@ export class PDFGenerator {
   private getGridPosition(index: number, pageHeight: number) {
     const { margin, gridRows, gridCols } = this.config;
     const pageSize = PAGE_SIZES[this.config.pageSize];
-    
+
     const usableWidth = pageSize.width - (margin * 2);
     const usableHeight = pageSize.height - (margin * 2);
-    
+
     const cellWidth = usableWidth / gridCols;
     const cellHeight = usableHeight / gridRows;
-    
+
     const row = Math.floor(index / gridCols);
     const col = index % gridCols;
-    
+
     const x = margin + (col * cellWidth);
     const y = pageHeight - margin - ((row + 1) * cellHeight);
-    
+
     return { x, y, cellWidth, cellHeight };
   }
 
   async addPage(pokemonList: PokemonIdentifier[], startIndex: number): Promise<void> {
     if (!this.pdfDoc) return;
-    
+
     const pageSize = PAGE_SIZES[this.config.pageSize];
     const page = this.pdfDoc.addPage([pageSize.width, pageSize.height]);
     const { margin, gridRows, gridCols } = this.config;
@@ -137,6 +137,100 @@ export class PDFGenerator {
 
     for (let i = 0; i < pokemonList.length; i++) {
       const id = pokemonList[i];
+      if (isSpecialCard(id)) {
+        const card = parseSpecialCard(id)!;
+        const { category, subcategory } = getSpecialCardLabel(card);
+        const pos = this.getGridPosition(i, pageSize.height);
+        const globalIndex = startIndex + i;
+
+        // Calculate card number
+        let cardNumber: string;
+        if (this.config.numberingMode === 'tcg' && this.mastersetInfo?.setNumbers?.[globalIndex]) {
+          cardNumber = `#${this.mastersetInfo.setNumbers[globalIndex]}/${this.mastersetInfo.total}`;
+        } else if (this.config.numberingMode === 'tcg' && this.mastersetInfo) {
+          const displayNum = this.mastersetInfo
+            ? this.uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)
+            : globalIndex + 1;
+          cardNumber = `${displayNum.toString().padStart(3, '0')}/${this.mastersetInfo.total}`;
+        } else {
+          const displayNum = this.mastersetInfo
+            ? this.uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)
+            : globalIndex + 1;
+          cardNumber = `#${displayNum.toString().padStart(3, '0')}`;
+        }
+
+        // Draw rarity icon on the left at top
+        if (this.config.showRarity && this.mastersetInfo && this.mastersetInfo.rarities[globalIndex]) {
+          const rarityName = this.mastersetInfo.rarities[globalIndex];
+          try {
+            const iconPath = `/pokedex/symbols/${rarityName}.png`;
+            const iconBytes = await fetch(iconPath);
+            const iconArrayBuffer = await iconBytes.arrayBuffer();
+            const rarityIcon = await this.pdfDoc!.embedPng(iconArrayBuffer);
+            page.drawImage(rarityIcon, {
+              x: pos.x + 5,
+              y: pos.y + pos.cellHeight - 20,
+              width: 14,
+              height: 14
+            });
+          } catch (error) {
+            // Ícone não encontrado, ignorar
+          }
+        }
+
+        // Draw card number on the right at top
+        if (this.config.showNumbers) {
+          const numWidth = this.customFont.widthOfTextAtSize(cardNumber, 12);
+          page.drawText(cardNumber, {
+            x: pos.x + pos.cellWidth - numWidth - 5,
+            y: pos.y + pos.cellHeight - 20,
+            font: this.customFont,
+            size: 12,
+            color: rgb(0, 0, 0)
+          });
+        }
+
+        // Draw name centered vertically
+        const nameWidth = this.customFont.widthOfTextAtSize(card.name, 11);
+        page.drawText(card.name, {
+          x: pos.x + (pos.cellWidth - nameWidth) / 2,
+          y: pos.y + pos.cellHeight / 2,
+          font: this.customFont,
+          size: 11,
+          color: rgb(0, 0, 0)
+        });
+
+        // Draw category centered at bottom
+        const categoryWidth = this.customFont.widthOfTextAtSize(category, 9);
+        page.drawText(category, {
+          x: pos.x + (pos.cellWidth - categoryWidth) / 2,
+          y: pos.y + 25,
+          font: this.customFont,
+          size: 9,
+          color: rgb(0, 0, 0)
+        });
+
+        // Draw subcategory on the right at bottom
+        page.drawText(subcategory, {
+          x: pos.x + pos.cellWidth - 35,
+          y: pos.y + 25,
+          font: this.customFont,
+          size: 9,
+          color: rgb(0, 0, 0)
+        });
+
+        const slug = getEnergyImageSlug(card);
+        if (slug) {
+          const imgPath = getEnergyImagePath(slug, this.config.visualMode, true);
+          try {
+            const imgBytes = await fetch(imgPath);
+            const imgArrayBuffer = await imgBytes.arrayBuffer();
+            const img = await this.pdfDoc!.embedPng(imgArrayBuffer);
+            page.drawImage(img, { x: pos.x + (pos.cellWidth - 40) / 2, y: pos.y + 30, width: 40, height: 40 });
+          } catch { }
+        }
+        continue;
+      }
       const globalIndex = startIndex + i;
       const displayNum = this.mastersetInfo
         ? this.uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)

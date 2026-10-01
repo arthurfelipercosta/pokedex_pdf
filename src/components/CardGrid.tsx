@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { PDFConfig, MastersetInfo, PokemonIdentifier, Pokedex } from '../types/pokemon';
-import { getImagePath, getPokemonDisplayName, getPokemonTypes } from '../utils/pokemonId';
+import { getEnergyImagePath, getEnergyImageSlug, getImagePath, getPokemonDisplayName, getPokemonTypes, getSpecialCardLabel, isSpecialCard, parseSpecialCard } from '../utils/pokemonId';
 
 interface CardGridProps {
   pokemonList: PokemonIdentifier[];
@@ -39,11 +39,61 @@ export function CardGrid({ pokemonList, config, startIndex = 0, mastersetInfo = 
   return (
     <div className="card-grid" style={gridStyle}>
       {pokemonList.map((id, index) => {
+        if (isSpecialCard(id)) {
+          const card = parseSpecialCard(id)!;
+          const { category, subcategory } = getSpecialCardLabel(card);
+          const slug = getEnergyImageSlug(card);
+          const imgPath = slug ? getEnergyImagePath(slug, config.visualMode) : null;
+          const globalIndex = startIndex + index;
+
+          let cardNumber: string;
+          if (config.numberingMode === 'tcg' && mastersetInfo?.setNumbers?.[globalIndex]) {
+            cardNumber = `#${mastersetInfo.setNumbers[globalIndex]}/${mastersetInfo.total}`;
+          } else if (config.numberingMode === 'tcg' && mastersetInfo) {
+            const displayNum = mastersetInfo && uniquePositionMap
+              ? uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)
+              : globalIndex + 1;
+            cardNumber = `${displayNum.toString().padStart(3, '0')}/${mastersetInfo.total}`;
+          } else {
+            const displayNum = mastersetInfo && uniquePositionMap
+              ? uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)
+              : globalIndex + 1;
+            cardNumber = `#${displayNum.toString().padStart(3, '0')}`;
+          }
+
+          return (
+            <div key={`${id}-${startIndex + index}`} className="pokemon-card special-card">
+              <div className="special-card-header">
+                {config.showRarity && mastersetInfo && mastersetInfo.rarities[globalIndex] && (
+                  <img
+                    src={`/pokedex/symbols/${mastersetInfo.rarities[globalIndex]}.png`}
+                    alt={mastersetInfo.rarities[globalIndex]}
+                    className="special-card-rarity"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                    }}
+                  />
+                )}
+                {config.showNumbers && (
+                  <div className="card-number pokemon-font">
+                    {cardNumber}
+                  </div>
+                )}
+              </div>
+              {imgPath && <img src={imgPath} alt={card.name} className="card-image" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />}
+              <div className="special-card-name pokemon-font">{card.kind === 'energy' ? `Energia ${card.name}` : card.name}</div>
+              <div className="special-card-footer">
+                <span className="special-card-category pokemon-font">{category}</span>
+                <span className="special-card-subcategory pokemon-font">{subcategory}</span>
+              </div>
+            </div>
+          );
+        }
         const globalIndex = startIndex + index;
         const displayNum = mastersetInfo && uniquePositionMap
           ? uniquePositionMap.get(`${id}-${globalIndex}`) ?? (globalIndex + 1)
           : globalIndex + 1;
-        
+
         let cardNumber: string;
         if (config.numberingMode === 'tcg' && mastersetInfo?.setNumbers?.[globalIndex]) {
           cardNumber = `#${mastersetInfo.setNumbers[globalIndex]}/${mastersetInfo.total}`;

@@ -212,3 +212,87 @@ export function isForm(id: PokemonIdentifier): boolean {
 export function getBaseNum(id: PokemonIdentifier): number {
   return identifierToNum(id);
 }
+
+export interface SpecialCard {
+  kind: 'trainer' | 'energy';
+  subtype: string;
+  name: string;
+}
+
+const TRAINER_SUBTYPE_LABELS: Record<string, string> = {
+  i: 'Item',
+  a: 'Apoiador',
+  s: 'Estádio',
+  f: 'Ferramenta',
+}
+
+const ENERGY_SUBTYPE_LABELS: Record<string, string> = {
+  b: 'Básica',
+  e: 'Especial',
+}
+
+const BASIC_ENERGY_SLUGS: Record<string, string> = {
+  'grama': 'grass', 'grass': 'grass',
+  'fogo': 'fire', 'fire': 'fire',
+  'agua': 'water', 'água': 'water', 'water': 'water',
+  'eletrico': 'lightning', 'elétrico': 'lightning', 'lightning': 'lightning',
+  'psiquico': 'psychic', 'psíquico': 'psychic', 'psychic': 'psychic',
+  'lutador': 'fightning', 'fighting': 'fightning',
+  'sombrio': 'darkness', 'darkness': 'darkness',
+  'metal': 'metal',
+  'fada': 'fairy', 'fairy': 'fairy',
+  'dupla incolor': 'ecolorless', 'double colorless': 'ecolorless',
+  'tripla incolor': 'ecolorless', 'triple colorless': 'ecolorless',
+};
+
+export function isSpecialCard(id: PokemonIdentifier): boolean {
+  return id.startsWith('t:') || id.startsWith('e:');
+}
+
+export function parseSpecialCard(id: PokemonIdentifier): SpecialCard | null {
+  if (!isSpecialCard(id)) return null;
+  const [prefix, subtype, ...rest] = id.split(':');
+  return { kind: prefix === 't' ? 'trainer' : 'energy', subtype, name: rest.join(':') };
+}
+
+export function getSpecialCardLabel(card: SpecialCard): { category: string; subcategory: string } {
+  if (card.kind === 'trainer') {
+    return { category: 'TREINADOR', subcategory: TRAINER_SUBTYPE_LABELS[card.subtype] ?? card.subtype };
+  }
+  return { category: 'ENERGIA ', subcategory: ENERGY_SUBTYPE_LABELS[card.subtype] ?? card.subtype };
+}
+
+export function getEnergyImageSlug(card: SpecialCard): string | null {
+  if (card.kind !== 'energy') return null;
+
+  const normalizedName = card.name.trim().toLowerCase();
+
+  if (card.subtype === 'b') {
+    // Energias básicas: usa mapeamento
+    return BASIC_ENERGY_SLUGS[normalizedName] ?? null;
+  } else {
+    // Energias especiais: adiciona prefixo "e" e usa o nome direto
+    const typeMapping: Record<string, string> = {
+      'fogo': 'fire', 'fire': 'fire',
+      'grama': 'grass', 'grass': 'grass',
+      'agua': 'water', 'água': 'water', 'water': 'water',
+      'voltaica': 'lightning', 'voltaico':'lightning',
+      'eletrico': 'lightning', 'elétrico': 'lightning', 'lightning': 'lightning',
+      'psiquico': 'psychic', 'psíquico': 'psychic', 'psychic': 'psychic',
+      'lutador': 'fightning', 'fighting': 'fightning',
+      'sombria': 'darkness', 'sombrio': 'darkness', 'darkness': 'darkness',
+      'metal': 'metal',
+      'fada': 'fairy', 'fairy': 'fairy',
+    };
+
+    const englishType = typeMapping[normalizedName] || normalizedName;
+    return `e${englishType.replace(/\s+/g, '')}`;
+  }
+}
+
+export function getEnergyImagePath(slug: string, visualMode: 'colorido' | 'sombra', paraPDF = false): string {
+  const base = paraPDF ? 'pngs' : 'webps';
+  const ext = paraPDF ? 'png' : 'webp';
+  const folder = visualMode === 'colorido' ? 'energies' : 'silhuetas_energies';
+  return `/pokedex/${base}/${folder}/${slug}.${ext}`;
+}

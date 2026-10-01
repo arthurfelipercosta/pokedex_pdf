@@ -19,14 +19,14 @@
         "imagem": "0100-hisui.png",
         "nome": "Voltorb de Hisui",
         "tipos": [
-          "electric",
+          "lightning",
           "grass"
         ]
       }
     ],
     "nome": "Voltorb",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "1000": {
@@ -88,7 +88,7 @@
   "1008": {
     "nome": "Miraidon",
     "tipos": [
-      "electric",
+      "lightning",
       "dragon"
     ]
   },
@@ -106,14 +106,14 @@
         "imagem": "0101-hisui.png",
         "nome": "Electrode de Hisui",
         "tipos": [
-          "electric",
+          "lightning",
           "grass"
         ]
       }
     ],
     "nome": "Electrode",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "1010": {
@@ -231,7 +231,7 @@
   "1021": {
     "nome": "Raging Bolt",
     "tipos": [
-      "electric",
+      "lightning",
       "dragon"
     ]
   },
@@ -507,7 +507,7 @@
   "125": {
     "nome": "Electabuzz",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "126": {
@@ -647,7 +647,7 @@
   "135": {
     "nome": "Jolteon",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "136": {
@@ -763,7 +763,7 @@
     ],
     "nome": "Zapdos",
     "tipos": [
-      "electric",
+      "lightning",
       "flying"
     ]
   },
@@ -1030,20 +1030,20 @@
     "nome": "Chinchou",
     "tipos": [
       "water",
-      "electric"
+      "lightning"
     ]
   },
   "171": {
     "nome": "Lanturn",
     "tipos": [
       "water",
-      "electric"
+      "lightning"
     ]
   },
   "172": {
     "nome": "Pichu",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "173": {
@@ -1089,7 +1089,7 @@
   "179": {
     "nome": "Mareep",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "18": {
@@ -1113,7 +1113,7 @@
   "180": {
     "nome": "Flaaffy",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "181": {
@@ -1123,14 +1123,14 @@
         "imagem": "0181-mega.png",
         "nome": "Mega Ampharos",
         "tipos": [
-          "electric",
+          "lightning",
           "dragon"
         ]
       }
     ],
     "nome": "Ampharos",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "182": {
@@ -1904,7 +1904,7 @@
   "239": {
     "nome": "Elekid",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "24": {
@@ -1934,7 +1934,7 @@
   "243": {
     "nome": "Raikou",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "244": {
@@ -1995,13 +1995,13 @@
         "imagem": "0025-giga.png",
         "nome": "Pikachu Gigantamax",
         "tipos": [
-          "electric"
+          "lightning"
         ]
       }
     ],
     "nome": "Pikachu",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "250": {
@@ -2098,7 +2098,7 @@
         "imagem": "0026-alola.png",
         "nome": "Raichu de Alola",
         "tipos": [
-          "electric",
+          "lightning",
           "psychic"
         ]
       },
@@ -2107,7 +2107,7 @@
         "imagem": "0026-megax.png",
         "nome": "Mega Raichu X",
         "tipos": [
-          "electric"
+          "lightning"
         ]
       },
       {
@@ -2115,13 +2115,13 @@
         "imagem": "0026-megay.png",
         "nome": "Mega Raichu Y",
         "tipos": [
-          "electric"
+          "lightning"
         ]
       }
     ],
     "nome": "Raichu",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "260": {
@@ -2610,7 +2610,7 @@
   "309": {
     "nome": "Electrike",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "31": {
@@ -2627,25 +2627,25 @@
         "imagem": "0310-mega.png",
         "nome": "Mega Manectric",
         "tipos": [
-          "electric"
+          "lightning"
         ]
       }
     ],
     "nome": "Manectric",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "311": {
     "nome": "Plusle",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "312": {
     "nome": "Minun",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "313": {
@@ -3549,19 +3549,19 @@
   "403": {
     "nome": "Shinx",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "404": {
     "nome": "Luxio",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "405": {
     "nome": "Luxray",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "406": {
@@ -3686,7 +3686,7 @@
   "417": {
     "nome": "Pachirisu",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "418": {
@@ -4107,7 +4107,7 @@
   "462": {
     "nome": "Magnezone",
     "tipos": [
-      "electric",
+      "lightning",
       "steel"
     ]
   },
@@ -4133,7 +4133,7 @@
   "466": {
     "nome": "Electivire",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "467": {
@@ -4251,7 +4251,7 @@
         "imagem": "0479-fan.png",
         "nome": "Rotom Ventilador",
         "tipos": [
-          "electric",
+          "lightning",
           "flying"
         ]
       },
@@ -4260,7 +4260,7 @@
         "imagem": "0479-frost.png",
         "nome": "Rotom Gelo",
         "tipos": [
-          "electric",
+          "lightning",
           "ice"
         ]
       },
@@ -4269,7 +4269,7 @@
         "imagem": "0479-heat.png",
         "nome": "Rotom Calor",
         "tipos": [
-          "electric",
+          "lightning",
           "fire"
         ]
       },
@@ -4278,7 +4278,7 @@
         "imagem": "0479-mow.png",
         "nome": "Rotom Cortador",
         "tipos": [
-          "electric",
+          "lightning",
           "grass"
         ]
       },
@@ -4287,14 +4287,14 @@
         "imagem": "0479-wash.png",
         "nome": "Rotom Lavador",
         "tipos": [
-          "electric",
+          "lightning",
           "water"
         ]
       }
     ],
     "nome": "Rotom",
     "tipos": [
-      "electric",
+      "lightning",
       "ghost"
     ]
   },
@@ -4736,13 +4736,13 @@
   "522": {
     "nome": "Blitzle",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "523": {
     "nome": "Zebstrika",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "524": {
@@ -5424,7 +5424,7 @@
   "587": {
     "nome": "Emolga",
     "tipos": [
-      "electric",
+      "lightning",
       "flying"
     ]
   },
@@ -5496,14 +5496,14 @@
     "nome": "Joltik",
     "tipos": [
       "bug",
-      "electric"
+      "lightning"
     ]
   },
   "596": {
     "nome": "Galvantula",
     "tipos": [
       "bug",
-      "electric"
+      "lightning"
     ]
   },
   "597": {
@@ -5583,13 +5583,13 @@
   "602": {
     "nome": "Tynamo",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "603": {
     "nome": "Eelektrik",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "604": {
@@ -5599,13 +5599,13 @@
         "imagem": "0604-mega.png",
         "nome": "Mega Eelektross",
         "tipos": [
-          "electric"
+          "lightning"
         ]
       }
     ],
     "nome": "Eelektross",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "605": {
@@ -5721,7 +5721,7 @@
     "nome": "Stunfisk",
     "tipos": [
       "earth",
-      "electric"
+      "lightning"
     ]
   },
   "619": {
@@ -5933,14 +5933,14 @@
         "imagem": "0642-therian.png",
         "nome": "Thundurus Terian",
         "tipos": [
-          "electric",
+          "lightning",
           "flying"
         ]
       }
     ],
     "nome": "Thundurus",
     "tipos": [
-      "electric",
+      "lightning",
       "flying"
     ]
   },
@@ -5955,7 +5955,7 @@
     "nome": "Zekrom",
     "tipos": [
       "dragon",
-      "electric"
+      "lightning"
     ]
   },
   "645": {
@@ -6656,14 +6656,14 @@
   "694": {
     "nome": "Helioptile",
     "tipos": [
-      "electric",
+      "lightning",
       "normal"
     ]
   },
   "695": {
     "nome": "Heliolisk",
     "tipos": [
-      "electric",
+      "lightning",
       "normal"
     ]
   },
@@ -6735,7 +6735,7 @@
   "702": {
     "nome": "Dedenne",
     "tipos": [
-      "electric",
+      "lightning",
       "fairy"
     ]
   },
@@ -7095,14 +7095,14 @@
     "nome": "Charjabug",
     "tipos": [
       "bug",
-      "electric"
+      "lightning"
     ]
   },
   "738": {
     "nome": "Vikavolt",
     "tipos": [
       "bug",
-      "electric"
+      "lightning"
     ]
   },
   "739": {
@@ -7119,7 +7119,7 @@
         "nome": "Geodude de Alola",
         "tipos": [
           "rock",
-          "electric"
+          "lightning"
         ]
       }
     ],
@@ -7163,7 +7163,7 @@
         "imagem": "0741-pp.png",
         "nome": "Oricorio (pp)",
         "tipos": [
-          "electric",
+          "lightning",
           "flying"
         ]
       },
@@ -7271,7 +7271,7 @@
         "nome": "Graveler de Alola",
         "tipos": [
           "rock",
-          "electric"
+          "lightning"
         ]
       }
     ],
@@ -7356,7 +7356,7 @@
         "nome": "Golem de Alola",
         "tipos": [
           "rock",
-          "electric"
+          "lightning"
         ]
       }
     ],
@@ -7517,7 +7517,7 @@
   "777": {
     "nome": "Togedemaru",
     "tipos": [
-      "electric",
+      "lightning",
       "steel"
     ]
   },
@@ -7611,7 +7611,7 @@
   "785": {
     "nome": "Tapu Koko",
     "tipos": [
-      "electric",
+      "lightning",
       "fairy"
     ]
   },
@@ -7703,7 +7703,7 @@
   "796": {
     "nome": "Xurkitree",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "797": {
@@ -7854,13 +7854,13 @@
         "imagem": "0807-mega.png",
         "nome": "Mega Zeraora",
         "tipos": [
-          "electric"
+          "lightning"
         ]
       }
     ],
     "nome": "Zeraora",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "808": {
@@ -7888,7 +7888,7 @@
   "81": {
     "nome": "Magnemite",
     "tipos": [
-      "electric",
+      "lightning",
       "steel"
     ]
   },
@@ -7985,7 +7985,7 @@
   "82": {
     "nome": "Magneton",
     "tipos": [
-      "electric",
+      "lightning",
       "steel"
     ]
   },
@@ -8136,13 +8136,13 @@
   "835": {
     "nome": "Yamper",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "836": {
     "nome": "Boltund",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "837": {
@@ -8259,7 +8259,7 @@
   "848": {
     "nome": "Toxel",
     "tipos": [
-      "electric",
+      "lightning",
       "poison"
     ]
   },
@@ -8270,7 +8270,7 @@
         "imagem": "0849-2.png",
         "nome": "Toxtricity (2)",
         "tipos": [
-          "electric",
+          "lightning",
           "poison"
         ]
       },
@@ -8279,14 +8279,14 @@
         "imagem": "0849-lowkey.png",
         "nome": "Toxtricity Low Key",
         "tipos": [
-          "electric",
+          "lightning",
           "poison"
         ]
       }
     ],
     "nome": "Toxtricity",
     "tipos": [
-      "electric",
+      "lightning",
       "poison"
     ]
   },
@@ -8521,7 +8521,7 @@
   "871": {
     "nome": "Pincurchin",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "872": {
@@ -8585,14 +8585,14 @@
         "imagem": "0877-h.png",
         "nome": "Morpeko (h)",
         "tipos": [
-          "electric",
+          "lightning",
           "dark"
         ]
       }
     ],
     "nome": "Morpeko",
     "tipos": [
-      "electric",
+      "lightning",
       "dark"
     ]
   },
@@ -8638,14 +8638,14 @@
   "880": {
     "nome": "Dracozolt",
     "tipos": [
-      "electric",
+      "lightning",
       "dragon"
     ]
   },
   "881": {
     "nome": "Arctozolt",
     "tipos": [
-      "electric",
+      "lightning",
       "ice"
     ]
   },
@@ -8823,7 +8823,7 @@
   "894": {
     "nome": "Regieleki",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "895": {
@@ -9104,20 +9104,20 @@
   "921": {
     "nome": "Pawmi",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "922": {
     "nome": "Pawmo",
     "tipos": [
-      "electric",
+      "lightning",
       "fight"
     ]
   },
   "923": {
     "nome": "Pawmot",
     "tipos": [
-      "electric",
+      "lightning",
       "fight"
     ]
   },
@@ -9260,13 +9260,13 @@
   "938": {
     "nome": "Tadbulb",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "939": {
     "nome": "Bellibolt",
     "tipos": [
-      "electric"
+      "lightning"
     ]
   },
   "94": {
@@ -9299,14 +9299,14 @@
   "940": {
     "nome": "Wattrel",
     "tipos": [
-      "electric",
+      "lightning",
       "flying"
     ]
   },
   "941": {
     "nome": "Kilowattrel",
     "tipos": [
-      "electric",
+      "lightning",
       "flying"
     ]
   },
@@ -9700,7 +9700,7 @@
   "989": {
     "nome": "Sandy Shocks",
     "tipos": [
-      "electric",
+      "lightning",
       "earth"
     ]
   },
@@ -9738,7 +9738,7 @@
     "nome": "Iron Hands",
     "tipos": [
       "fight",
-      "electric"
+      "lightning"
     ]
   },
   "993": {
@@ -9759,7 +9759,7 @@
     "nome": "Iron Thorns",
     "tipos": [
       "rock",
-      "electric"
+      "lightning"
     ]
   },
   "996": {

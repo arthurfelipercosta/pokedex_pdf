@@ -28,11 +28,44 @@ export function PokemonGenerator() {
   const [showHelp, setShowHelp] = useState(false);
   const [mastersetInput, setMastersetInput] = useState<string | undefined>(undefined);
   const [currentPage, setCurrentPage] = useState(0);
+  const [onlyPokemon, setOnlyPokemon] = useState(false);
+
+  const filteredPokemonList = onlyPokemon
+    ? pokemonList.filter(id => !id.startsWith('t:') && !id.startsWith('e:'))
+    : pokemonList;
+
+  const filteredMastersetInfo = (() => {
+    if (!onlyPokemon || !mastersetInfo) return mastersetInfo;
+
+    // Filtrar raridades para corresponder à lista filtrada
+    const filteredRarities: string[] = [];
+    const filteredSetNumbers: string[] = [];
+
+    let filteredIndex = 0;
+    for (let i = 0; i < pokemonList.length; i++) {
+      const id = pokemonList[i];
+      if (!id.startsWith('t:') && !id.startsWith('e:')) {
+        if (mastersetInfo.rarities[i]) {
+          filteredRarities[filteredIndex] = mastersetInfo.rarities[i];
+        }
+        if (mastersetInfo.setNumbers && mastersetInfo.setNumbers[i]) {
+          filteredSetNumbers[filteredIndex] = mastersetInfo.setNumbers[i];
+        }
+        filteredIndex++;
+      }
+    }
+
+    return {
+      ...mastersetInfo,
+      rarities: filteredRarities,
+      setNumbers: filteredSetNumbers.length > 0 ? filteredSetNumbers : undefined,
+    };
+  })();
 
   const uniquePositionMap = (() => {
     const map = new Map<string, number>();
-    for (let i = 0; i < pokemonList.length; i++) {
-      const id = pokemonList[i];
+    for (let i = 0; i < filteredPokemonList.length; i++) {
+      const id = filteredPokemonList[i];
       const key = `${id}-${i}`;
       map.set(key, i + 1);
     }
@@ -65,7 +98,7 @@ export function PokemonGenerator() {
   };
 
   const handleGeneratePDF = async () => {
-    if (pokemonList.length === 0) {
+    if (filteredPokemonList.length === 0) {
       setGenerateError('Selecione pelo menos um Pokémon');
       return;
     }
@@ -74,7 +107,7 @@ export function PokemonGenerator() {
     setGenerateError(null);
 
     try {
-      const pdfBytes = await generatePDF(pokemonList, config, mastersetInfo, uniquePositionMap);
+      const pdfBytes = await generatePDF(filteredPokemonList, config, filteredMastersetInfo, uniquePositionMap);
       
       // Criar blob e download
       const arrayBuffer = new ArrayBuffer(pdfBytes.length);
@@ -213,6 +246,8 @@ export function PokemonGenerator() {
                 <li><strong>Nomes com formas:</strong> <code>mega charizard x;charizard giga</code></li>
                 <li><strong>Sufixos TCG:</strong> <code>3-mega-ex;charizard ex</code></li>
                 <li><strong>Compostos:</strong> <code>6-megax-ex</code> (Mega Charizard X EX)</li>
+                <li><strong>Trainers:</strong> <code>t:i:Poke Ball</code> (Item), <code>t:a:Boss's Orders</code> (Apoiador)</li>
+                <li><strong>Energies:</strong> <code>e:b:grama</code> (Energia Básica), <code>e:b:fogo</code> (Energia Básica)</li>
               </ul>
             </div>
 
@@ -229,6 +264,24 @@ export function PokemonGenerator() {
             <div className="help-section">
               <h3>Raridades</h3>
               <p>Selecione um Masterset para usar o sistema de raridades. As raridades são exibidas como ícones no PDF.</p>
+            </div>
+
+            <div className="help-section">
+              <h3>Trainers e Energies</h3>
+              <ul>
+                <li><strong>Trainers:</strong> Use <code>t:tipo:nome</code> onde tipo é <code>i</code> (Item), <code>a</code> (Apoiador), <code>e</code> (Estádio) ou <code>f</code> (Ferramenta)</li>
+                <li><strong>Energies:</strong> Use <code>e:tipo:nome</code> onde tipo é <code>b</code> (Básica) ou <code>e</code> (Especial)</li>
+                <li><strong>Energias Básicas:</strong> grama, fogo, agua, eletrico, psiquico, lutador, sombrio, metal, fada</li>
+                <li><strong>Exemplo:</strong> <code>t:i:Poke Ball; e:b:grama; t:a:Boss's Orders</code></li>
+              </ul>
+            </div>
+
+            <div className="help-section">
+              <h3>Filtros</h3>
+              <ul>
+                <li><strong>Somente Pokémon:</strong> Use esta opção para filtrar trainers e energies, mostrando apenas Pokémon no PDF</li>
+                <li><strong>Útil para:</strong> Quando você tem mastersets com trainers/energies mas quer apenas Pokémon</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -253,6 +306,8 @@ export function PokemonGenerator() {
           <ConfigPanel
             config={config}
             onConfigChange={setConfig}
+            onlyPokemon={onlyPokemon}
+            onOnlyPokemonChange={setOnlyPokemon}
           />
         </div>
 
@@ -274,9 +329,9 @@ export function PokemonGenerator() {
           )}
 
           <PDFPreview
-            pokemonList={pokemonList}
+            pokemonList={filteredPokemonList}
             config={config}
-            mastersetInfo={mastersetInfo}
+            mastersetInfo={filteredMastersetInfo}
             uniquePositionMap={uniquePositionMap}
             currentPage={currentPage}
             onPageChange={setCurrentPage}
