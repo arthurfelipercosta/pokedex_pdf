@@ -6,7 +6,6 @@ import { GenerationSelector } from './GenerationSelector';
 import { MastersetSelector } from './MastersetSelector';
 import { ConfigPanel } from './ConfigPanel';
 import { PDFPreview } from './PDFPreview';
-import { AdBanner } from './AdBanner';
 import { generatePDF } from '../utils/pdfGenerator';
 import { generateCompletePokedex, loadCompletePokedexWithForms } from '../utils/parser';
 import type { PDFConfig, SelectionMode, VisualMode, MastersetInfo, PokemonIdentifier } from '../types/pokemon';
@@ -337,13 +336,6 @@ export function PokemonGenerator() {
             onPageChange={setCurrentPage}
           />
         </div>
-      </div>
-
-      <div className="ad-section">
-        <AdBanner slot="3049763729" />
-        <AdBanner slot="4100402773" />
-        <AdBanner slot="2787321100" />
-        <AdBanner slot="4521048480" />
       </div>
     </div>
   );

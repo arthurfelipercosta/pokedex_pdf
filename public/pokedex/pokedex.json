@@ -283,9 +283,13 @@
   "103": {
     "formas": [
       {
-        "id": "mega",
-        "imagem": "0103-mega.png",
-        "nome": "Mega Exeggutor"
+        "id": "alola",
+        "imagem": "0103-alola.png",
+        "nome": "Exeggutor de Alola",
+        "tipos": [
+          "grass",
+          "dragon"
+        ]
       }
     ],
     "nome": "Exeggutor",
