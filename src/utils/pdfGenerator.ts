@@ -11,6 +11,9 @@ export class PDFGenerator {
   private mastersetInfo: MastersetInfo | null;
   private uniquePositionMap: Map<string, number>;
   private pokedex: Pokedex = {};
+  private typeIconCache: Map<string, any> = new Map();
+  private rarityIconCache: Map<string, any> = new Map();
+  private imagensCache: Map<string, any> = new Map();
 
   constructor(config: PDFConfig, mastersetInfo?: MastersetInfo | null, uniquePositionMap?: Map<string, number>) {
     this.config = config;
@@ -58,17 +61,46 @@ export class PDFGenerator {
   }
 
   private async loadTypeIcon(type: string): Promise<any> {
+    if (this.typeIconCache.has(type)) return this.typeIconCache.get(type);
     if (!this.pdfDoc) return null;
 
     try {
       const iconPath = `/pokedex/tipos_icones/${type}.png`;
       const iconBytes = await fetch(iconPath);
       const iconArrayBuffer = await iconBytes.arrayBuffer();
-      return await this.pdfDoc.embedPng(iconArrayBuffer);
+      const icon = await this.pdfDoc.embedPng(iconArrayBuffer);
+      this.typeIconCache.set(type, icon);
+      return icon;
     } catch (error) {
       console.error(`Erro ao carregar ícone do tipo ${type}:`, error);
       return null;
     }
+  }
+
+  private async loadRarityIcon(rarityName: string): Promise<any> {
+    if (this.rarityIconCache.has(rarityName)) return this.rarityIconCache.get(rarityName);
+    if (!this.pdfDoc) return null;
+
+    try {
+      const iconPath = `/pokedex/symbols/${rarityName}.png`;
+      const iconBytes = await fetch(iconPath);
+      const iconArrayBuffer = await iconBytes.arrayBuffer();
+      const icon = await this.pdfDoc.embedPng(iconArrayBuffer);
+      this.rarityIconCache.set(rarityName, icon);
+      return icon;
+    } catch (error) {
+      return null;
+    }
+  };
+
+  private async carregarEmLotes<T>(items: T[], loader: (item: T) => Promise<any>, tamanhoLote = 25): Promise<any[]> {
+    const resultados: any[] = [];
+    for (let i = 0; i < items.length; i += tamanhoLote) {
+      const lote = items.slice(i, i + tamanhoLote);
+      const resultadosLote = await Promise.all(lote.map(loader));
+      resultados.push(...resultadosLote);
+    }
+    return resultados;
   }
 
   private getGridPosition(index: number, pageHeight: number) {
@@ -162,19 +194,14 @@ export class PDFGenerator {
         // Draw rarity icon on the left at top
         if (this.config.showRarity && this.mastersetInfo && this.mastersetInfo.rarities[globalIndex]) {
           const rarityName = this.mastersetInfo.rarities[globalIndex];
-          try {
-            const iconPath = `/pokedex/symbols/${rarityName}.png`;
-            const iconBytes = await fetch(iconPath);
-            const iconArrayBuffer = await iconBytes.arrayBuffer();
-            const rarityIcon = await this.pdfDoc!.embedPng(iconArrayBuffer);
+          const rarityIcon = await this.loadRarityIcon(rarityName);
+          if (rarityIcon) {
             page.drawImage(rarityIcon, {
-              x: pos.x + 5,
+              x: pos.x + pos.cellWidth - 20,
               y: pos.y + pos.cellHeight - 20,
               width: 14,
               height: 14
             });
-          } catch (error) {
-            // Ícone não encontrado, ignorar
           }
         }
 
@@ -260,23 +287,18 @@ export class PDFGenerator {
 
       if (this.config.showRarity && this.mastersetInfo && this.mastersetInfo.rarities[globalIndex]) {
         const rarityName = this.mastersetInfo.rarities[globalIndex];
-        try {
-          const iconPath = `/pokedex/symbols/${rarityName}.png`;
-          const iconBytes = await fetch(iconPath);
-          const iconArrayBuffer = await iconBytes.arrayBuffer();
-          const rarityIcon = await this.pdfDoc!.embedPng(iconArrayBuffer);
+        const rarityIcon = await this.loadRarityIcon(rarityName);
+        if (rarityIcon) {
           page.drawImage(rarityIcon, {
             x: pos.x + pos.cellWidth - 20,
             y: pos.y + pos.cellHeight - 20,
             width: 14,
             height: 14
           });
-        } catch (error) {
-          // Ícone não encontrado, ignorar
         }
       }
 
-      const image = await this.loadPokemonImage(id);
+      const image = this.imagensCache.get(`${id}-${globalIndex}`);
       if (image) {
         const iconSpace = this.config.showTypeIcons ? 35 : 0;
         const nameSpace = this.config.showNames ? 18 : 0;
@@ -332,6 +354,9 @@ export class PDFGenerator {
     if (!this.pdfDoc) {
       throw new Error('PDF document not initialized');
     }
+
+    const imagensCarregadas = await this.carregarEmLotes(pokemonList, (id) => this.loadPokemonImage(id));
+    this.imagensCache = new Map(pokemonList.map((id, idx) => [`${id}-${idx}`, imagensCarregadas[idx]]));
 
     const itemsPerPage = this.config.gridRows * this.config.gridCols;
     const pages = Math.ceil(pokemonList.length / itemsPerPage);
